@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+
+# $(swap_dialog)
+define swap_dialog
+	echo ; \
+	echo ; $(themes) | cat -n ; echo ; \
+	typeset -i num; \
+	read -p "Switch to theme: " num ; \
+	if [ ! -z $${num} -a $${num} -ge 1 -a -le $${n_themes} ] ; then \
+	  NEW_THEME=$$($(themes) | head -n$${num} | tail -n1 ) ; \
+	  rainbou $${NEW_THEME} xres > ~/.xres/colors/active ; \
+	  xrdb ~/.Xresources ; \
+		rainbou $${NEW_THEME} kitty > ~/dotfiles/kitty/.config/kitty/colors.conf ; \
+	  echo "Theme is now $${NEW_THEME}"; \
+  else echo " !! Aborted. " ; fi
+endef
+
+# $(themes)
+themes=rainbou ls s
+
+# number of current themes
+n_themes=$(themes) | wc -l
+
+
+.SILENT : all
+
+all: $(CONFDIR)
+	$(swap_dialog)
