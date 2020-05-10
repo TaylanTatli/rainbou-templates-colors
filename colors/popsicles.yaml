@@ -1,0 +1,31 @@
+metadata:
+  name: popsicles.xres
+  author: 
+colors:
+  bg: "0a0b11"
+  fg: "fdfdfd"
+  cr: "fdfdfd"
+
+  00: "282a36"
+  08: "414458"
+
+  01: "f37f97"
+  09: "ff4971"
+
+  02: "5adecd"
+  10: "18e3c8"
+
+  03: "f2a272"
+  11: "ff8037"
+
+  04: "8897f4"
+  12: "556fff"
+
+  05: "c574dd"
+  13: "b043d1"
+
+  06: "79e6f3"
+  14: "3fdcee"
+
+  07: "fdfdfd"
+  15: "ffffff"

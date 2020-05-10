@@ -1,0 +1,31 @@
+metadata:
+  name: flower.xres
+  author: 
+colors:
+  bg: "030F12"
+  fg: "D5CBA8"
+  cr: "D5CBA8"
+
+  00: "030F12"
+  08: "666666"
+
+  01: "5E8A6E"
+  09: "5E8A6E"
+
+  02: "C9AC22"
+  10: "C9AC22"
+
+  03: "9E9966"
+  11: "9E9966"
+
+  04: "085F94"
+  12: "085F94"
+
+  05: "2CB1CF"
+  13: "2CB1CF"
+
+  06: "BABFA3"
+  14: "BABFA3"
+
+  07: "D5CBA8"
+  15: "D5CBA8"

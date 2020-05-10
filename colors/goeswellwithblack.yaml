@@ -1,0 +1,31 @@
+metadata:
+  name: GoesWellWithBlack.xres
+  author: 
+colors:
+  bg: "111111"
+  fg: "ecedee"
+  cr: "ecedee"
+
+  00: "2e1f1f"
+  08: "422d2d"
+
+  01: "aa0e50"
+  09: "be0e50"
+
+  02: "1dcc9f"
+  10: "1fd9a9"
+
+  03: "27c282"
+  11: "2cdb93"
+
+  04: "7182a8"
+  12: "8194bf"
+
+  05: "a673a6"
+  13: "7f5aa1"
+
+  06: "6da3a1"
+  14: "669997"
+
+  07: "b7bbbd"
+  15: "d9d9d9"

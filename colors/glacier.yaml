@@ -1,0 +1,31 @@
+metadata:
+  name: Glacier.xres
+  author: 
+colors:
+  bg: "0c1115"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "2e343c"
+  08: "404a55"
+
+  01: "bd0f2f"
+  09: "bd0f2f"
+
+  02: "35a770"
+  10: "49e998"
+
+  03: "fb9435"
+  11: "fddf6e"
+
+  04: "1f5872"
+  12: "2a8bc1"
+
+  05: "bd2523"
+  13: "ea4727"
+
+  06: "778397"
+  14: "a0b6d3"
+
+  07: "ffffff"
+  15: "ffffff"

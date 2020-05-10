@@ -1,0 +1,31 @@
+metadata:
+  name: gaveupondark.xres
+  author: 
+colors:
+  bg: "ffffff"
+  fg: "61a5b1"
+  cr: "92ced9"
+
+  00: "2f2f2f"
+  08: "626262"
+
+  01: "c87f6b"
+  09: "e8b1a2"
+
+  02: "6bc87f"
+  10: "afe6bb"
+
+  03: "b4c86b"
+  11: "d6e69d"
+
+  04: "7f6bc8"
+  12: "ac9de0"
+
+  05: "c86bb4"
+  13: "e09dd1"
+
+  06: "6bb4c8"
+  14: "96d5e6"
+
+  07: "c8c8c8"
+  15: "f0f0f0"

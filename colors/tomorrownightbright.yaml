@@ -1,0 +1,31 @@
+metadata:
+  name: tomorrownightbright.xres
+  author: 
+colors:
+  bg: "000000"
+  fg: "eaeaea"
+  cr: "aeafad"
+
+  00: "000000"
+  08: "666666"
+
+  01: "912226"
+  09: "cc6666"
+
+  02: "778900"
+  10: "b5bd68"
+
+  03: "ae7b00"
+  11: "f0c674"
+
+  04: "1d2594"
+  12: "81a2be"
+
+  05: "682a9b"
+  13: "b294bb"
+
+  06: "2b6651"
+  14: "8abeb7"
+
+  07: "929593"
+  15: "ecebec"

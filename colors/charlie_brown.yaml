@@ -1,0 +1,31 @@
+metadata:
+  name: charlie_brown.xres
+  author: 
+colors:
+  bg: "FFFFFF"
+  fg: "000000"
+  cr: "0d0b0d"
+
+  00: "CFEAFB"
+  08: "DEF6FE"
+
+  01: "EF3828"
+  09: "F16328"
+
+  02: "48A052"
+  10: "749077"
+
+  03: "C1A564"
+  11: "D6B075"
+
+  04: "448FBF"
+  12: "02A0D6"
+
+  05: "877EAA"
+  13: "B0BCE6"
+
+  06: "6AB7E2"
+  14: "A7D9F1"
+
+  07: "110102"
+  15: "26312A"

@@ -1,0 +1,31 @@
+metadata:
+  name: peropero.xres
+  author: 
+colors:
+  bg: "ffffff"
+  fg: "404040"
+  cr: "20bbfc"
+
+  00: "f7d2d9"
+  08: "b0cc7f"
+
+  01: "fbdfdc"
+  09: "79c45f"
+
+  02: "c5807b"
+  10: "4e8544"
+
+  03: "dab4a1"
+  11: "dad1b4"
+
+  04: "9a7f62"
+  12: "dca6be"
+
+  05: "3d2a23"
+  13: "d6d698"
+
+  06: "adc2c3"
+  14: "f8cccd"
+
+  07: "8bb583"
+  15: "caedef"

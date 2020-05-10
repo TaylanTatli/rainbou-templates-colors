@@ -1,0 +1,31 @@
+metadata:
+  name: kites.xres
+  author: 
+colors:
+  bg: "071519"
+  fg: "f4f4f4"
+  cr: "ffa460"
+
+  00: "0c2129"
+  08: "7c7c7c"
+
+  01: "b2303d"
+  09: "ffb6b0"
+
+  02: "6bb38c"
+  10: "ceffac"
+
+  03: "776750"
+  11: "ffffcc"
+
+  04: "232631"
+  12: "b5dcff"
+
+  05: "e63964"
+  13: "ff9cfe"
+
+  06: "41a8a1"
+  14: "dfdffe"
+
+  07: "eff0ab"
+  15: "ffffff"

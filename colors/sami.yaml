@@ -1,0 +1,31 @@
+metadata:
+  name: Sami.xres
+  author: 
+colors:
+  bg: "141516"
+  fg: "ecf0f1"
+  cr: "ecf0f1"
+
+  00: "3e464e"
+  08: "3e464e"
+
+  01: "db0a5b"
+  09: "db0a5b"
+
+  02: "3fc380"
+  10: "3fc380"
+
+  03: "f2784b"
+  11: "f2784b"
+
+  04: "22a7f0"
+  12: "22a7f0"
+
+  05: "f64747"
+  13: "f64747"
+
+  06: "55aeae"
+  14: "55aeae"
+
+  07: "ecf0f1"
+  15: "ecf0f1"

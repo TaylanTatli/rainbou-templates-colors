@@ -1,0 +1,31 @@
+metadata:
+  name: ao.xres
+  author: 
+colors:
+  bg: "040911"
+  fg: "FEFDFD"
+  cr: "FEFDFD"
+
+  00: "040911"
+  08: "666666"
+
+  01: "159FE9"
+  09: "159FE9"
+
+  02: "51AEDD"
+  10: "51AEDD"
+
+  03: "96AACD"
+  11: "96AACD"
+
+  04: "A9D2ED"
+  12: "A9D2ED"
+
+  05: "D6E3EF"
+  13: "D6E3EF"
+
+  06: "E5EBF2"
+  14: "E5EBF2"
+
+  07: "FEFDFD"
+  15: "FEFDFD"

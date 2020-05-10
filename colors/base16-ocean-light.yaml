@@ -1,0 +1,31 @@
+metadata:
+  name: base16-ocean-light.xres
+  author: 
+colors:
+  bg: "eff1f5"
+  fg: "4f5b66"
+  cr: "4f5b66"
+
+  00: "2b303b"
+  08: "65737e"
+
+  01: "bf616a"
+  09: "d08770"
+
+  02: "a3be8c"
+  10: "343d46"
+
+  03: "ebcb8b"
+  11: "4f5b66"
+
+  04: "8fa1b3"
+  12: "a7adba"
+
+  05: "b48ead"
+  13: "dfe1e8"
+
+  06: "96b5b4"
+  14: "ab7967"
+
+  07: "c0c5ce"
+  15: "eff1f5"

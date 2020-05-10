@@ -1,0 +1,31 @@
+metadata:
+  name: thayer.xres
+  author: 
+colors:
+  bg: "1b1d1e"
+  fg: "a0a0a0"
+  cr: "a0a0a0"
+
+  00: "1b1d1e"
+  08: "505354"
+
+  01: "f92672"
+  09: "ff5995"
+
+  02: "82b414"
+  10: "b6e354"
+
+  03: "fd971f"
+  11: "feed6c"
+
+  04: "56c2d6"
+  12: "8cedff"
+
+  05: "8c54fe"
+  13: "9e6ffe"
+
+  06: "465457"
+  14: "899ca1"
+
+  07: "ccccc6"
+  15: "f8f8f2"

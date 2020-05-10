@@ -1,0 +1,31 @@
+metadata:
+  name: neon.xres
+  author: 
+colors:
+  bg: "292a44"
+  fg: "678bdc"
+  cr: "678bdc"
+
+  00: "262626"
+  08: "6dfedf"
+
+  01: "6dfedf"
+  09: "e88e2c"
+
+  02: "e88e2c"
+  10: "ae81ff"
+
+  03: "ae81ff"
+  11: "ffbc69"
+
+  04: "ff6f9f"
+  12: "ff6f9f"
+
+  05: "7aa5ff"
+  13: "ff6f9f"
+
+  06: "ed4781"
+  14: "ed4781"
+
+  07: "678bdc"
+  15: "e88e2c"

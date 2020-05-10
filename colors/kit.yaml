@@ -1,0 +1,31 @@
+metadata:
+  name: kit.xres
+  author: 
+colors:
+  bg: "272733"
+  fg: "cac5b7"
+  cr: "cac5b7"
+
+  00: "292935"
+  08: "48485e"
+
+  01: "d65f2f"
+  09: "d65f2f"
+
+  02: "aabf7f"
+  10: "aabf7f"
+
+  03: "dabe72"
+  11: "dabe72"
+
+  04: "5e7e9b"
+  12: "5e7e9b"
+
+  05: "bf6c68"
+  13: "bf6c68"
+
+  06: "5a7273"
+  14: "5a7273"
+
+  07: "cac5b7"
+  15: "d5d1c6"

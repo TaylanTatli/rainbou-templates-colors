@@ -1,0 +1,31 @@
+metadata:
+  name: coffee.xres
+  author: 
+colors:
+  bg: "1E2A2B"
+  fg: "E3CFCA"
+  cr: "E3CFCA"
+
+  00: "172020"
+  08: "1f2828"
+
+  01: "C57750"
+  09: "C57750"
+
+  02: "788871"
+  10: "788871"
+
+  03: "AF8D6D"
+  11: "AF8D6D"
+
+  04: "CA946B"
+  12: "CA946B"
+
+  05: "C2AE9D"
+  13: "C2AE9D"
+
+  06: "CDB09F"
+  14: "CDB09F"
+
+  07: "E3CFCA"
+  15: "E3CFCA"

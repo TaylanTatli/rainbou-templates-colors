@@ -1,0 +1,31 @@
+metadata:
+  name: material-color.xres
+  author: 
+colors:
+  bg: "1e282d"
+  fg: "c4c7d1"
+  cr: "c4c7d1"
+
+  00: "073642"
+  08: "002b36"
+
+  01: "eb606b"
+  09: "eb606b"
+
+  02: "c3e88d"
+  10: "c3e88d"
+
+  03: "f7eb95"
+  11: "f7eb95"
+
+  04: "80cbc4"
+  12: "7dc6bf"
+
+  05: "ff2490"
+  13: "6c71c4"
+
+  06: "aeddff"
+  14: "35434d"
+
+  07: "ffffff"
+  15: "ffffff"

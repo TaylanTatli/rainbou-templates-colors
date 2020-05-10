@@ -1,0 +1,31 @@
+metadata:
+  name: lemon.xres
+  author: 
+colors:
+  bg: "14101C"
+  fg: "D6CCDC"
+  cr: "cac5b7"
+
+  00: "14101C"
+  08: "4b464f"
+
+  01: "ad6a72"
+  09: "d99395"
+
+  02: "a2b07f"
+  10: "c4d1a1"
+
+  03: "b39976"
+  11: "d1c894"
+
+  04: "829ba8"
+  12: "9bb6d4"
+
+  05: "ad748e"
+  13: "db9cbe"
+
+  06: "7D9B90"
+  14: "A4C1B7"
+
+  07: "AAA5AD"
+  15: "D6CCDC"

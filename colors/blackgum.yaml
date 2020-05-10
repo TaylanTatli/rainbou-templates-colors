@@ -1,0 +1,31 @@
+metadata:
+  name: blackgum.xres
+  author: 
+colors:
+  bg: "111111"
+  fg: "ECEDEE"
+  cr: "f3eed8"
+
+  00: "2E1F1F"
+  08: "422D2D"
+
+  01: "AA0E50"
+  09: "BE0E50"
+
+  02: "1DCC9F"
+  10: "1FD9A9"
+
+  03: "27C282"
+  11: "2CDB93"
+
+  04: "7182A8"
+  12: "8194BF"
+
+  05: "A673A6"
+  13: "7F5AA1"
+
+  06: "6DA3A1"
+  14: "669997"
+
+  07: "B7BBBD"
+  15: "D9D9D9"

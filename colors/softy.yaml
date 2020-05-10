@@ -1,0 +1,31 @@
+metadata:
+  name: Softy
+  author: 
+colors:
+  bg: "fcfcfd"
+  fg: "8089ab"
+  cr: "8089ab"
+
+  00: "818181"
+  08: "a0a0a0"
+
+  01: "f5807a"
+  09: "f8b3b6"
+
+  02: "95e6b0"
+  10: "bfe6cc"
+
+  03: "dc966c"
+  11: "dcae92"
+
+  04: "95e1ff"
+  12: "a8e6ff"
+
+  05: "bc6572"
+  13: "bc8a92"
+
+  06: "cca2fb"
+  14: "d8b9fb"
+
+  07: "a9afc7"
+  15: "ecf0fe"

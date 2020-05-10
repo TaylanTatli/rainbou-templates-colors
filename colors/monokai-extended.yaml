@@ -1,0 +1,31 @@
+metadata:
+  name: monokai-extended.xres
+  author: 
+colors:
+  bg: "222222"
+  fg: "ffffff"
+  cr: "c16772"
+
+  00: "75715e"
+  08: "272822"
+
+  01: "f92672"
+  09: "f92672"
+
+  02: "a6e22e"
+  10: "a6e22e"
+
+  03: "f4bf75"
+  11: "f4bf75"
+
+  04: "66d9ef"
+  12: "66d9ef"
+
+  05: "ae81ff"
+  13: "ae81ff"
+
+  06: "2aa198"
+  14: "2aa198"
+
+  07: "f9f8f5"
+  15: "f8f8f2"

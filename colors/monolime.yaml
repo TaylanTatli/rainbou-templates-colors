@@ -1,0 +1,31 @@
+metadata:
+  name: MonoLime
+  author: 
+colors:
+  bg: "111111"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "202020"
+  08: "202020"
+
+  01: "f8f8f8"
+  09: "f8f8f8"
+
+  02: "aadb0f"
+  10: "aadb0f"
+
+  03: "f7f7f7"
+  11: "f7f7f7"
+
+  04: "606060"
+  12: "606060"
+
+  05: "91ba0d"
+  13: "91ba0d"
+
+  06: "e2e2e2"
+  14: "e2e2e2"
+
+  07: "ffffff"
+  15: "ffffff"

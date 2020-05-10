@@ -1,0 +1,31 @@
+metadata:
+  name: eyes.xres
+  author: 
+colors:
+  bg: "2a2e35"
+  fg: "e1e1e1"
+  cr: "e1e1e1"
+
+  00: "5a5a5a"
+  08: "8c8c8c"
+
+  01: "de8990"
+  09: "d0a8ab"
+
+  02: "94daa9"
+  10: "bae8d2"
+
+  03: "dee7aa"
+  11: "d7c96b"
+
+  04: "9cdbdf"
+  12: "6cb4dd"
+
+  05: "cca8c9"
+  13: "db79bf"
+
+  06: "9ad4c8"
+  14: "59b0b2"
+
+  07: "e1e1e1"
+  15: "f0f0f0"

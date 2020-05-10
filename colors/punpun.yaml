@@ -1,0 +1,31 @@
+metadata:
+  name: Punpun.xres
+  author: 
+colors:
+  bg: "344042"
+  fg: "E8DFD6"
+  cr: "F3D5C9"
+
+  00: "37413F"
+  08: "4B5755"
+
+  01: "F99595"
+  09: "F3D5C9"
+
+  02: "7CBF9E"
+  10: "A2D9B1"
+
+  03: "E5C078"
+  11: "F9D48C"
+
+  04: "7BBAC7"
+  12: "DFF0EB"
+
+  05: "FF5879"
+  13: "FF99A1"
+
+  06: "62BDB3"
+  14: "9ED9D8"
+
+  07: "F2F1B9"
+  15: "F6F6C9"

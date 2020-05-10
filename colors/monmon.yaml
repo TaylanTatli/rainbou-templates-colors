@@ -1,0 +1,31 @@
+metadata:
+  name: monmon.xres
+  author: 
+colors:
+  bg: "2b2c37"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "2a2b3a"
+  08: "404152"
+
+  01: "ea596d"
+  09: "d85d6e"
+
+  02: "5a9f50"
+  10: "85c17c"
+
+  03: "c99135"
+  11: "dcb15e"
+
+  04: "547599"
+  12: "5d8fc6"
+
+  05: "9f5079"
+  13: "e486b7"
+
+  06: "3d7982"
+  14: "8abeb7"
+
+  07: "d3d7cf"
+  15: "ffffff"

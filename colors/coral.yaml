@@ -1,0 +1,31 @@
+metadata:
+  name: coral.xres
+  author: 
+colors:
+  bg: "131D24"
+  fg: "ddeedd"
+  cr: "e2e2e2"
+
+  00: "25374A"
+  08: "3A526B"
+
+  01: "BD4A4A"
+  09: "CC6666"
+
+  02: "B7CE42"
+  10: "BDE077"
+
+  03: "FEA63C"
+  11: "FFE863"
+
+  04: "66AABB"
+  12: "AACCBB"
+
+  05: "F26B9E"
+  13: "ff5879"
+
+  06: "72AD8C"
+  14: "9FE3BC"
+
+  07: "DDEEDD"
+  15: "FFFFFF"

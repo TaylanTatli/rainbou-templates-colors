@@ -1,0 +1,31 @@
+metadata:
+  name: floral.xres
+  author: 
+colors:
+  bg: "191b20"
+  fg: "e0dadb"
+  cr: "e0dadb"
+
+  00: "191b20"
+  08: "b58e8c"
+
+  01: "8e92a0"
+  09: "c6c4c8"
+
+  02: "9c98a0"
+  10: "e09d99"
+
+  03: "9999a0"
+  11: "c8c1c3"
+
+  04: "a08e91"
+  12: "cac9cd"
+
+  05: "a09596"
+  13: "e0bbb9"
+
+  06: "c76b68"
+  14: "e0d8db"
+
+  07: "999ba0"
+  15: "e0dadb"

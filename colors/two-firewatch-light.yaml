@@ -1,0 +1,31 @@
+metadata:
+  name: two-firewatch-light.xres
+  author: 
+colors:
+  bg: "f9f6f2"
+  fg: "75551c"
+  cr: "75551c"
+
+  00: "383a42"
+  08: "4f525e"
+
+  01: "e45649"
+  09: "e06c75"
+
+  02: "50a14f"
+  10: "98c379"
+
+  03: "c18401"
+  11: "e5c07b"
+
+  04: "0184bc"
+  12: "61afef"
+
+  05: "a626a4"
+  13: "c678dd"
+
+  06: "0997b3"
+  14: "56b6c2"
+
+  07: "fafafa"
+  15: "ffffff"

@@ -1,0 +1,31 @@
+metadata:
+  name: mocha.xres
+  author: 
+colors:
+  bg: "f5eeeb"
+  fg: "645240"
+  cr: "645240"
+
+  00: "3b3228"
+  08: "7e705a"
+
+  01: "cb6077"
+  09: "cb6077"
+
+  02: "beb55b"
+  10: "beb55b"
+
+  03: "f4bc87"
+  11: "f4bc87"
+
+  04: "8ab3b5"
+  12: "8ab3b5"
+
+  05: "a89bb9"
+  13: "a89bb9"
+
+  06: "7bbda4"
+  14: "7bbda4"
+
+  07: "d0c8c6"
+  15: "f5eeeb"

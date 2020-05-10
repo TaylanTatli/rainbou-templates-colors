@@ -1,0 +1,31 @@
+metadata:
+  name: soft.xres
+  author: 
+colors:
+  bg: "242f3a"
+  fg: "ef8575"
+  cr: "ef8575"
+
+  00: "37474f"
+  08: "455a64"
+
+  01: "ef8575"
+  09: "efa095"
+
+  02: "a2b96b"
+  10: "bdd388"
+
+  03: "fa9f4c"
+  11: "faba81"
+
+  04: "99c6cc"
+  12: "bbe2e7"
+
+  05: "d7a1bb"
+  13: "e5c5d4"
+
+  06: "8aceb7"
+  14: "a8d8c8"
+
+  07: "efefef"
+  15: "f4f4f4"

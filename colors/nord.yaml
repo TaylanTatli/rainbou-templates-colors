@@ -1,0 +1,31 @@
+metadata:
+  name: nord.xres
+  author: 
+colors:
+  bg: "2e3440"
+  fg: "d8dee9"
+  cr: "d8dee9"
+
+  00: "3b4252"
+  08: "4c566a"
+
+  01: "bf616a"
+  09: "bf616a"
+
+  02: "a3be8c"
+  10: "a3be8c"
+
+  03: "ebcb8b"
+  11: "ebcb8b"
+
+  04: "81a1c1"
+  12: "81a1c1"
+
+  05: "b48ead"
+  13: "b48ead"
+
+  06: "88c0d0"
+  14: "8fbcbb"
+
+  07: "e5e9f0"
+  15: "eceff4"

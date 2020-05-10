@@ -1,0 +1,31 @@
+metadata:
+  name: palenight.xres
+  author: 
+colors:
+  bg: "292D3E"
+  fg: "959DCB"
+  cr: "959DCB"
+
+  00: "292d3e"
+  08: "434758"
+
+  01: "F07178"
+  09: "FF8B92"
+
+  02: "C3E88D"
+  10: "DDFFA7"
+
+  03: "FFCB6B"
+  11: "FFE585"
+
+  04: "82AAFF"
+  12: "9CC4FF"
+
+  05: "C792EA"
+  13: "E1ACFF"
+
+  06: "89DDFF"
+  14: "A3F7FF"
+
+  07: "d0d0d0"
+  15: "ffffff"

@@ -1,0 +1,31 @@
+metadata:
+  name: two-firewatch-dark.xres
+  author: 
+colors:
+  bg: "1e2127"
+  fg: "dcdfe4"
+  cr: "dcdfe4"
+
+  00: "282c34"
+  08: "282c34"
+
+  01: "e06c75"
+  09: "e06c75"
+
+  02: "98c379"
+  10: "98c379"
+
+  03: "e5c07b"
+  11: "e5c07b"
+
+  04: "61afef"
+  12: "61afef"
+
+  05: "c678dd"
+  13: "c678dd"
+
+  06: "56b6c2"
+  14: "56b6c2"
+
+  07: "dcdfe4"
+  15: "dcdfe4"

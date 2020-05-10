@@ -1,0 +1,31 @@
+metadata:
+  name: altair.xres
+  author: 
+colors:
+  bg: "22242d"
+  fg: "f3f4ef"
+  cr: "b4b4ba"
+
+  00: "22242d"
+  08: "7a7a7a"
+
+  01: "ff1654"
+  09: "ff1654"
+
+  02: "06d6a0"
+  10: "06d6a0"
+
+  03: "ffe66d"
+  11: "ffe66d"
+
+  04: "00abe7"
+  12: "00abe7"
+
+  05: "ff60b5"
+  13: "ff60b5"
+
+  06: "7bdff2"
+  14: "7bdff2"
+
+  07: "f9f9f9"
+  15: "f3f4ef"

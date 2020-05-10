@@ -1,0 +1,31 @@
+metadata:
+  name: LuciusBlack.xres
+  author: 
+colors:
+  bg: "121212"
+  fg: "d7d7d7"
+  cr: "87afd7"
+
+  00: "121212"
+  08: "121212"
+
+  01: "ff5f5f"
+  09: "ff5f5f"
+
+  02: "afd787"
+  10: "afd787"
+
+  03: "d7d7af"
+  11: "d7d7af"
+
+  04: "87d7ff"
+  12: "87d7ff"
+
+  05: "d7afd7"
+  13: "d7afd7"
+
+  06: "87d7af"
+  14: "87d7af"
+
+  07: "d7d7d7"
+  15: "d7d7d7"

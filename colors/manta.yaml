@@ -1,0 +1,31 @@
+metadata:
+  name: manta.xres
+  author: 
+colors:
+  bg: "1E2541"
+  fg: "EEFFFF"
+  cr: "EEFFFF"
+
+  00: "1E2541"
+  08: "354274"
+
+  01: "F0719B"
+  09: "F02E6E"
+
+  02: "5AF7B0"
+  10: "2CE592"
+
+  03: "FFA56B"
+  11: "FF8537"
+
+  04: "57C7FF"
+  12: "1DA0E2"
+
+  05: "C792EA"
+  13: "A742EA"
+
+  06: "89DDFF"
+  14: "47BAE8"
+
+  07: "EEFFFF"
+  15: "DEE6E7"

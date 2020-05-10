@@ -1,0 +1,31 @@
+metadata:
+  name: Dracula
+  author: Dracula
+colors:
+  bg: "282A36"
+  fg: "F8F8F2"
+  cr: "F8F8F2"
+  
+  00: "000000"
+  08: "4D4D4D"
+  
+  01: "FF5555"
+  09: "FF6E67"
+  
+  02: "50FA7B"
+  10: "5AF78E"
+  
+  03: "F1FA8C"
+  11: "F4F99D"
+  
+  04: "BD93F9"
+  12: "CAA9FA"
+  
+  05: "FF79C6"
+  13: "FF92D0"
+  
+  06: "8BE9FD"
+  14: "9AEDFE"
+  
+  07: "BFBFBF"
+  15: "E6E6E6"

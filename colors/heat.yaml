@@ -1,0 +1,31 @@
+metadata:
+  name: heat
+  author: 
+colors:
+  bg: "1e1e1e"
+  fg: "e1bac2"
+  cr: "f2807c"
+
+  00: "2d3b40"
+  08: "2d3b40"
+
+  01: "ed556d"
+  09: "ed556d"
+
+  02: "507560"
+  10: "507560"
+
+  03: "facaa7"
+  11: "facaa7"
+
+  04: "3c71a0"
+  12: "3c71a0"
+
+  05: "f2807c"
+  13: "f2807c"
+
+  06: "a3bfa1"
+  14: "a3bfa1"
+
+  07: "e1bac2"
+  15: "ecd0d6"

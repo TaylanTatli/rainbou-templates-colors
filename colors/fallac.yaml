@@ -1,0 +1,31 @@
+metadata:
+  name: fallac.xres
+  author: 
+colors:
+  bg: "30303a"
+  fg: "d6d6d6"
+  cr: "e1e1e1"
+
+  00: "4a4a4a"
+  08: "777777"
+
+  01: "df6f6f"
+  09: "eba8a8"
+
+  02: "6fdfa4"
+  10: "a8ebc8"
+
+  03: "dfdc6f"
+  11: "ebeaa8"
+
+  04: "6fa5df"
+  12: "a8c9eb"
+
+  05: "846fdf"
+  13: "b5a8eb"
+
+  06: "6fcadf"
+  14: "a6e6eb"
+
+  07: "aaaaaa"
+  15: "c3c3c3"
