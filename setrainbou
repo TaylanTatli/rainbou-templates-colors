@@ -1,28 +1,30 @@
-#!/usr/bin/make -f
+#!/bin/sh
 
-# $(swap_dialog)
-define swap_dialog
-	echo ; \
-	echo ; $(themes) | cat -n ; echo ; \
-	typeset -i num; \
-	read -p "Switch to theme: " num ; \
-	if [ ! -z $${num} -a $${num} -ge 1 -a -le $${n_themes} ] ; then \
-	  NEW_THEME=$$($(themes) | head -n$${num} | tail -n1 ) ; \
-	  rainbou $${NEW_THEME} xres > ~/.xres/colors/active ; \
-	  xrdb ~/.Xresources ; \
-		rainbou $${NEW_THEME} kitty > ~/dotfiles/kitty/.config/kitty/colors.conf ; \
-	  echo "Theme is now $${NEW_THEME}"; \
-  else echo " !! Aborted. " ; fi
-endef
+# theme counts
+n_themes="$(rainbou ls s | wc -l)"
 
-# $(themes)
-themes=rainbou ls s
+# dialog
+swap_dialog() {
+	echo
+  echo "$(rainbou ls s)" | cat -n
+  echo
+	typeset -i num
+	read -p "Switch to theme: " num
+	if [ ${num} -gt 0 ] && [ ${num} -le ${n_themes} ];
+  then
+    NEW_THEME="$(rainbou ls s | head -n${num} | tail -n1)"
+	  rainbou ${NEW_THEME} xres > ~/.xres/colors/active
+	  xrdb ~/.Xresources
+		rainbou ${NEW_THEME} kitty > ~/dotfiles/kitty/.config/kitty/colors.conf
+		rainbou ${NEW_THEME} linux_tty > ~/dotfiles/zsh/.zsh/zsh_tty
+		rainbou ${NEW_THEME} gedit > ~/dotfiles/gedit/.local/share/gedit/styles/${NEW_THEME}.xml
+		rainbou ${NEW_THEME} polybar > ~/dotfiles/polybar/.config/polybar/colors.ini
+		#rainbou ${NEW_THEME} firefox-dark > ~/.mozilla/firefox/wmhune9w.default-release/chrome/theme/colors/dark.css
+		echo "Theme is now ${NEW_THEME}"
+  else
+    echo " !! Aborted. "
+  fi
+}
 
-# number of current themes
-n_themes=$(themes) | wc -l
 
-
-.SILENT : all
-
-all: $(CONFDIR)
-	$(swap_dialog)
+swap_dialog

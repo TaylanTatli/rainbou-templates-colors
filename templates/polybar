@@ -1,0 +1,19 @@
+[color]
+
+bg = #{{index .ColorMap "bg" "hex"}}
+fg = #{{index .ColorMap "fg" "hex"}}
+fg-alt = #{{index .ColorMap "15" "hex"}}
+
+trans = #00000000
+semitrans = #A0000000
+
+black = #{{index .ColorMap "00" "hex"}}
+grey = #{{index .ColorMap "08" "hex"}}
+red = #{{index .ColorMap "01" "hex"}}
+green = #{{index .ColorMap "02" "hex"}}
+yellow = #{{index .ColorMap "03" "hex"}}
+blue = #{{index .ColorMap "04" "hex"}}
+magenta = #{{index .ColorMap "05" "hex"}}
+cyan = #{{index .ColorMap "06" "hex"}}
+
+; vim: set ft=dosini :
