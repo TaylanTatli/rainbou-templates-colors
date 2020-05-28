@@ -1,0 +1,9 @@
+* {
+    background:         #{{index .ColorMap "bg" "hex"}}B3;
+    background-alt:     #{{index .ColorMap "00" "hex"}}B3;
+    foreground:         #{{index .ColorMap "fg" "hex"}}ff;
+    border:             #{{index .ColorMap "00" "hex"}}ff;
+    border-alt:         #{{index .ColorMap "07" "hex"}}ff;
+    selected:           #{{index .ColorMap "01" "hex"}}1a;
+    urgent:             #{{index .ColorMap "09" "hex"}}FF;
+}

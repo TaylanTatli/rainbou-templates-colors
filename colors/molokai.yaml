@@ -1,0 +1,31 @@
+metadata:
+  name: Molokai
+  author: Gogh
+colors:
+  bg: "1b1d1e"
+  fg: "BBBBBB"
+  cr: "BBBBBB"
+
+  00: "1b1d1e"
+  08: "555555"
+
+  01: "7325FA"
+  09: "9D66F6"
+
+  02: "23E298"
+  10: "5FE0B1"
+
+  03: "60D4DF"
+  11: "6DF2FF"
+
+  04: "D08010"
+  12: "FFAF00"
+
+  05: "FF0087"
+  13: "FF87AF"
+
+  06: "D0A843"
+  14: "FFCE51"
+
+  07: "BBBBBB"
+  15: "FFFFFF"

@@ -1,0 +1,31 @@
+metadata:
+  name: ItermOcean
+  author: Klaussinani
+colors:
+  bg: "0f111a"
+  fg: "8f93a2"
+  cr: "8f93a2"
+  
+  00: "000000"
+  08: "333333"
+  
+  01: "e25822"
+  09: "e25822"
+  
+  02: "14b37d"
+  10: "14b37d"
+  
+  03: "f2f27a"
+  11: "f2f27a"
+  
+  04: "3a75c4"
+  12: "3a75c4"
+  
+  05: "703faf"
+  13: "703faf"
+  
+  06: "87d3f8"
+  14: "87d3f8"
+  
+  07: "eee8d5"
+  15: "ffffff"

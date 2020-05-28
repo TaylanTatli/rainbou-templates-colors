@@ -1,0 +1,13 @@
+* {
+  background-color:               transparent;
+  background:                     #{{index .ColorMap "bg" "hex"}}B3;
+  background-alt:                 #{{index .ColorMap "00" "hex"}}47;
+  text-color:                     #{{index .ColorMap "fg" "hex"}};
+  selected-text-color:            #{{index .ColorMap "01" "hex"}};
+  primary:                        #{{index .ColorMap "02" "hex"}};
+  urgent:                         #{{index .ColorMap "01" "hex"}};
+}
+
+entry  {
+  background-color:               #{{index .ColorMap "fg" "hex"}}20;
+}

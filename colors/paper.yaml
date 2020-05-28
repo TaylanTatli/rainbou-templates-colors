@@ -1,0 +1,31 @@
+metadata:
+  name: Paper
+  author: Addy
+colors:
+  bg: "F9FAF4"
+  fg: "947E7B"
+  cr: "DE8043"
+
+  00: "DBD9DA"
+  08: "CDB7AA"
+
+  01: "E46C6D"
+  09: "D65455"
+
+  02: "AECDAD"
+  10: "8CB88B"
+
+  03: "D8AF60"
+  11: "C49B4A"
+
+  04: "819FC1"
+  12: "6688AD"
+
+  05: "B899A8"
+  13: "A38895"
+
+  06: "68C7C1"
+  14: "4EB3AC"
+
+  07: "526B6E"
+  15: "3B4D4F"

@@ -1,0 +1,31 @@
+metadata:
+  name: Ocean Dark
+  author: Gogh
+colors:
+  bg: "1C1F27"
+  fg: "979CAC"
+  cr: "979CAC"
+
+  00: "4F4F4F"
+  08: "7B7B7B"
+
+  01: "AF4B57"
+  09: "AF4B57"
+
+  02: "AFD383"
+  10: "CEFFAB"
+
+  03: "E5C079"
+  11: "FFFECC"
+
+  04: "7D90A4"
+  12: "B5DCFE"
+
+  05: "A4799D"
+  13: "FB9BFE"
+
+  06: "85A6A5"
+  14: "DFDFFD"
+
+  07: "EEEDEE"
+  15: "FEFFFE"

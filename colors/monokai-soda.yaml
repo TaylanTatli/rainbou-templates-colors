@@ -1,0 +1,31 @@
+metadata:
+  name: Monokai Soda
+  author: Gogh
+colors:
+  bg: "1a1a1a"
+  fg: "c4c5b5"
+  cr: "c4c5b5"
+
+  00: "1a1a1a"
+  08: "625e4c"
+
+  01: "f4005f"
+  09: "f4005f"
+
+  02: "98e024"
+  10: "98e024"
+
+  03: "fa8419"
+  11: "e0d561"
+
+  04: "9d65ff"
+  12: "9d65ff"
+
+  05: "f4005f"
+  13: "f4005f"
+
+  06: "58d1eb"
+  14: "58d1eb"
+
+  07: "c4c5b5"
+  15: "f6f6ef"

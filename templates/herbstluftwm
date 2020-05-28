@@ -1,0 +1,24 @@
+#!/bin/sh
+hc attr theme.tiling.reset 1
+hc attr theme.floating.reset 1
+hc set frame_border_width 0
+hc set frame_bg_transparent 1
+hc set frame_transparent_width 0
+hc set frame_gap 0
+hc set always_show_frame 0
+
+hc set window_gap 2
+hc set frame_padding 0
+hc set smart_window_surroundings 0
+hc set smart_frame_surroundings 0
+hc set mouse_recenter_gap 0
+hc set focus_follows_mouse 1
+
+hc attr theme.tiling.outer_color '#{{index .ColorMap "bg" "hex"}}'
+hc attr theme.floating.outer_color '#{{index .ColorMap "bg" "hex"}}'
+hc attr theme.active.outer_color '#{{index .ColorMap "bg" "hex"}}'
+hc attr theme.active.color '#{{index .ColorMap "01" "hex"}}'
+hc attr theme.normal.color '#{{index .ColorMap "00" "hex"}}'
+hc attr theme.urgent.color '#{{index .ColorMap "05" "hex"}}'
+hc attr theme.outer_width 2
+hc attr theme.border_width 3

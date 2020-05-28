@@ -1,0 +1,31 @@
+metadata:
+  name: Adapta
+  author: dbuxy218
+colors:
+  fg: "A3AFC1"
+  bg: "263238"
+  cr: "A3AFC1"
+
+  00: "384B53"
+  08: "1A2327"
+  
+  01: "F07178"
+  09: "FF5C38"
+  
+  02: "14A058"
+  10: "A0E250"
+  
+  03: "F2C024"
+  11: "ECEB4D"
+  
+  04: "556EA6"
+  12: "82AAFF"
+  
+  05: "9069A8"
+  13: "C792EA"
+  
+  06: "89DDFF"
+  14: "90EECB"
+  
+  07: "E7E7E7"
+  15: "E7E7E7"

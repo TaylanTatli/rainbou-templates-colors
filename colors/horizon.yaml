@@ -1,0 +1,31 @@
+metadata:
+  name: Horizon
+  author: Jolaleye
+colors:
+  bg: "161820"
+  fg: "d5d8da"
+  cr: "e95378"
+
+  00: "2e303e"
+  08: "6c6f93"
+
+  01: "e95378"
+  09: "e61f44"
+
+  02: "a6e22e"
+  10: "9bc42e"
+
+  03: "fab98e"
+  11: "f09483"
+
+  04: "25b0bc"
+  12: "00a8c6"
+
+  05: "b877db"
+  13: "b877db"
+
+  06: "267fb5"
+  14: "5678e6"
+
+  07: "bbbbbb"
+  15: "eeeeee"

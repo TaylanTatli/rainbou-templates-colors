@@ -1,0 +1,35 @@
+# File              : typewriter.yaml
+# Author            : TaylanTatli - https://github.com/TaylanTatli
+# Date              : 20.05.2020
+# Last Modified Date: 20.05.2020
+metadata:
+  name: Typewriter
+  author: Logico
+colors:
+  bg: "EEEEEE"
+  fg: "464646"
+  cr: "528BFF"
+
+  00: "080808"
+  08: "464646"
+
+  01: "626262"
+  09: "626262"
+
+  02: "868686"
+  10: "009900"
+
+  03: "B2B2B2"
+  11: "B2B2B2"
+
+  04: "00BAFF"
+  12: "767676"
+
+  05: "E41D91"
+  13: "FF00AF"
+
+  06: "949494"
+  14: "949494"
+
+  07: "EEEEEE"
+  15: "FFFFFF"

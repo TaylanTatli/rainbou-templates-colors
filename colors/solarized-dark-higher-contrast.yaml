@@ -1,0 +1,31 @@
+metadata:
+  name: Solarized Dark Higher Contrast
+  author: Gogh
+colors:
+  bg: "001e27"
+  fg: "9cc2c3"
+  cr: "9cc2c3"
+
+  00: "002831"
+  08: "006488"
+
+  01: "d11c24"
+  09: "f5163b"
+
+  02: "6cbe6c"
+  10: "51ef84"
+
+  03: "a57706"
+  11: "b27e28"
+
+  04: "2176c7"
+  12: "178ec8"
+
+  05: "c61c6f"
+  13: "e24d8e"
+
+  06: "259286"
+  14: "00b39e"
+
+  07: "eae3cb"
+  15: "fcf4dc"

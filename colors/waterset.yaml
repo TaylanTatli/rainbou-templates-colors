@@ -4,6 +4,7 @@ metadata:
 colors:
   bg: "3b345e"
   fg: "dbc3ab"
+  cr: "dbc3ab"
 
   00: "3b345e"
   08: "dbc3ab"

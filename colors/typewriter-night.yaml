@@ -1,0 +1,31 @@
+metadata:
+  name: TypewriterNight
+  author: Logico
+colors:
+  bg: "262626"
+  fg: "EFEFEF"
+  cr: "528BFF"
+
+  00: "EEEEEE"
+  08: "FFFFFF"
+
+  01: "DBDBDB"
+  09: "DBDBDB"
+
+  02: "646464"
+  10: "00FFAF"
+
+  03: "5A5A5A"
+  11: "5A5A5A"
+
+  04: "00BAFF"
+  12: "767676"
+
+  05: "E41D91"
+  13: "FF00AF"
+
+  06: "949494"
+  14: "949494"
+
+  07: "262626"
+  15: "4C4C4C"
