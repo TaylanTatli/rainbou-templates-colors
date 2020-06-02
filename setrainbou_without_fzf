@@ -1,11 +1,18 @@
 #!/bin/sh
+
+# theme counts
+n_themes="$(rainbou ls s | wc -l)"
+
 # dialog
 swap_dialog() {
-  NEW_THEME=$(rainbou ls s | fzf)
-  if [ -z $NEW_THEME ];
+	echo
+  echo "$(rainbou ls s)" | cat -n
+  echo
+	typeset -i num
+	read -p "Switch to theme: " num
+	if [ ${num} -gt 0 ] && [ ${num} -le ${n_themes} ];
   then
-    echo "Aborted!"
-  else
+    NEW_THEME="$(rainbou ls s | head -n${num} | tail -n1)"
 	  rainbou ${NEW_THEME} xres > ~/.xres/colors/active
 	  xrdb ~/.Xresources
 		rainbou ${NEW_THEME} kitty > ~/dotfiles/kitty/.config/kitty/colors.conf
@@ -19,15 +26,12 @@ swap_dialog() {
 		rainbou ${NEW_THEME} oomox > ~/dotfiles/oomox/.config/oomox/colors/${NEW_THEME}/${NEW_THEME}
     rainbou ${NEW_THEME} herbstluftwm > ~/dotfiles/herbstluftwm/.config/herbstluftwm/theme/rainbou.sh
     rainbou ${NEW_THEME} jgmenu > ~/dotfiles/jgmenu/.config/jgmenu/jgmenurc
-    rainbou ${NEW_THEME} plank > ~/dotfiles/plank/.local/share/plank/themes/rainbou/dock.theme
 		#rainbou ${NEW_THEME} firefox-dark > ~/.mozilla/firefox/wmhune9w.default-release/chrome/theme/colors/dark.css
 		echo "Theme is now ${NEW_THEME}"
+  else
+    echo " !! Aborted. "
   fi
 }
 
-if hash fzf 2>/dev/null;
-then
-  swap_dialog
-else
-  echo "Please install fzf to use this script."
-fi
+
+swap_dialog
