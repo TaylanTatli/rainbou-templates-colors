@@ -1,0 +1,31 @@
+metadata:
+  name: Denisidoro
+  author: Denisidoro
+colors:
+  bg: "282a36"
+  fg: "bbc5ff"
+  cr: "bbc5ff"
+
+  00: "282a36"
+  08: "434758"
+
+  01: "f07178"
+  09: "ff8b92"
+
+  02: "c3e88d"
+  10: "ddffa7"
+
+  03: "ffcb6b"
+  11: "ffe585"
+
+  04: "82aaff"
+  12: "9cc4ff"
+
+  05: "c792ea"
+  13: "e1acff"
+
+  06: "89ddff"
+  14: "a3f7ff"
+
+  07: "d0d0d0"
+  15: "ffffff"

@@ -1,6 +1,6 @@
 * {
   background-color:               transparent;
-  background:                     #{{index .ColorMap "bg" "hex"}}B3;
+  background:                     #{{index .ColorMap "bg" "hex"}}8F;
   background-alt:                 #{{index .ColorMap "00" "hex"}}47;
   text-color:                     #{{index .ColorMap "fg" "hex"}};
   selected-text-color:            #{{index .ColorMap "01" "hex"}};
