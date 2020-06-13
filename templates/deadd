@@ -1,0 +1,32 @@
+[notification-center]
+marginTop = 28
+width = 350
+newFirst = true
+ignoreTransient = false
+useMarkup = true
+configSendNotiClosedDbusMessage = false
+guessIconFromAppname = true
+
+[notification-center-notification-popup]
+notiDefaultTimeout = 10000
+distanceTop = 30
+distanceRight = 4
+distanceBetween = 10
+width = 300
+monitor = 0
+iconSize = 20
+maxImageSize = 20
+
+[colors]
+background = rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8)
+notiBackground = rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8)
+notiColor = #{{index .ColorMap "fg" "hex"}}
+critical = rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.5)
+criticalColor = #{{index .ColorMap "fg" "hex"}}
+criticalInCenter = rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.5)
+criticalInCenterColor = #FFF
+buttonColor = #eae2e0
+buttonHover = rgba(0, 20, 20, 0.2)
+buttonHoverColor = #fee
+buttonBackground = transparent
+labelColor = #{{index .ColorMap "fg" "hex"}}

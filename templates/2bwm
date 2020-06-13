@@ -1,0 +1,10 @@
+twobwm.border_width: 4
+twobwm.outer_border: 2
+twobwm.focus_color: #{{index .ColorMap "01" "hex"}}
+twobwm.unfocus_color: #{{index .ColorMap "08" "hex"}}
+twobwm.fixed_color: #{{index .ColorMap "02" "hex"}}
+twobwm.unkill_color: #{{index .ColorMap "03" "hex"}}
+twobwm.outer_border_color: #{{index .ColorMap "bg" "hex"}}
+twobwm.fixed_unkill_color: #{{index .ColorMap "04" "hex"}}
+twobwm.inverted_colors: false
+twobwm.enable_compton: true
