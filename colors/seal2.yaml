@@ -1,0 +1,31 @@
+metadata:
+  name: Seal2
+  author: TaylanTatli
+colors:
+  bg: "f8efee"
+  fg: "250e07"
+  cr: "c97270"
+
+  00: "422c26"
+  08: "422117"
+
+  01: "ff302b"
+  09: "ff5c59"
+
+  02: "6eb000"
+  10: "8db03a"
+
+  03: "ff7700"
+  11: "ffa759"
+
+  04: "5e90ff"
+  12: "74a3ff"
+
+  05: "ff2f56"
+  13: "ff5a79"
+
+  06: "21baff"
+  14: "5accff"
+
+  07: "352621"
+  15: "503c36"
