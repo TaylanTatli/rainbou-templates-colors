@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-pool-light
+  author: atelierbram
+colors:
+  bg: "fbf9f9"
+  fg: "574b68"
+  cr: "e4d2fe"
+
+  00: "2a2433"
+  08: "635775"
+
+  01: "aa75f5"
+  09: "fc8983"
+
+  02: "f87972"
+  10: "372f42"
+
+  03: "ffb6b3"
+  11: "574b68"
+
+  04: "b886fd"
+  12: "706383"
+
+  05: "ed655e"
+  13: "e4d2fe"
+
+  06: "c7a0fe"
+  14: "f36f68"
+
+  07: "9a90a7"
+  15: "fbf9f9"

@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-meadow-dark
+  author: atelierbram
+colors:
+  bg: "192834"
+  fg: "7b9eb7"
+  cr: "4d8217"
+
+  00: "192834"
+  08: "3d5e76"
+
+  01: "277fbe"
+  09: "8cdd3c"
+
+  02: "80bf40"
+  10: "223644"
+
+  03: "a6f655"
+  11: "335166"
+
+  04: "4299d7"
+  12: "466b86"
+
+  05: "80bf40"
+  13: "afddfe"
+
+  06: "47adf5"
+  14: "73b234"
+
+  07: "7b9eb7"
+  15: "d1ecff"

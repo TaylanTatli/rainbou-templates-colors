@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-pool-dark
+  author: atelierbram
+colors:
+  bg: "2a2433"
+  fg: "9a90a7"
+  cr: "cf504a"
+
+  00: "2a2433"
+  08: "635775"
+
+  01: "aa75f5"
+  09: "fc8983"
+
+  02: "f87972"
+  10: "372f42"
+
+  03: "ffb6b3"
+  11: "574b68"
+
+  04: "b886fd"
+  12: "706383"
+
+  05: "f87972"
+  13: "e4d2fe"
+
+  06: "c7a0fe"
+  14: "f36f68"
+
+  07: "9a90a7"
+  15: "f3ebff"

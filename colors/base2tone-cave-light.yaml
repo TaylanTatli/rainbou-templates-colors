@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-cave-light
+  author: atelierbram
+colors:
+  bg: "fbfaf9"
+  fg: "565254"
+  cr: "f0a8c1"
+
+  00: "222021"
+  08: "635f60"
+
+  01: "936c7a"
+  09: "ddaf3c"
+
+  02: "cca133"
+  10: "2f2d2e"
+
+  03: "ffcc4d"
+  11: "565254"
+
+  04: "9c818b"
+  12: "706b6d"
+
+  05: "b88914"
+  13: "f0a8c1"
+
+  06: "d27998"
+  14: "c39622"
+
+  07: "9f999b"
+  15: "fbfaf9"

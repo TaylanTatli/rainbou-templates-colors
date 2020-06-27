@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-morning-light
+  author: atelierbram
+colors:
+  bg: "faf8f5"
+  fg: "4f5664"
+  cr: "b7c9eb"
+
+  00: "232834"
+  08: "656e81"
+
+  01: "1659df"
+  09: "c6b28b"
+
+  02: "b29762"
+  10: "31363f"
+
+  03: "e5ddcd"
+  11: "4f5664"
+
+  04: "3d75e6"
+  12: "707a8f"
+
+  05: "896724"
+  13: "b7c9eb"
+
+  06: "728fcb"
+  14: "9a7c42"
+
+  07: "8d95a5"
+  15: "faf8f5"

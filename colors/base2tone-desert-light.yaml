@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-desert-light
+  author: atelierbram
+colors:
+  bg: "fbfaf9"
+  fg: "615c51"
+  cr: "ddcba6"
+
+  00: "292724"
+  08: "7e7767"
+
+  01: "816f4b"
+  09: "f29d63"
+
+  02: "ec9255"
+  10: "3d3a34"
+
+  03: "ffb380"
+  11: "615c51"
+
+  04: "957e50"
+  12: "908774"
+
+  05: "dd7c3c"
+  13: "ddcba6"
+
+  06: "ac8e53"
+  14: "e58748"
+
+  07: "ada594"
+  15: "fbfaf9"

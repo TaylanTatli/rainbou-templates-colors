@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-space-light
+  author: atelierbram
+colors:
+  bg: "fbf9f9"
+  fg: "515167"
+  cr: "cecee3"
+
+  00: "24242e"
+  08: "5b5b76"
+
+  01: "7676f4"
+  09: "f37b3f"
+
+  02: "ec7336"
+  10: "333342"
+
+  03: "fe8c52"
+  11: "515167"
+
+  04: "767693"
+  12: "737391"
+
+  05: "dd672c"
+  13: "cecee3"
+
+  06: "8a8aad"
+  14: "e66e33"
+
+  07: "a1a1b5"
+  15: "fbf9f9"

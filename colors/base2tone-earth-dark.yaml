@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-earth-dark
+  author: atelierbram
+colors:
+  bg: "322d29"
+  fg: "b5a9a1"
+  cr: "9c8349"
+
+  00: "322d29"
+  08: "6a5f58"
+
+  01: "816d5f"
+  09: "e6b84d"
+
+  02: "d9b154"
+  10: "3f3a37"
+
+  03: "fcc440"
+  11: "5b534d"
+
+  04: "88786d"
+  12: "796b63"
+
+  05: "d9b154"
+  13: "dfb99f"
+
+  06: "967e6e"
+  14: "cda956"
+
+  07: "b5a9a1"
+  15: "fff3eb"

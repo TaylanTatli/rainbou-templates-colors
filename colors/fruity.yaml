@@ -1,0 +1,31 @@
+metadata:
+  name: Fruity
+  author: turquoise-hexagon
+colors:
+  bg: "102029"
+  fg: "EDEEF0"
+  cr: "EDEEF0"
+
+  00: "102029"
+  08: "0E374B"
+
+  01: "C9647E"
+  09: "D87E8F"
+
+  02: "7CABA3"
+  10: "ADD4CF"
+
+  03: "C7C8B7"
+  11: "EBDECD"
+
+  04: "71AAC5"
+  12: "A7CBE3"
+
+  05: "F4ADB1"
+  13: "F8CBCE"
+
+  06: "7CBBC0"
+  14: "A5D3D9"
+
+  07: "D9DBE3"
+  15: "EDEEF0"

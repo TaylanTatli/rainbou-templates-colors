@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-heath-light
+  author: atelierbram
+colors:
+  bg: "fbfaf9"
+  fg: "575158"
+  cr: "eaa8f0"
+
+  00: "222022"
+  08: "635f63"
+
+  01: "8f6c93"
+  09: "d9b98c"
+
+  02: "cc8c33"
+  10: "2f2d2f"
+
+  03: "ffd599"
+  11: "575158"
+
+  04: "9a819c"
+  12: "6f6b70"
+
+  05: "b87414"
+  13: "eaa8f0"
+
+  06: "cb79d2"
+  14: "c38022"
+
+  07: "9e999f"
+  15: "fbfaf9"

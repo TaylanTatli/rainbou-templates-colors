@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-sea-light
+  author: atelierbram
+colors:
+  bg: "f9fbfa"
+  fg: "405368"
+  cr: "afd4fe"
+
+  00: "1d262f"
+  08: "4a5f78"
+
+  01: "34659d"
+  09: "14e19d"
+
+  02: "0fc78a"
+  10: "27323f"
+
+  03: "47ebb4"
+  11: "405368"
+
+  04: "57718e"
+  12: "738191"
+
+  05: "0aa370"
+  13: "afd4fe"
+
+  06: "6e9bcf"
+  14: "0db57d"
+
+  07: "a1aab5"
+  15: "f9fbfa"

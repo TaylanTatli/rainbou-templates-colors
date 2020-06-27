@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-drawbridge-dark
+  author: atelierbram
+colors:
+  bg: "1b1f32"
+  fg: "9094a7"
+  cr: "289dbd"
+
+  00: "1b1f32"
+  08: "51587b"
+
+  01: "627af4"
+  09: "75d5f0"
+
+  02: "67c9e4"
+  10: "252a41"
+
+  03: "99e9ff"
+  11: "444b6f"
+
+  04: "7289fd"
+  12: "5e6587"
+
+  05: "67c9e4"
+  13: "c3cdfe"
+
+  06: "8b9efd"
+  14: "5cbcd6"
+
+  07: "9094a7"
+  15: "e1e6ff"

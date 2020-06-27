@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-forest-light
+  author: atelierbram
+colors:
+  bg: "fbfbf8"
+  fg: "485148"
+  cr: "c8e4c8"
+
+  00: "2a2d2a"
+  08: "535f53"
+
+  01: "5c705c"
+  09: "cbe25a"
+
+  02: "bfd454"
+  10: "353b35"
+
+  03: "e5fb79"
+  11: "485148"
+
+  04: "687d68"
+  12: "5e6e5e"
+
+  05: "a2b34d"
+  13: "c8e4c8"
+
+  06: "8fae8f"
+  14: "b1c44f"
+
+  07: "a1b5a1"
+  15: "fbfbf8"

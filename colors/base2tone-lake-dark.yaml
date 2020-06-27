@@ -1,0 +1,31 @@
+metadata:
+  name: base2tone-lake-dark
+  author: atelierbram
+colors:
+  bg: "192d34"
+  fg: "7ba8b7"
+  cr: "84740b"
+
+  00: "192d34"
+  08: "3d6876"
+
+  01: "3e91ac"
+  09: "d6c65c"
+
+  02: "cbbb4d"
+  10: "223c44"
+
+  03: "ffeb66"
+  11: "335966"
+
+  04: "499fbc"
+  12: "467686"
+
+  05: "cbbb4d"
+  13: "a5d8e9"
+
+  06: "62b1cb"
+  14: "c4b031"
+
+  07: "7ba8b7"
+  15: "e1f7ff"
