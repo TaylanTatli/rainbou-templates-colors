@@ -1,0 +1,31 @@
+metadata:
+  name: Mountain
+  author: pradyungn
+colors:
+  bg: "0f0f0f"
+  fg: "f0f0f0"
+  cr: "f0f0f0"
+
+  00: "262626"
+  08: "4c4c4c"
+
+  01: "ac8a8c"
+  09: "c49ea0"
+
+  02: "8aac8b"
+  10: "9ec49f"
+
+  03: "aca98a"
+  11: "c4c19e"
+
+  04: "8f8aac"
+  12: "a29ec4"
+
+  05: "ac8aac"
+  13: "c49ec4"
+
+  06: "8aabac"
+  14: "9ec3c4"
+
+  07: "e7e7e7"
+  15: "f5f5f5"

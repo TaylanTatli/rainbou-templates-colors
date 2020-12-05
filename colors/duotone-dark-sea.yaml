@@ -1,0 +1,31 @@
+metadata:
+  name: duotone-dark-sea
+  author: mikemcbride
+colors:
+  bg: "1d262f"
+  fg: "91c1f8"
+  cr: "91c1f8"
+
+  00: "303f4f"
+  08: "303f4f"
+
+  01: "d6e9ff"
+  09: "d6e9ff"
+
+  02: "91c1f8"
+  10: "91c1f8"
+
+  03: "6e88a6"
+  11: "6e88a6"
+
+  04: "55606d"
+  12: "55606d"
+
+  05: "67fecc"
+  13: "67fecc"
+
+  06: "22d398"
+  14: "22d398"
+
+  07: "303f4f"
+  15: "303f4f"

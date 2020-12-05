@@ -1,0 +1,57 @@
+[global]
+    font = SF Mono 8
+    markup = full
+    follow = mouse
+    geometry = "300x140-12+36"
+    indicate_hidden = yes
+    shrink = no
+    separator_height = 2
+    padding = 12
+    horizontal_padding = 15
+    corner_radius = 4
+    frame_width = 0
+    frame_color = "#{{index .ColorMap "00" "hex"}}"
+    separator_color = auto
+    sort = yes
+    idle_threshold = 120
+    line_height = 1
+    format = "<b>%s</b>\n%b"
+    alignment = center
+    show_age_threshold = 60
+    word_wrap = yes
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    max_icon_size = 140
+    icon_path = /usr/share/icons/Adwaita/16x16/legacy/:/usr/share/icons/Adwaita/16x16/status/
+    sticky_history = yes
+    history_length = 20
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/firefox -new-tab
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    startup_notification = false
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+quotedbl
+    context = ctrl+shift+quotedbl
+
+[urgency_low]
+    background = "#{{index .ColorMap "02" "hex"}}"
+    foreground = "#{{index .ColorMap "fg" "hex"}}"
+    timeout = 10
+
+[urgency_normal]
+    background = "#{{index .ColorMap "bg" "hex"}}"
+    foreground = "#{{index .ColorMap "fg" "hex"}}"
+    timeout = 10
+
+[urgency_critical]
+    background = "#{{index .ColorMap "01" "hex"}}"
+    foreground = "#{{index .ColorMap "fg" "hex"}}"
+    timeout = 0

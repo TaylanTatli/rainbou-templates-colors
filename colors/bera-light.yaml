@@ -1,0 +1,31 @@
+metadata:
+  name: Bera-Light
+  author: TaylanTatli
+colors:
+  bg: "f9f9f9"
+  fg: "2e3134"
+  cr: "2e3134"
+
+  00: "f9f9f9"
+  08: "ffffff"
+
+  01: "dd4c4f"
+  09: "ff585b"
+
+  02: "4d8011"
+  10: "65a916"
+
+  03: "ff9f1a"
+  11: "f4bf75"
+
+  04: "66d9ef"
+  12: "86e1f3"
+
+  05: "f92672"
+  13: "fa5792"
+
+  06: "2aa198"
+  14: "49afa7"
+
+  07: "2b303b"
+  15: "34323a"

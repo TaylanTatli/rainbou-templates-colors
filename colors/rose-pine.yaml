@@ -1,0 +1,31 @@
+metadata:
+  name: Rose Pine
+  author: Rose Pine
+colors:
+  bg: "1f1d29"
+  fg: "9bced7"
+  cr: "9bced7"
+
+  00: "403c58"
+  08: "6f6e85"
+
+  01: "ea6f91"
+  09: "ea6f91"
+
+  02: "9bced7"
+  10: "9bced7"
+
+  03: "f1ca93"
+  11: "f1ca93"
+
+  04: "34738e"
+  12: "34738e"
+
+  05: "c3a5e6"
+  13: "c3a5e6"
+
+  06: "eabbb9"
+  14: "eabbb9"
+
+  07: "faebd7"
+  15: "ffffff"

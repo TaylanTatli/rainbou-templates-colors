@@ -11,11 +11,11 @@ LineWidth=1
 #The color (RGBA) of the outer stroke.
 OuterStrokeColor={{index .ColorMap "00" "rgb" 0}};;{{index .ColorMap "00" "rgb" 1}};;{{index .ColorMap "00" "rgb" 2}};;150
 #The starting color (RGBA) of the fill gradient.
-FillStartColor={{index .ColorMap "bg" "rgb" 0}};;{{index .ColorMap "bg" "rgb" 1}};;{{index .ColorMap "bg" "rgb" 2}};;255
+FillStartColor={{index .ColorMap "bg" "rgb" 0}};;{{index .ColorMap "bg" "rgb" 1}};;{{index .ColorMap "bg" "rgb" 2}};;150
 #The ending color (RGBA) of the fill gradient.
-FillEndColor={{index .ColorMap "bg" "rgb" 0}};;{{index .ColorMap "bg" "rgb" 1}};;{{index .ColorMap "bg" "rgb" 2}};;255
+FillEndColor={{index .ColorMap "bg" "rgb" 0}};;{{index .ColorMap "bg" "rgb" 1}};;{{index .ColorMap "bg" "rgb" 2}};;150
 #The color (RGBA) of the inner stroke.
-InnerStrokeColor={{index .ColorMap "00" "rgb" 0}};;{{index .ColorMap "00" "rgb" 1}};;{{index .ColorMap "00" "rgb" 2}};;255
+InnerStrokeColor={{index .ColorMap "00" "rgb" 0}};;{{index .ColorMap "00" "rgb" 1}};;{{index .ColorMap "00" "rgb" 2}};;150
 
 [PlankDockTheme]
 #The padding on the left/right dock edges, in tenths of a percent of IconSize.

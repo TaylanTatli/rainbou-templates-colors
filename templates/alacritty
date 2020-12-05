@@ -10,6 +10,7 @@ window:
   decorations: none
   startup_mode: Windowed
   title: Alacritty
+  dynamic_title: true
   class:
     instance: Alacritty
     general: Alacritty
@@ -19,18 +20,18 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: SF Mono
+    family: RobotoMono Nerd Font
     style: Medium
   bold:
-    family: SF Mono
+    family: RobotoMono Nerd Font
     style: Bold
   italic:
-    family: SF Mono
+    family: RobotoMono Nerd Font
     style: Medium Italic
   bold_italic:
-    family: SF Mono
+    family: RobotoMono Nerd Font
     style: Bold Italic
-  size: 6.5
+  size: 7
   offset:
     x: 0
     y: 0
@@ -71,7 +72,7 @@ colors:
 
 background_opacity: 1.0
 
-visual_bell:
+bell:
   animation: EaseOutExpo
   duration: 0
   color: '#ffffff'
@@ -79,8 +80,6 @@ visual_bell:
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
-
-dynamic_title: true
 
 cursor:
   style: Underline
@@ -110,8 +109,8 @@ key_bindings:
   - { key: Insert,   mods: Shift,         action: PasteSelection   }
   - { key: Key0,     mods: Control,       action: ResetFontSize    }
   - { key: Equals,   mods: Control,       action: IncreaseFontSize }
-  - { key: Add,      mods: Control,       action: IncreaseFontSize }
-  - { key: Subtract, mods: Control,       action: DecreaseFontSize }
+  - { key: NumpadAdd,      mods: Control,       action: IncreaseFontSize }
+  - { key: NumpadSubtract, mods: Control,       action: DecreaseFontSize }
   - { key: Minus,    mods: Control,       action: DecreaseFontSize }
   - { key: Paste,                    action: Paste                            }
   - { key: Copy,                     action: Copy                             }

@@ -1,8 +1,8 @@
 metadata:
-  name: Gruvbox Dark
+  name: Gruvbox Dark Hard Contrast
   author: Morhetz
 colors:
-  bg: "282828"
+  bg: "1d2021"
   fg: "ebdbb2"
   cr: "ebdbb2"
 

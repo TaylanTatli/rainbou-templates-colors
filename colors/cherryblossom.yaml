@@ -1,0 +1,31 @@
+metadata:
+  name: CherryBlossom
+  author: ghifarit53
+colors:
+  bg: "f9cbbe"
+  fg: "16161c"
+  cr: "16161c"
+
+  00: "f9cbbe"
+  08: "ad8d84"
+
+  01: "df2d52"
+  09: "ed2f55"
+
+  02: "2e916d"
+  10: "2e916d"
+
+  03: "f6661e"
+  11: "ff6a1f"
+
+  04: "006e93"
+  12: "00779e"
+
+  05: "772aa1"
+  13: "7f2cab"
+
+  06: "f43e5c"
+  14: "ff4060"
+
+  07: "16161c"
+  15: "16161c"

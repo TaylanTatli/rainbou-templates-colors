@@ -1,6 +1,6 @@
 [color]
 
-bg = #{{index .ColorMap "bg" "hex"}}
+bg = #99{{index .ColorMap "bg" "hex"}}
 fg = #{{index .ColorMap "fg" "hex"}}
 fg-alt = #{{index .ColorMap "15" "hex"}}
 
