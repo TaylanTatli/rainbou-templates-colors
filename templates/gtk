@@ -6,35 +6,6 @@ window, dialog {
 headerbar {
   background-image: image(rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.9));
   padding: 6px; }
-  headerbar box.horizontal.right > button.titlebutton:last-child {
-    margin-right: -6px; }
-  headerbar box.horizontal.left > button.titlebutton:first-child {
-    margin-left: -6px; }
-  headerbar button.titlebutton:not(.appmenu) {
-    background: transparent;
-    /*min-height: auto;*/
-    margin: -6px 0;
-    /*height: auto;*/
-    padding: 15px 10px;
-    border-radius: 0; }
-    headerbar button.titlebutton:not(.appmenu):nth-last-child(-n+2) {
-      margin-left: -6px; }
-    headerbar button.titlebutton:not(.appmenu).minimize {
-      color: #9D8579; }
-      headerbar button.titlebutton:not(.appmenu).minimize:hover {
-        background-color: #9D8579; }
-    headerbar button.titlebutton:not(.appmenu).maximize {
-      color: #D19267; }
-      headerbar button.titlebutton:not(.appmenu).maximize:hover {
-        background-color: #D19267; }
-    headerbar button.titlebutton:not(.appmenu).close {
-      color: #9D5531; }
-      headerbar button.titlebutton:not(.appmenu).close:hover {
-        background-color: #9D5531; }
-    headerbar button.titlebutton:not(.appmenu):hover {
-      color: rgba(0, 0, 0, 0.5); }
-  headerbar button.titlebutton.appmenu:not(:active):not(:checked) {
-    background: transparent; }
 
 entry {
   transition: all 100ms ease-in-out;
@@ -62,7 +33,7 @@ button {
     opacity: 0.3; }
   button:checked, button.suggested-action {
     background: #{{index .ColorMap "fg" "hex"}};
-    color: white; }
+    color: #{{index .ColorMap "bg" "hex"}}; }
     button:checked:hover:not(:active), button.suggested-action:hover:not(:active) {
       background: #d1c4ba; }
   button.destructive-action {
@@ -570,3 +541,10 @@ window.geary-main-window {
     background-image: image(rgba(255, 255, 255, 0));
     background-size: 1px 1px;
     background-position: center center; }
+
+selection, selection:focus {
+ background-color: #{{index .ColorMap "fg" "hex"}};
+ color: #{{index .ColorMap "bg" "hex"}};
+}
+
+@import url("title-button.css");
