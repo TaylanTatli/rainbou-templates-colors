@@ -1,0 +1,181 @@
+# Name: {{.Metadata.Name}} Openbox theme
+# Author: {{.Metadata.Author}} (colorscheme)
+# License: GPL-3.0+
+
+# @TODO: finish replacing the colors here
+
+
+# Menu
+menu.border.color: #{{index .ColorMap "fg" "hex"}}
+
+menu.title.bg: Solid Flat
+menu.title.bg.color: #{{index .ColorMap "bg" "hex"}}
+menu.title.bg.shadow: 0
+menu.title.text.color: #{{index .ColorMap "fg" "hex"}}
+menu.title.text.justify: Center
+
+menu.items.bg: Solid Flat
+menu.items.bg.color: #{{index .ColorMap "bg" "hex"}}
+menu.items.text.color: #{{index .ColorMap "fg" "hex"}}
+menu.items.disabled.text.color: #7ca1ab
+
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #{{index .ColorMap "08" "hex"}}
+menu.items.active.text.color: #{{index .ColorMap "fg" "hex"}}
+
+menu.separator.color: #7ca1ab
+menu.separator.width: 1
+menu.separator.padding.width: 2
+menu.separator.padding.height: 4
+
+# Window focused
+window.active.title.separator.color: #{{index .ColorMap "bg" "hex"}}
+
+# Active window
+window.active.border.color: #{{index .ColorMap "bg" "hex"}}
+
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.active.title.separator.color: #{{index .ColorMap "bg" "hex"}}
+window.active.text.justify: center
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #{{index .ColorMap "fg" "hex"}}
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #{{index .ColorMap "bg" "hex"}}
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #{{index .ColorMap "bg" "hex"}}
+
+window.active.button.unpressed.bg: flat solid
+window.active.button.unpressed.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.active.button.unpressed.image.color: #{{index .ColorMap "fg" "hex"}}
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #{{index .ColorMap "08" "hex"}}
+window.active.button.pressed.image.color: #{{index .ColorMap "fg" "hex"}}
+
+window.active.button.disabled.bg: flat solid
+window.active.button.disabled.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.active.button.disabled.image.color: #7ca1ab
+
+window.active.button.hover.bg: flat solid
+window.active.button.hover.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.active.button.hover.image.color: #{{index .ColorMap "08" "hex"}}
+
+#window.active.button.toggled.bg: #{{index .ColorMap "08" "hex"}}
+#window.active.button.toggled.image.color: #{{index .ColorMap "fg" "hex"}}
+
+# Active Buttons
+window.active.button.close.unpressed.image.color:   #{{index .ColorMap "01" "hex"}}
+window.active.button.close.pressed.image.color:     #{{index .ColorMap "01" "hex"}}
+window.active.button.close.hover.image.color:       #{{index .ColorMap "01" "hex"}}
+
+window.active.button.iconify.unpressed.image.color: #{{index .ColorMap "02" "hex"}}
+window.active.button.iconify.pressed.image.color:   #{{index .ColorMap "02" "hex"}}
+window.active.button.iconify.hover.image.color:     #{{index .ColorMap "02" "hex"}}
+
+window.active.button.max.unpressed.image.color:     #{{index .ColorMap "04" "hex"}}
+window.active.button.max.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
+window.active.button.max.hover.image.color:         #{{index .ColorMap "04" "hex"}}
+
+# Inactive window
+window.inactive.border.color: #{{index .ColorMap "00" "hex"}}
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.inactive.title.separator.color: #{{index .ColorMap "bg" "hex"}}
+window.inactive.text.justify: center
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #7ca1ab
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #{{index .ColorMap "bg" "hex"}}
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #{{index .ColorMap "bg" "hex"}}
+
+window.inactive.button.unpressed.bg: flat solid
+window.inactive.button.unpressed.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.inactive.button.unpressed.image.color: #7ca1ab
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #{{index .ColorMap "08" "hex"}}
+window.inactive.button.pressed.image.color: #{{index .ColorMap "fg" "hex"}}
+
+window.inactive.button.disabled.bg: flat solid
+window.inactive.button.disabled.bg.color: #7ca1ab
+window.inactive.button.disabled.image.color: #{{index .ColorMap "bg" "hex"}}
+
+window.inactive.button.hover.bg: flat solid
+window.inactive.button.hover.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.inactive.button.hover.image.color: #{{index .ColorMap "08" "hex"}}
+
+# Inactive Buttons
+window.inactive.button.close.unpressed.image.color:   #{{index .ColorMap "fg" "hex"}}
+window.inactive.button.close.pressed.image.color:     #{{index .ColorMap "01" "hex"}}
+window.inactive.button.close.hover.image.color:       #{{index .ColorMap "01" "hex"}}
+
+window.inactive.button.iconify.unpressed.image.color: #{{index .ColorMap "fg" "hex"}}
+window.inactive.button.iconify.pressed.image.color:   #{{index .ColorMap "02" "hex"}}
+window.inactive.button.iconify.hover.image.color:     #{{index .ColorMap "02" "hex"}}
+
+window.inactive.button.max.unpressed.image.color:     #{{index .ColorMap "fg" "hex"}}
+window.inactive.button.max.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
+window.inactive.button.max.hover.image.color:         #{{index .ColorMap "04" "hex"}}
+
+
+# OSD
+osd.border.width: 1
+osd.border.color: #{{index .ColorMap "08" "hex"}}
+
+osd.bg: flat solid
+osd.bg.color: #{{index .ColorMap "bg" "hex"}}
+osd.label.bg: flat solid
+osd.label.bg.color: #{{index .ColorMap "bg" "hex"}}
+osd.label.text.color: #{{index .ColorMap "fg" "hex"}}
+
+# OSD
+osd.bg: Solid Flat
+osd.bg.color: #{{index .ColorMap "bg" "hex"}}
+osd.bg.shadow: 0
+
+osd.border.width: 2
+osd.hilight.bg: Solid Flat
+osd.hilight.bg.color: #{{index .ColorMap "08" "hex"}}
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #{{index .ColorMap "bg" "hex"}}
+
+osd.button.unpressed.bg: flat border
+osd.button.unpressed.bg.color: #{{index .ColorMap "08" "hex"}}
+#osd.button.unpressed.*.border.color: #{{index .ColorMap "fg" "hex"}}
+
+osd.button.pressed.bg: flat border
+osd.button.pressed.bg.color: #{{index .ColorMap "08" "hex"}}
+#osd.button.pressed.*.border.color: #{{index .ColorMap "fg" "hex"}}
+
+osd.button.focused.bg: flat solid border
+osd.button.focused.bg.color: #{{index .ColorMap "fg" "hex"}}
+#osd.button.focused.*.border.color: #{{index .ColorMap "bg" "hex"}}
+
+osd.button.focused.box.color: #{{index .ColorMap "08" "hex"}}
+
+
+# Fonts
+window.active.label.text.font:shadow=n
+window.inactive.label.text.font:shadow=n
+menu.items.font:shadow=n
+menu.title.text.font:shadow=n
+
+
+# Everything else
+border.width: 3
+padding.width: 8
+padding.height: 3
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
+#menu.overlap: 0
