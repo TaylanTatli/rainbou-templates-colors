@@ -20,7 +20,7 @@ menu.items.text.color: #{{index .ColorMap "fg" "hex"}}
 menu.items.disabled.text.color: #7ca1ab
 
 menu.items.active.bg: Solid Flat
-menu.items.active.bg.color: #{{index .ColorMap "08" "hex"}}
+menu.items.active.bg.color: #{{index .ColorMap "bg" "hex"}}
 menu.items.active.text.color: #{{index .ColorMap "fg" "hex"}}
 
 menu.separator.color: #7ca1ab
@@ -54,7 +54,7 @@ window.active.button.unpressed.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.active.button.unpressed.image.color: #{{index .ColorMap "fg" "hex"}}
 
 window.active.button.pressed.bg: flat solid
-window.active.button.pressed.bg.color: #{{index .ColorMap "08" "hex"}}
+window.active.button.pressed.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.active.button.pressed.image.color: #{{index .ColorMap "fg" "hex"}}
 
 window.active.button.disabled.bg: flat solid
@@ -65,8 +65,9 @@ window.active.button.hover.bg: flat solid
 window.active.button.hover.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.active.button.hover.image.color: #{{index .ColorMap "08" "hex"}}
 
-#window.active.button.toggled.bg: #{{index .ColorMap "08" "hex"}}
-#window.active.button.toggled.image.color: #{{index .ColorMap "fg" "hex"}}
+window.active.button.toggled.bg: flat solid
+window.active.button.toggled.bg.color: #{{index .ColorMap "bg" "hex"}}
+window.active.button.toggled.image.color: #{{index .ColorMap "fg" "hex"}}
 
 # Active Buttons
 window.active.button.close.unpressed.image.color:   #{{index .ColorMap "01" "hex"}}
@@ -80,6 +81,10 @@ window.active.button.iconify.hover.image.color:     #{{index .ColorMap "02" "hex
 window.active.button.max.unpressed.image.color:     #{{index .ColorMap "04" "hex"}}
 window.active.button.max.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
 window.active.button.max.hover.image.color:         #{{index .ColorMap "04" "hex"}}
+
+window.active.button.max.toggled.unpressed.image.color:     #{{index .ColorMap "04" "hex"}}
+window.active.button.max.toggled.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
+window.active.button.max.toggled.hover.image.color:         #{{index .ColorMap "04" "hex"}}
 
 # Inactive window
 window.inactive.border.color: #{{index .ColorMap "00" "hex"}}
@@ -103,7 +108,7 @@ window.inactive.button.unpressed.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.inactive.button.unpressed.image.color: #7ca1ab
 
 window.inactive.button.pressed.bg: flat solid
-window.inactive.button.pressed.bg.color: #{{index .ColorMap "08" "hex"}}
+window.inactive.button.pressed.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.inactive.button.pressed.image.color: #{{index .ColorMap "fg" "hex"}}
 
 window.inactive.button.disabled.bg: flat solid
@@ -113,6 +118,8 @@ window.inactive.button.disabled.image.color: #{{index .ColorMap "bg" "hex"}}
 window.inactive.button.hover.bg: flat solid
 window.inactive.button.hover.bg.color: #{{index .ColorMap "bg" "hex"}}
 window.inactive.button.hover.image.color: #{{index .ColorMap "08" "hex"}}
+
+window.inactive.button.toggled.bg.color: #{{index .ColorMap "bg" "hex"}}
 
 # Inactive Buttons
 window.inactive.button.close.unpressed.image.color:   #{{index .ColorMap "fg" "hex"}}
@@ -126,6 +133,10 @@ window.inactive.button.iconify.hover.image.color:     #{{index .ColorMap "02" "h
 window.inactive.button.max.unpressed.image.color:     #{{index .ColorMap "fg" "hex"}}
 window.inactive.button.max.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
 window.inactive.button.max.hover.image.color:         #{{index .ColorMap "04" "hex"}}
+
+window.inactive.button.max.toggled.unpressed.image.color:     #{{index .ColorMap "fg" "hex"}}
+window.inactive.button.max.toggled.pressed.image.color:       #{{index .ColorMap "04" "hex"}}
+window.inactive.button.max.toggled.hover.image.color:         #{{index .ColorMap "04" "hex"}}
 
 
 # OSD
@@ -172,7 +183,7 @@ menu.title.text.font:shadow=n
 
 
 # Everything else
-border.width: 3
+border.width: 0
 padding.width: 8
 padding.height: 3
 window.handle.width: 0

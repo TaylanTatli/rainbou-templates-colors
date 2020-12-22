@@ -1,0 +1,31 @@
+metadata:
+  name: TokyoNight
+  author: enkia
+colors:
+  bg: "1b2031"
+  fg: "bbc2e0"
+  cr: "c0caf5"
+
+  00: "414868"
+  08: "414868"
+
+  01: "f7768e"
+  09: "f7768e"
+
+  02: "41b59b"
+  10: "41b59c"
+
+  03: "e0af68"
+  11: "e0af68"
+
+  04: "7ba2f3"
+  12: "7ba2f3"
+
+  05: "bb9af7"
+  13: "bb9af7"
+
+  06: "2ccee9"
+  14: "2ac4df"
+
+  07: "c0caf5"
+  15: "c0caf5"

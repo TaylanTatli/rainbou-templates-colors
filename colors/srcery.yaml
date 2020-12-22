@@ -1,0 +1,31 @@
+metadata:
+  name: Srcery
+  author: Srcery Team
+colors:
+  bg: "1c1b19"
+  fg: "fce8c3"
+  cr: "fbb829"
+
+  00: "1c1b19"
+  08: "918175"
+
+  01: "ef2f27"
+  09: "f75341"
+
+  02: "519f50"
+  10: "98bc37"
+
+  03: "fbb829"
+  11: "fed06e"
+
+  04: "2c78bf"
+  12: "68a8e4"
+
+  05: "e02c6d"
+  13: "ff5c8f"
+
+  06: "0aaeb3"
+  14: "53fde9"
+
+  07: "d0bfa1"
+  15: "fce8c3"
