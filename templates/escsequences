@@ -1,0 +1,28 @@
+#!/bin/sh
+# {{.Metadata.Name}} by {{.Metadata.Author}}
+
+for term in /dev/pts/[0-9]*; do
+	# Colors from 0 to 15
+	[[ -w "$term" ]] && echo -en "\033]4;0;#{{index .ColorMap "00" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;1;#{{index .ColorMap "01" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;2;#{{index .ColorMap "02" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;3;#{{index .ColorMap "03" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;4;#{{index .ColorMap "04" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;5;#{{index .ColorMap "05" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;6;#{{index .ColorMap "06" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;7;#{{index .ColorMap "07" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;8;#{{index .ColorMap "08" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;9;#{{index .ColorMap "09" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;10;#{{index .ColorMap "10" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;11;#{{index .ColorMap "11" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;12;#{{index .ColorMap "12" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;13;#{{index .ColorMap "13" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;14;#{{index .ColorMap "14" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]4;15;#{{index .ColorMap "15" "hex"}}\007" > "$term" &
+
+	# Special colors
+	[[ -w "$term" ]] && echo -en "\033]10;#{{index .ColorMap "fg" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]11;#{{index .ColorMap "bg" "hex"}}\007" > "$term" &
+	[[ -w "$term" ]] && echo -en "\033]12;#{{index .ColorMap "cr" "hex"}}\007" > "$term" &
+done
+# vim: set ft=sh :
