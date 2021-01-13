@@ -1,0 +1,63 @@
+[Background]
+Color={{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}
+
+[BackgroundIntense]
+Color={{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}
+
+[Color0]
+Color={{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}}
+
+[Color0Intense]
+Color={{index .ColorMap "08" "rgb" 0}}, {{index .ColorMap "08" "rgb" 1}}, {{index .ColorMap "08" "rgb" 2}}
+
+[Color1]
+Color={{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}
+
+[Color1Intense]
+Color={{index .ColorMap "09" "rgb" 0}}, {{index .ColorMap "09" "rgb" 1}}, {{index .ColorMap "09" "rgb" 2}}
+
+[Color2]
+Color={{index .ColorMap "02" "rgb" 0}}, {{index .ColorMap "02" "rgb" 1}}, {{index .ColorMap "02" "rgb" 2}}
+
+[Color2Intense]
+Color={{index .ColorMap "10" "rgb" 0}}, {{index .ColorMap "10" "rgb" 1}}, {{index .ColorMap "10" "rgb" 2}}
+
+[Color3]
+Color={{index .ColorMap "03" "rgb" 0}}, {{index .ColorMap "03" "rgb" 1}}, {{index .ColorMap "03" "rgb" 2}}
+
+[Color3Intense]
+Color={{index .ColorMap "11" "rgb" 0}}, {{index .ColorMap "11" "rgb" 1}}, {{index .ColorMap "11" "rgb" 2}}
+
+[Color4]
+Color={{index .ColorMap "04" "rgb" 0}}, {{index .ColorMap "04" "rgb" 1}}, {{index .ColorMap "04" "rgb" 2}}
+
+[Color4Intense]
+Color={{index .ColorMap "12" "rgb" 0}}, {{index .ColorMap "12" "rgb" 1}}, {{index .ColorMap "12" "rgb" 2}}
+
+[Color5]
+Color={{index .ColorMap "05" "rgb" 0}}, {{index .ColorMap "05" "rgb" 1}}, {{index .ColorMap "05" "rgb" 2}}
+
+[Color5Intense]
+Color={{index .ColorMap "13" "rgb" 0}}, {{index .ColorMap "13" "rgb" 1}}, {{index .ColorMap "13" "rgb" 2}}
+
+[Color6]
+Color={{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}
+
+[Color6Intense]
+Color={{index .ColorMap "14" "rgb" 0}}, {{index .ColorMap "14" "rgb" 1}}, {{index .ColorMap "14" "rgb" 2}}
+
+[Color7]
+Color={{index .ColorMap "07" "rgb" 0}}, {{index .ColorMap "07" "rgb" 1}}, {{index .ColorMap "07" "rgb" 2}}
+
+[Color7Intense]
+Color={{index .ColorMap "15" "rgb" 0}}, {{index .ColorMap "15" "rgb" 1}}, {{index .ColorMap "15" "rgb" 2}}
+
+[Foreground]
+Color={{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}
+
+[ForegroundIntense]
+Color={{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}
+
+[General]
+Description={{.Metadata.Name}}
+Opacity=1
