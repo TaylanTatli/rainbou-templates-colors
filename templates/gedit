@@ -40,7 +40,7 @@
   <style name="css:at-rules" foreground="color05"/>
   <style name="css:color" foreground="color07"/>
   <style name="css:keyword" foreground="color03"/>
-  <style name="current-line" background="color0"/>
+  <style name="current-line" background="color00"/>
   <style name="cursor" foreground="colorcr"/>
   <style name="def:base-n-integer" foreground="color09"/>
   <style name="def:boolean" foreground="color09"/>
@@ -71,7 +71,7 @@
   <style name="html:dtd" foreground="color02"/>
   <style name="html:tag" foreground="color01"/>
   <style name="js:function" foreground="color04"/>
-  <style name="line-numbers" foreground="color13" background="color0"/>
+  <style name="line-numbers" foreground="color13" background="color00"/>
   <style name="perl:builtin" foreground="color04"/>
   <style name="perl:include-statement" foreground="color05"/>
   <style name="perl:special-variable" foreground="color09"/>

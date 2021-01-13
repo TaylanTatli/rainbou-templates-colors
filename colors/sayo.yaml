@@ -1,0 +1,31 @@
+metadata:
+  name: sayo
+  author: rayes0
+colors:
+  bg: "2a2a2a"
+  fg: "bebebe"
+  cr: "bebebe"
+
+  00: "2a2a2a"
+  08: "3a3a3a"
+
+  01: "627a8a"
+  09: "627a8a"
+
+  02: "aa8f7c"
+  10: "aa8f7c"
+
+  03: "8b8f7e"
+  11: "8b8f7e"
+
+  04: "987a6b"
+  12: "987a6b"
+
+  05: "877979"
+  13: "877979"
+
+  06: "937f74"
+  14: "937f74"
+
+  07: "bebebe"
+  15: "bebebe"

@@ -7,7 +7,7 @@ window:
     x: 14
     y: 14
   dynamic_padding: true
-  decorations: none
+  decorations: full
   startup_mode: Windowed
   title: Alacritty
   dynamic_title: true

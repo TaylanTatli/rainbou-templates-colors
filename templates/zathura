@@ -1,0 +1,40 @@
+#------------------------------------------------------------
+#  Zathura theme generated with rainbou ({{.Metadata.Name}})
+#------------------------------------------------------------
+
+set adjust-open                 "width"
+set selection-clipboard         "clipboard"
+set font                        "RobotoMono Nerd Font Mono 9"
+
+
+set default-bg                  "#{{index .ColorMap "bg" "hex"}}"
+set default-fg                  "#{{index .ColorMap "fg" "hex"}}"
+
+set statusbar-bg                "#{{index .ColorMap "00" "hex"}}"
+set statusbar-fg                "#{{index .ColorMap "fg" "hex"}}" 
+
+set inputbar-bg                 "#{{index .ColorMap "00" "hex"}}" #currently not used
+set inputbar-fg                 "#{{index .ColorMap "08" "hex"}}"
+
+set notification-error-bg       "#{{index .ColorMap "01" "hex"}}"
+set notification-error-fg       "#{{index .ColorMap "00" "hex"}}"
+
+set notification-warning-bg     "#{{index .ColorMap "01" "hex"}}"
+set notification-warning-fg     "#{{index .ColorMap "00" "hex"}}"
+
+set highlight-color             "#{{index .ColorMap "03" "hex"}}"
+set highlight-active-color      "#{{index .ColorMap "04" "hex"}}"
+
+set completion-highlight-fg     "#{{index .ColorMap "08" "hex"}}"
+set completion-highlight-bg     "#{{index .ColorMap "06" "hex"}}"
+
+set completion-bg               "#{{index .ColorMap "08" "hex"}}"
+set completion-fg               "#{{index .ColorMap "06" "hex"}}"
+
+set notification-bg             "#{{index .ColorMap "02" "hex"}}"
+set notification-fg             "#{{index .ColorMap "00" "hex"}}"
+
+set recolor-lightcolor          "#{{index .ColorMap "bg" "hex"}}"
+set recolor-darkcolor           "#{{index .ColorMap "fg" "hex"}}"
+set recolor                     "false"
+set recolor-keephue             "false"

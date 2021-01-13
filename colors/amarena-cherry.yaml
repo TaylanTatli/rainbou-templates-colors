@@ -1,0 +1,31 @@
+metadata:
+  name: amarena-cherry
+  author: elenapan
+colors:
+  bg: "23232F"
+  fg: "FFFFFF"
+  cr: "FFFFFF"
+
+  00: "242D35"
+  08: "526170"
+
+  01: "FB6396"
+  09: "F92D72"
+
+  02: "94CF95"
+  10: "6CCB6E"
+
+  03: "F692B2"
+  11: "F26190"
+
+  04: "6EC1D6"
+  12: "4CB9D6"
+
+  05: "CD84C8"
+  13: "C269BC"
+
+  06: "7FE4D2"
+  14: "58D6BF"
+
+  07: "FFFFFF"
+  15: "F4F5F2"
