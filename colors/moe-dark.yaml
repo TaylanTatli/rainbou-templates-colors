@@ -1,0 +1,31 @@
+metadata:
+  name: Moe-Dark
+  author: Jomada
+colors:
+  bg: "26292e"
+  fg: "bdc3c7"
+  cr: "bdc3c7"
+
+  00: "32353c"
+  08: "494e58"
+
+  01: "ff597d"
+  09: "e55073"
+
+  02: "2bb1af"
+  10: "28a5a3"
+
+  03: "39abdc"
+  11: "369ecf"
+
+  04: "ff6277"
+  12: "ff596c"
+
+  05: "c679dd"
+  13: "c678dd"
+
+  06: "ffe185"
+  14: "ffe080"
+
+  07: "9cacad"
+  15: "4a5f6a"
