@@ -1,0 +1,9 @@
+* {
+    background:                     #{{index .ColorMap "bg" "hex"}}FF;
+    background-alt:                 #{{index .ColorMap "00" "hex"}}FF;
+    background-tra:                 #{{index .ColorMap "00" "hex"}}4D;
+    foreground:                     #{{index .ColorMap "fg" "hex"}}FF;
+    border:                         #{{index .ColorMap "00" "hex"}}FF;
+    accent:                         #{{index .ColorMap "01" "hex"}}FF;
+    trans:                          #{{index .ColorMap "bg" "hex"}}00;
+}

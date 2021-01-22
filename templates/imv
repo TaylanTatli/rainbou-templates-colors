@@ -1,0 +1,64 @@
+# Default config for imv
+
+[options]
+background = {{index .ColorMap "bg" "hex"}}
+fullscreen = false
+width = 500
+height = 400
+loop_input = true
+overlay = false
+overlay_font = Roboto Medium:10
+overlay_background_color = {{index .ColorMap "00" "hex"}}
+overlay_background_alpha = ff
+overlay_text_color = {{index .ColorMap "fg" "hex"}}
+overlay_text_alpha = ff
+recursively = true
+scaling_mode = full
+suppress_default_binds = true
+
+[aliases]
+
+[binds]
+q = quit
+#y = exec echo working!
+
+# Image navigation
+<Left> = prev
+<bracketleft> = prev
+<Right> = next
+<bracketright> = next
+gg = goto 0
+<Shift+G> = goto -1
+
+# Panning
+j = pan 0 -50
+k = pan 0 50
+h = pan 50 0
+l = pan -50 0
+
+# Zooming
+<Up> = zoom 1
+<Shift+plus> = zoom 1
+i = zoom 1
+<Down> = zoom -1
+<minus> = zoom -1
+o = zoom -1
+
+# Other commands
+x = close
+f = fullscreen
+d = overlay
+p = exec echo $imv_current_file
+c = center
+s = scaling next
+<Shift+S> = upscaling next
+a = zoom actual
+r = reset
+
+# Gif playback
+<period> = next_frame
+<space> = toggle_playing
+
+# Slideshow control
+t = slideshow +1
+<Shift+T> = slideshow -1

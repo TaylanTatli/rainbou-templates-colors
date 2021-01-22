@@ -1,0 +1,120 @@
+/** Global **/
+
+:root {
+  --tabbar-bg: #{{index .ColorMap "00" "hex"}} !important;
+  --in-content-page-background: #{{index .ColorMap "bg" "hex"}} !important;
+  --in-content-page-color: #{{index .ColorMap "fg" "hex"}} !important;
+
+  /** Page defaults to "dark" scrollbar **/
+  scrollbar-color: #c1c1c1 var(--in-content-page-background);
+  scrollbar-width: thin;
+}
+
+/** Blank pages, GitHub raw files, and local files **/
+
+@-moz-document url-prefix("about:blank"),
+  regexp("^https?:\/\/raw\.githubusercontent\.com\/.*"),
+  url-prefix("file:///") {
+  html {
+    background-color: var(--in-content-page-background);
+    color: var(--in-content-page-color);
+    font-size: 1.25em;
+  }
+}
+
+/** Reader mode **/
+
+@-moz-document url-prefix("about:reader") {
+  :root {
+    --toolbar-dark-background-color: var(--tabbar-bg);
+    --toolbar-dark-text-color: var(--in-content-page-color);
+    --reader-dark-background-color: var(--in-content-page-background);
+    --reader-dark-text-color: var(--in-content-page-color);
+  }
+
+  body.serif {
+    font-family: serif !important;
+  }
+
+  body.sans-serif {
+    font-family: sans-serif !important;
+  }
+
+  body.dark {
+    background-color: var(--reader-dark-background-color) !important;
+    color: var(--reader-dark-text-color) !important;
+  }
+
+  body.dark .domain {
+    color: #2980b9 !important;
+    border-bottom: 0 !important;
+  }
+
+  body.dark .domain:hover {
+    color: #5294e2 !important;
+  }
+
+  body.dark .toolbar {
+    background-color: var(--toolbar-dark-background-color) !important;
+    color: var(--toolbar-dark-text-color) !important;
+    border-right: 1px solid #666a73 !important;
+  }
+
+  body.dark .style-button,
+  body.dark .close-button {
+    background-image: none !important;
+    background-color: var(--toolbar-dark-background-color) !important;
+    border-color: #666a73 !important;
+  }
+
+  body.dark .style-button::after,
+  body.dark .close-button::after {
+    color: var(--toolbar-dark-text-color) !important;
+    font-size: 22px;
+  }
+
+  body.dark .style-button::after {
+    content: 'Aa';
+  }
+
+  body.dark .close-button::after {
+    content: '←';
+  }
+}
+
+/** Home and new tab **/
+
+@-moz-document url-prefix("about:home"), url-prefix("about:newtab") {
+  body {
+    --newtab-background-color: var(--in-content-page-background) !important;
+    --newtab-text-primary-color: var(--in-content-page-color) !important;
+    --newtab-text-secondary-color: #d7d7db !important;
+    --newtab-textbox-background-color: #383838 !important;
+    --newtab-snippets-background-color: #282828 !important;
+    --newtab-snippets-hairline-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.2) !important;
+    --newtab-section-header-text-color: #d7d7db !important;
+    --newtab-search-wordmark-color: #{{index .ColorMap "fg" "hex"}} !important;
+    --newtab-icon-primary-color: #{{index .ColorMap "fg" "hex"}} !important;
+    --newtab-element-hover-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.1) !important;
+    --newtab-link-primary-color: #45a1ff !important;
+    --newtab-search-dropdown-color: #202023 !important;
+    --newtab-search-dropdown-header-color: #202023 !important;
+    --newtab-border-secondary-color: rgba(#{{index .ColorMap "fg" "hex"}}0, 0.05) !important;
+    --newtab-search-icon-color: #{{index .ColorMap "fg" "hex"}} !important;
+    --newtab-contextmenu-background-color: #{{index .ColorMap "bg" "hex"}} !important;
+    --newtab-topsites-background-color: #{{index .ColorMap "00" "hex"}} !important;
+    --newtab-contextmenu-button-color: #{{index .ColorMap "00" "hex"}} !important;
+  }
+
+  .ASRouterButton.secondary {
+    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.1) !important;
+  }
+
+  .ASRouterButton.secondary:hover {
+    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.15) !important;
+  }
+
+  .ASRouterButton.secondary:active {
+    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.2) !important;
+  }
+}
