@@ -91,30 +91,32 @@
     --newtab-text-secondary-color: #d7d7db !important;
     --newtab-textbox-background-color: #383838 !important;
     --newtab-snippets-background-color: #282828 !important;
-    --newtab-snippets-hairline-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.2) !important;
+    --newtab-snippets-hairline-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.2) !important;
     --newtab-section-header-text-color: #d7d7db !important;
     --newtab-search-wordmark-color: #{{index .ColorMap "fg" "hex"}} !important;
     --newtab-icon-primary-color: #{{index .ColorMap "fg" "hex"}} !important;
-    --newtab-element-hover-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.1) !important;
+    --newtab-element-hover-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.1) !important;
     --newtab-link-primary-color: #45a1ff !important;
     --newtab-search-dropdown-color: #202023 !important;
     --newtab-search-dropdown-header-color: #202023 !important;
-    --newtab-border-secondary-color: rgba(#{{index .ColorMap "fg" "hex"}}0, 0.05) !important;
+    --newtab-border-secondary-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}0, 0.05) !important;
     --newtab-search-icon-color: #{{index .ColorMap "fg" "hex"}} !important;
     --newtab-contextmenu-background-color: #{{index .ColorMap "bg" "hex"}} !important;
     --newtab-topsites-background-color: #{{index .ColorMap "00" "hex"}} !important;
     --newtab-contextmenu-button-color: #{{index .ColorMap "00" "hex"}} !important;
+    --newtab-modal-color: var(--tabbar-bg) !important;
+    --newtab-overlay-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.9) !important;
   }
 
   .ASRouterButton.secondary {
-    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.1) !important;
   }
 
   .ASRouterButton.secondary:hover {
-    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.15) !important;
+    background-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.15) !important;
   }
 
   .ASRouterButton.secondary:active {
-    background-color: rgba(#{{index .ColorMap "fg" "hex"}}, 0.2) !important;
+    background-color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.2) !important;
   }
 }

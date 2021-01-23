@@ -15,7 +15,7 @@
 		--gnome-toolbar-border-color: #1b1b1b;
 		--gnome-toolbar-icon-fill: #eeeeec;
 		--gnome-inactive-toolbar-color: #919190;
-		--gnome-inactive-toolbar-background: #353535;	
+		--gnome-inactive-toolbar-background: rgb({{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}});	
 		--gnome-inactive-toolbar-border-color: #202020;
 		--gnome-inactive-toolbar-icon-fill: #919190;
 
@@ -36,7 +36,7 @@
 		--gnome-headerbar-background: #{{index .ColorMap "bg" "hex"}};
 		--gnome-headerbar-border-color: #070707;
 		--gnome-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
-		--gnome-inactive-headerbar-background: linear-gradient(#353535, #353535);
+		--gnome-inactive-headerbar-background: rgb({{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}});
 		--gnome-inactive-headerbar-border-color: #202020;
 		--gnome-inactive-headerbar-box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
 
@@ -53,7 +53,7 @@
 		--gnome-button-disabled-background: #{{index .ColorMap "00" "hex"}}12;
 		--gnome-button-disabled-border-color: #202020;
 		--gnome-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-		--gnome-inactive-button-background: linear-gradient(#353535, #353535);
+		--gnome-inactive-button-background: rgb({{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}});
 		--gnome-inactive-button-border-color: #202020;
 		--gnome-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
 		--gnome-button-suggested-action-background: linear-gradient(to top, #155099 2px, #864780);
@@ -78,7 +78,7 @@
 		--gnome-entry-border-color: #1b1b1b;
 		--gnome-entry-box-shadow: inset 0 0 0 1px rgba(21, 83, 158, 0);
 		--gnome-entry-color: #{{index .ColorMap "fg" "hex"}};
-		--gnome-inactive-entry-background: linear-gradient(#303030, #303030);
+		--gnome-inactive-entry-background: rgb({{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}});
 		--gnome-inactive-entry-border-color: #202020;
 		--gnome-inactive-entry-box-shadow: none;
 		--gnome-inactive-entry-color: #d6d6d6;
@@ -109,7 +109,7 @@
 		--gnome-tabbar-tab-active-hover-background: #313131;
 		--gnome-inactive-tabbar-tab-color: rgb(141, 144, 145);
 		--gnome-inactive-tabbar-tab-background: #2e2e2e;
-		--gnome-inactive-tabbar-tab-active-background: #353535;
+		--gnome-inactive-tabbar-tab-active-background: rgb({{index .ColorMap "00" "rgb" 0}}, {{index .ColorMap "00" "rgb" 1}}, {{index .ColorMap "00" "rgb" 2}});
 		--gnome-inactive-tabbar-tab-active-border-bottom-color: #864780;
 		--gnome-inactive-tabbar-tab-active-color: rgb(141, 144, 145);  
 	}

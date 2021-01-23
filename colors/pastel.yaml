@@ -4,7 +4,7 @@ metadata:
 colors:
   bg: "FFFCFD"
   fg: "250E07"
-  cr: ""
+  cr: "250E07"
 
   00: "F3EAE9"
   08: "D8B8B3"

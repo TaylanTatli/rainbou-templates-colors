@@ -53,10 +53,10 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
 //  private call
 .wrapper-2qzCYF.minimum-28Z35l {
-  background-color: rgba({{index .ColorMap "bg" "hex"}}, 0.8) !important;
+  background-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8) !important;
 }
 .centerButton-3CaNcJ {
-  background: rgba({{index .ColorMap "bg" "hex"}}, 0.6);
+  background: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.6);
 }
 
 //  channel list 
@@ -90,7 +90,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 .nameDefaultVoice-3WUH7s,
 .nameLockedText-3pqQcL,
 .nameLockedVoice-26MhB1 {
-  color: rgba({{index .ColorMap "fg" "hex"}}, 0.5) !important;
+  color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.5) !important;
 }
 
 //  channel group name 
@@ -98,13 +98,13 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 .iconDefault-3Gr8d2,
 .nameCollapsed-34uFWo,
 .nameDefault-2DI02H {
-  color: rgba({{index .ColorMap "fg" "hex"}}, 0.7) !important;
+  color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.7) !important;
 }
 
 //  muted channels 
 .nameMutedText-3Vj4bM,
 .nameMutedVoice-3oxyQZ {
-  color: rgba({{index .ColorMap "fg" "hex"}}, 0.2) !important;
+  color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.2) !important;
 }
 
 //  unread channels left dot 
@@ -114,20 +114,20 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 
 //  box around select channel 
 .contentSelectedText-3wUhMi {
-  background: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+  background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
 }
 
 //  box on channel hover 
 .contentHoveredText-2D9B-x,
 .contentHoveredVoice-3p_NEO:active,
 .contentSelectedVoice-1WDIBM:active {
-  background: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
 
 //  voice connected 
 .container-1UB9sr {
   background-color: $bgDarker !important;
-  border-bottom: 1px solid rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  border-bottom: 1px solid rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
 
 //  avatar container 
@@ -141,7 +141,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 
 //  "New Unreads" 
 .unread-1xRYoj {
-  background-color: rgba({{index .ColorMap "06" "hex"}}, 0.75) !important;
+  background-color: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.75) !important;
 }
 
 //  textbox margins 
@@ -151,7 +151,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 
 //  input form background
 .inner-zqa7da {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
 
 //  attachment button color 
@@ -175,15 +175,15 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background-color: {{index .ColorMap "bg" "hex"}} !important;
 }
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
-  color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
-  border-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+  color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
+  border-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
 }
 
 //  messages - form separator 
 .chat form,
 .chat-3bRxxu form {
   background-color: {{index .ColorMap "bg" "hex"}} !important;
-  box-shadow: 0 -1px 0 rgba({{index .ColorMap "06" "hex"}}, 0.1) !important;
+  box-shadow: 0 -1px 0 rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.1) !important;
 }
 
 //  "Load More Messages" button 
@@ -194,12 +194,12 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
 
 .jump-to-present-bar {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
 }
 
 //  edit message box 
 .inner-zqa7da {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
 
 //  divider is what displays the date for older messages 
@@ -209,10 +209,10 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     background-color: {{index .ColorMap "bg" "hex"}} !important;
   }
   &:not(.red) div {
-    background: rgba({{index .ColorMap "01" "hex"}}, 0.3) !important;
+    background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.3) !important;
   }
   &:not(.red) span {
-    color: rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+    color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
   }
   &.divider-red {
     & > span {
@@ -235,13 +235,13 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
   //  reaction menu
 .wrapper-2aW0bm {
-  background-color: rgba({{index .ColorMap "bg" "hex"}}, 0.8) !important;
+  background-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8) !important;
 }
 
 //  bar displayed at the top of the messages when there are unread ones 
 .new-messages-bar,
 .newMessagesBar-mujexs {
-  background-color: rgba({{index .ColorMap "06" "hex"}}, 0.9) !important;
+  background-color: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.9) !important;
 }
 
 //  message container 
@@ -275,7 +275,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 
   //  message with user mention 
   .mentioned .message-text {
-    background-color: rgba({{index .ColorMap "06" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.1) !important;
     &:after {
       background: transparent !important;
       border-left-color: {{index .ColorMap "06" "hex"}} !important;
@@ -284,11 +284,11 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
     //  user mention fix
 .wrapper-3WhCwL {
-  color: rgba({{index .ColorMap "06" "hex"}}, 0.8) !important;
+  color: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.8) !important;
 }
    //  mentioned background
 .mentioned-xhSam7 {
-  background-color: rgba({{index .ColorMap "06" "hex"}}, 0.1) !important;
+  background-color: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.1) !important;
 }
 .mentioned-xhSam7:before {
   background-color: {{index .ColorMap "06" "hex"}} !important;
@@ -302,7 +302,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background: {{index .ColorMap "bg" "hex"}} !important;
 }
 .selected-aXhQR6 .layout-2DM8Md {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important; 
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important; 
 }
 
 //  user typing message 
@@ -314,7 +314,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 .title-3qD0b- {
   background-color: $bgDarker !important;
   .search-bar {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
   }
 }
 .container-1r6BKw.themed-ANHk51 {
@@ -329,9 +329,9 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
 .guilds-add,
 .circleIconButton-jET_ig {
-  border: 1px dashed rgba({{index .ColorMap "01" "hex"}}, 0.3) !important;
+  border: 1px dashed rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.3) !important;
   background: inherit !important;
-  color: rgba({{index .ColorMap "01" "hex"}}, 0.4) !important;
+  color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.4) !important;
 }
 .guild .guild-inner,
 .guild-1EfMGQ .guild-inner,
@@ -341,7 +341,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 .guild.unread:before,
 .guild-1EfMGQ.unread-qLkInr:before,
 .wrapper-232cHJ {
-  background: rgba({{index .ColorMap "06" "hex"}}, 0.65) !important;
+  background: rgba({{index .ColorMap "06" "rgb" 0}}, {{index .ColorMap "06" "rgb" 1}}, {{index .ColorMap "06" "rgb" 2}}, 0.65) !important;
 }
 
 //  n friends online 
@@ -355,7 +355,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 .menu-Sp6bN1 {
   background: {{index .ColorMap "bg" "hex"}} !important;
   .separator-2zcjq8 {
-    background: rgba({{index .ColorMap "01" "hex"}}, 0.4) !important;
+    background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.4) !important;
   }
 }
 
@@ -376,7 +376,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     background-color: {{index .ColorMap "bg" "hex"}} !important;
     //  jump 
     .actionButtons-1sUUug .jumpButton-3DTcS_ {
-      background-color: rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+      background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
     }
   }
 }
@@ -416,7 +416,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     background-color: $bgDarker !important;
   }
   .thumb-2JwNFC {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
   }
 }
 
@@ -424,12 +424,12 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   //  box around selected chat 
 .channel.selected a,
 .channel-2QD9_O.selected-1HYmZZ a {
-  background: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+  background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
 }
   //  box on hover 
 .channel:hover a,
 .channel-2QD9_O:hover a {
-  background: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  background: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
   // create dm popup
 .theme-dark .modal-yWgWj- {
@@ -449,18 +449,18 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     background-color: {{index .ColorMap "bg" "hex"}} !important;
     .friends-row:hover,
     .friendsRow-2yicud:hover {
-      background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+      background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
     }
     .friends-row,
     .friendsRow-2yicud {
       .friends-column-actions .friends-action {
-        background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+        background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
       }
     }
     .friends-row,
     .friendsRow-2yicud {
       .friends-column-actions .friends-action:hover {
-        background-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+        background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
       }
     }
   }
@@ -470,7 +470,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background: {{index .ColorMap "bg" "hex"}} !important;
 }
 .theme-dark .container-1D34oG {
-  background-color: rgba({{index .ColorMap "bg" "hex"}}, 0.8) !important;
+  background-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8) !important;
 }
 
 //  quick switcher (ctrl + k) 
@@ -478,15 +478,15 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background-color: {{index .ColorMap "bg" "hex"}} !important;
   //  input 
   .input-2VB9rf {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
   }
   //  focused search result 
   .resultFocused-3aIoYe {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
   }
   .keybindShortcut-1BD6Z1 span {
     background-color: {{index .ColorMap "06" "hex"}} !important;
-    box-shadow: inset 0 -4px 0 rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+    box-shadow: inset 0 -4px 0 rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
   }
 }
 
@@ -495,7 +495,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background-color: $bgDarker !important;
   //  background on hover 
   .option-96V44q.selected-rZcOL- {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
   }
 }
 .theme-dark .container-3ayLPN {
@@ -525,7 +525,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background-color: $bgDarker !important;
   //  on hover 
   .selectorSelected-1_M1WV {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
   }
 }
 
@@ -541,7 +541,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
   //  send dm from popout 
 .quickMessage-1yeL4E {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.1) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.1) !important;
 }
 
 //  right-click 
@@ -553,7 +553,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   }
   //  divider 
   .itemGroup-1tL0uz {
-    border-color: rgba({{index .ColorMap "01" "hex"}}, 0.05) !important;
+    border-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.05) !important;
   }
   //  volume slider in user popup 
   .bar-2Qqk5Z {
@@ -575,7 +575,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
       background-color: $bgDarker !important;
     }
     &:before {
-      border-color: rgba({{index .ColorMap "01" "hex"}}, 0.2) !important;
+      border-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.2) !important;
     }
   }
   .search-result {
@@ -583,7 +583,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     &:after {
       background-image: linear-gradient(
         0deg,
-        rgba({{index .ColorMap "01" "hex"}}, 0),
+        rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0),
         $bgDarker
       ) !important;
     }
@@ -601,7 +601,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
     }
   }
   .action-buttons .jump-button {
-    background-color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
+    background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
   }
 }
 
@@ -610,7 +610,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background-color: rgba($bgDarker, 0.6) !important;
 }
 .itemGroup-1tL0uz {
-  border-color: rgba({{index .ColorMap "bg" "hex"}}, 0.2) !important;
+  border-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.2) !important;
 }
 .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
   background-color: {{index .ColorMap "01" "hex"}} !important;
@@ -649,29 +649,29 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 }
   //  favourite tint
 .theme-dark .categoryFadeBlurple-1j72_A, .theme-light .categoryFadeBlurple-1j72_A {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
 }
 
 //  toolbar
 .toolbar-2bjZV7 {
-  background-color: rgba({{index .ColorMap "bg" "hex"}}, 0.4) !important;
+  background-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.4) !important;
 }
 
 //  tooltips
 .theme-dark .tooltipBrand-g03Nz8, .theme-light .tooltipBrand-g03Nz8 {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
 }
 .introductionAction-M1r6AX {
-  color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
+  color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
 }
 .content-3O0wBS {
-  background: rgba({{index .ColorMap "bg" "hex"}}, 0.8) !important;
+  background: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8) !important;
 }
 .content-3O0wBS .button-3zdF3z {
-  color: rgba({{index .ColorMap "bg" "hex"}}, 0.8) !important;
+  color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.8) !important;
 }
 .theme-dark .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK, .theme-light .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
-  border-top-color: rgba({{index .ColorMap "01" "hex"}}, 0.8) !important;
+  border-top-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.8) !important;
 }
 
 //  settings menu
@@ -682,7 +682,7 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
   background: rgba($bgDarker, 0.8) !important;
 }
 .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
-  border-color: rgba({{index .ColorMap "bg" "hex"}}, 0.4) !important;
+  border-color: rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.4) !important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
   background-color: {{index .ColorMap "01" "hex"}} !important;
@@ -698,13 +698,13 @@ $bgDarker: mix({{index .ColorMap "bg" "hex"}}, #000, 90%);
 //  public server browser
   //  highlight
 .categoryPill-34fszg.selected-1dONk0 {
-  background-color: rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+  background-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
 }   //  search panel
 .searchPage-3GKAdT .search-1iTphC {
   background-color: rgba($bgDarker, 0.4) !important;
 }
 .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus, .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus-within {
-  border-color: rgba({{index .ColorMap "01" "hex"}}, 0.6) !important;
+  border-color: rgba({{index .ColorMap "01" "rgb" 0}}, {{index .ColorMap "01" "rgb" 1}}, {{index .ColorMap "01" "rgb" 2}}, 0.6) !important;
 }
   //  language panel
 .css-1b86x2o-control {
