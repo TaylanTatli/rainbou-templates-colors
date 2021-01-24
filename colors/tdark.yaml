@@ -1,0 +1,31 @@
+metadata:
+  name: tdark
+  author: TaylanTatli
+colors:
+  bg: "121417"
+  fg: "fce8c3"
+  cr: "fce8c3"
+
+  00: "16181D"
+  08: "2d2f33"
+
+  01: "a51e3a"
+  09: "bd3e58"
+
+  02: "ad9323"
+  10: "cfb43d"
+
+  03: "a7551c"
+  11: "c2723c"
+
+  04: "2972b2"
+  12: "4090c5"
+
+  05: "a32f74"
+  13: "cd4c99"
+
+  06: "1bb071"
+  14: "49d198"
+
+  07: "c5af86"
+  15: "ffffff"

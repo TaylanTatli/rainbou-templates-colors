@@ -1,0 +1,19 @@
+<svg id="previews" width="770" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect id="background" x="-2.5e-7" y="-1.3549e-6" width="770" height="250" fill="#{{index .ColorMap "bg" "hex"}}"/>
+  <rect id="color00" x="30" y="30" width="80" height="80" fill="#{{index .ColorMap "00" "hex"}}"/>
+  <rect id="color08" x="30" y="140" width="80" height="80" fill="#{{index .ColorMap "08" "hex"}}"/>
+  <rect id="color01" x="120" y="30" width="80" height="80" fill="#{{index .ColorMap "01" "hex"}}"/>
+  <rect id="color09" x="120" y="140" width="80" height="80" fill="#{{index .ColorMap "09" "hex"}}"/>
+  <rect id="color02" x="210" y="30" width="80" height="80" fill="#{{index .ColorMap "02" "hex"}}"/>
+  <rect id="color10" x="210" y="140" width="80" height="80" fill="#{{index .ColorMap "10" "hex"}}"/>
+  <rect id="color03" x="300" y="30" width="80" height="80" fill="#{{index .ColorMap "03" "hex"}}"/>
+  <rect id="color11" x="300" y="140" width="80" height="80" fill="#{{index .ColorMap "11" "hex"}}"/>
+  <rect id="color04" x="390" y="30" width="80" height="80" fill="#{{index .ColorMap "04" "hex"}}"/>
+  <rect id="color12" x="390" y="140" width="80" height="80" fill="#{{index .ColorMap "12" "hex"}}"/>
+  <rect id="color05" x="480" y="30" width="80" height="80" fill="#{{index .ColorMap "05" "hex"}}"/>
+  <rect id="color13" x="480" y="140" width="80" height="80" fill="#{{index .ColorMap "13" "hex"}}"/>
+  <rect id="color06" x="570" y="30" width="80" height="80" fill="#{{index .ColorMap "06" "hex"}}"/>
+  <rect id="color14" x="570" y="140" width="80" height="80" fill="#{{index .ColorMap "14" "hex"}}"/>
+  <rect id="color07" x="660" y="30" width="80" height="80" fill="#{{index .ColorMap "07" "hex"}}"/>
+  <rect id="color15" x="660" y="140" width="80" height="80" fill="#{{index .ColorMap "15" "hex"}}"/>
+</svg>

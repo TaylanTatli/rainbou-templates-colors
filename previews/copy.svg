@@ -1,0 +1,19 @@
+<svg id="previews" width="770" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect id="background" x="-2.5e-7" y="-1.3549e-6" width="770" height="250" fill="#1d293d"/>
+  <rect id="color00" x="30" y="30" width="80" height="80" fill="#666666"/>
+  <rect id="color08" x="30" y="140" width="80" height="80" fill="#808080"/>
+  <rect id="color01" x="120" y="30" width="80" height="80" fill="#cc6666"/>
+  <rect id="color09" x="120" y="140" width="80" height="80" fill="#e67373"/>
+  <rect id="color02" x="210" y="30" width="80" height="80" fill="#66cc99"/>
+  <rect id="color10" x="210" y="140" width="80" height="80" fill="#73e6ac"/>
+  <rect id="color03" x="300" y="30" width="80" height="80" fill="#cc9966"/>
+  <rect id="color11" x="300" y="140" width="80" height="80" fill="#f2b679"/>
+  <rect id="color04" x="390" y="30" width="80" height="80" fill="#6699cc"/>
+  <rect id="color12" x="390" y="140" width="80" height="80" fill="#73ace6"/>
+  <rect id="color05" x="480" y="30" width="80" height="80" fill="#cc6699"/>
+  <rect id="color13" x="480" y="140" width="80" height="80" fill="#e673ac"/>
+  <rect id="color06" x="570" y="30" width="80" height="80" fill="#66cccc"/>
+  <rect id="color14" x="570" y="140" width="80" height="80" fill="#73e6e6"/>
+  <rect id="color07" x="660" y="30" width="80" height="80" fill="#cccccc"/>
+  <rect id="color15" x="660" y="140" width="80" height="80" fill="#e6e6e6"/>
+</svg>
