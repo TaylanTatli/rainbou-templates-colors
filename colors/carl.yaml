@@ -1,0 +1,31 @@
+metadata:
+  name: carl
+  author: Jomada
+colors:
+  bg: "111216"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "2B2B2B"
+  08: "4A4A4A"
+
+  01: "FE3762"
+  09: "FE2E58"
+
+  02: "2AACAA"
+  10: "33C9C8"
+
+  03: "F83294"
+  11: "F02D89"
+
+  04: "4983FF"
+  12: "3E76FF"
+
+  05: "CB76F7"
+  13: "B767DF"
+
+  06: "5CC7D1"
+  14: "56B6C1"
+
+  07: "9CACAC"
+  15: "495F6A"
