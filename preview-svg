@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir -p ~/.config/rainbou/previews
+
+for scheme in $(rainbou ls s); do
+  rainbou $scheme preview >~/.config/rainbou/previews/${scheme}.svg
+  #sleep 0.1
+done
