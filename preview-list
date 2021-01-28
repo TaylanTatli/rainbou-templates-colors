@@ -6,6 +6,7 @@ i=0
 echo "# Rainbou Colors" > $OUTPUT
 for svg in `find $images -maxdepth 1 -mindepth 1 -type f| sort`; do
   image=`basename $svg`
-  echo "## $image" >> $OUTPUT
+  title=`echo $image | sed -e 's/\.svg//'`
+  echo "## $title" >> $OUTPUT
   echo "![$image](./previews/$image)  " >> $OUTPUT
 done
