@@ -1,6 +1,7 @@
 #!/bin/sh
 
 mkdir -p ~/.config/rainbou/previews
+rm ~/.config/rainbou/previews/*.svg
 
 for scheme in $(rainbou ls s); do
   rainbou $scheme preview >~/.config/rainbou/previews/${scheme}.svg
