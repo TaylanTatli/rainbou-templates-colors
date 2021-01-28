@@ -19,6 +19,8 @@
 ![antique.svg](./previews/antique.svg)  
 ## ao
 ![ao.svg](./previews/ao.svg)  
+## aurorax
+![aurorax.svg](./previews/aurorax.svg)  
 ## autobahn
 ![autobahn.svg](./previews/autobahn.svg)  
 ## azar
@@ -111,14 +113,14 @@
 ![cabin.svg](./previews/cabin.svg)  
 ## candy2
 ![candy2.svg](./previews/candy2.svg)  
-## candyshop
-![candyshop.svg](./previews/candyshop.svg)  
 ## candy
 ![candy.svg](./previews/candy.svg)  
 ## carl
 ![carl.svg](./previews/carl.svg)  
 ## cathulu
 ![cathulu.svg](./previews/cathulu.svg)  
+## celestial
+![celestial.svg](./previews/celestial.svg)  
 ## chaires
 ![chaires.svg](./previews/chaires.svg)  
 ## charlie_brown
