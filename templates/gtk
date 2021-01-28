@@ -12,7 +12,7 @@ entry {
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid transparent;
   padding: 6px;
-  border-radius: 5px; }
+  border-radius: 0; }
   entry:focus {
     border-color: #{{index .ColorMap "fg" "hex"}};
     background: rgba(255, 255, 255, 0.1); }

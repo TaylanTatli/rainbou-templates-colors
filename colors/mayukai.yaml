@@ -1,0 +1,31 @@
+metadata:
+  name: mayukai
+  author: elianiva
+colors:
+  bg: "0D1016"
+  fg: "cbccc6"
+  cr: "cbccc6"
+
+  00: "080C11"
+  08: "686868"
+
+  01: "ed8274"
+  09: "f28779"
+
+  02: "a6cc70"
+  10: "bae67e"
+
+  03: "fad07b"
+  11: "ffd580"
+
+  04: "95e6cb"
+  12: "95e6cb"
+
+  05: "cfbafa"
+  13: "d4bfff"
+
+  06: "95e6cb"
+  14: "95e6cb"
+
+  07: "c7c7c7"
+  15: "ffffff"

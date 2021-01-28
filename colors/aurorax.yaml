@@ -1,0 +1,31 @@
+metadata:
+  name: AuroraX
+  author: marqu3ss
+colors:
+  bg: "07090F"
+  fg: "b2ccd6"
+  cr: "b2ccd6"
+
+  00: "000000"
+  08: "262e47"
+
+  01: "dd5073"
+  09: "ff5370"
+
+  02: "63eb90"
+  10: "c3e88d"
+
+  03: "ffcb6b"
+  11: "e6db7f"
+
+  04: "576daf"
+  12: "82aaff"
+
+  05: "c778db"
+  13: "c792ea"
+
+  06: "c17e70"
+  14: "f78c6c"
+
+  07: "eeffff"
+  15: "ffffff"

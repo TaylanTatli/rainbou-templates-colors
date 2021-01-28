@@ -1,13 +1,13 @@
 metadata:
-  name: horizon
-  author: jolaleye
+  name: celestial
+  author: apvarun
 colors:
-  bg: "1d1f27"
+  bg: "0b0c0f"
   fg: "d5d8da"
   cr: "d5d8da"
 
-  00: "2e303e"
-  08: "6c6f93"
+  00: "0e0f13"
+  08: "1e1f28"
 
   01: "e95678"
   09: "ec6a88"
