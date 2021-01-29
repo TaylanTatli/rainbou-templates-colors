@@ -149,3 +149,11 @@
 		--gnome-private-tabbar-tab-active-border-bottom-color: rgb(158, 70, 224);
 	}
 }
+/* Menu */
+menu[disabled="true"], menuitem[disabled="true"], menucaption[disabled="true"] {
+    color: gray !important;
+}
+menu[_moz-menuactive="true"], menuitem[_moz-menuactive="true"] {
+    color: #{{index .ColorMap "fg" "hex"}} !important;
+    background-color: #{{index .ColorMap "01" "hex"}} !important;
+}

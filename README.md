@@ -309,6 +309,8 @@
 ![monokai-extended.svg](./previews/monokai-extended.svg)  
 ## monokai-soda
 ![monokai-soda.svg](./previews/monokai-soda.svg)  
+## monokai
+![monokai.svg](./previews/monokai.svg)  
 ## monolime
 ![monolime.svg](./previews/monolime.svg)  
 ## mono

@@ -1,0 +1,31 @@
+metadata:
+  name: Monokai
+  author: Base16
+colors:
+  bg: "272822"
+  fg: "f8f8f2"
+  cr: "f8f8f2"
+
+  00: "1f201b"
+  08: "75715e"
+
+  01: "f92672"
+  09: "f92672"
+
+  02: "a6e22e"
+  10: "a6e22e"
+
+  03: "f4bf75"
+  11: "f4bf75"
+
+  04: "66d9ef"
+  12: "66d9ef"
+
+  05: "ae81ff"
+  13: "ae81ff"
+
+  06: "a1efe4"
+  14: "a1efe4"
+
+  07: "f8f8f2"
+  15: "f9f8f5"
