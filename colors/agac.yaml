@@ -1,0 +1,31 @@
+metadata:
+  name: Ağaç
+  author: TaylanTatli
+colors:
+  bg: "201e1a"
+  fg: "c5c8c6"
+  cr: "c5c8c6"
+
+  00: "272520"
+  08: "5d5d5d"
+
+  01: "cf354b"
+  09: "ff5f57"
+
+  02: "9cd26f"
+  10: "b9f984"
+
+  03: "eb9c67"
+  11: "ebb28c"
+
+  04: "668dac"
+  12: "86b1d3"
+
+  05: "8a588a"
+  13: "b27cb2"
+
+  06: "288293"
+  14: "57a8b7"
+
+  07: "a6a6a6"
+  15: "f0f0f0"

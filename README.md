@@ -3,6 +3,8 @@
 ![1984.svg](./previews/1984.svg)  
 ## adapta
 ![adapta.svg](./previews/adapta.svg)  
+## agac
+![agac.svg](./previews/agac.svg)  
 ## alnj
 ![alnj.svg](./previews/alnj.svg)  
 ## altair
@@ -215,6 +217,8 @@
 ![fyry.svg](./previews/fyry.svg)  
 ## gaveupondark
 ![gaveupondark.svg](./previews/gaveupondark.svg)  
+## github-dark
+![github-dark.svg](./previews/github-dark.svg)  
 ## glacier
 ![glacier.svg](./previews/glacier.svg)  
 ## goeswellwithblack
