@@ -1,0 +1,31 @@
+metadata:
+  name: Bunker
+  author: TaylanTatli
+colors:
+  bg: "141c21"
+  fg: "fee9e1"
+  cr: "fee9e1"
+
+  00: "283035"
+  08: "3c4449"
+
+  01: "e73662"
+  09: "ee6d8d"
+
+  02: "bdb246"
+  10: "cac26c"
+
+  03: "f2542d"
+  11: "f57b5d"
+
+  04: "0596b3"
+  12: "06c0e5"
+
+  05: "8f54a0"
+  13: "a672b5"
+
+  06: "2fc6ba"
+  14: "52d6cb"
+
+  07: "c7e8f3"
+  15: "ecfafe"

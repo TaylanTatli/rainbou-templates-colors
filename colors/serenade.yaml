@@ -1,0 +1,31 @@
+metadata:
+  name: Serenade
+  author: b4skyx
+colors:
+  bg: "2e3338"
+  fg: "d8caac"
+  cr: "d8caac"
+
+  00: "282a2e"
+  08: "474f54"
+
+  01: "d76e6e"
+  09: "e18585"
+
+  02: "acb765"
+  10: "cfd893"
+
+  03: "c1bf89"
+  11: "eceaa7"
+
+  04: "82abbc"
+  12: "a4cbdc"
+
+  05: "d39bb6"
+  13: "dab6c7"
+
+  06: "87c095"
+  14: "b2e0bd"
+
+  07: "767b82"
+  15: "b7b9bb"

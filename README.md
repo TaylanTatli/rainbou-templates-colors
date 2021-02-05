@@ -99,6 +99,8 @@
 ![blackpearl.svg](./previews/blackpearl.svg)  
 ## blend
 ![blend.svg](./previews/blend.svg)  
+## blossom
+![blossom.svg](./previews/blossom.svg)  
 ## book
 ![book.svg](./previews/book.svg)  
 ## branch
@@ -109,6 +111,8 @@
 ![bridge.svg](./previews/bridge.svg)  
 ## bulb
 ![bulb.svg](./previews/bulb.svg)  
+## bunker
+![bunker.svg](./previews/bunker.svg)  
 ## bw
 ![bw.svg](./previews/bw.svg)  
 ## cabin
@@ -387,6 +391,8 @@
 ![provrb.svg](./previews/provrb.svg)  
 ## punpun
 ![punpun.svg](./previews/punpun.svg)  
+## qualitative
+![qualitative.svg](./previews/qualitative.svg)  
 ## raiin
 ![raiin.svg](./previews/raiin.svg)  
 ## relax
@@ -423,6 +429,8 @@
 ![seal.svg](./previews/seal.svg)  
 ## sea
 ![sea.svg](./previews/sea.svg)  
+## serenade
+![serenade.svg](./previews/serenade.svg)  
 ## sky
 ![sky.svg](./previews/sky.svg)  
 ## soft
@@ -499,6 +507,8 @@
 ![woody.svg](./previews/woody.svg)  
 ## yamlk
 ![yamlk.svg](./previews/yamlk.svg)  
+## yaru
+![yaru.svg](./previews/yaru.svg)  
 ## yuno
 ![yuno.svg](./previews/yuno.svg)  
 ## zent

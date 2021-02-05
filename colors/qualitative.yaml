@@ -1,0 +1,31 @@
+metadata:
+  name: Qualitative
+  author: starlig-ht
+colors:
+  bg: "101010"
+  fg: "c0c0c0"
+  cr: "c0c0c0"
+
+  00: "1a1a1a"
+  08: "454545"
+
+  01: "efa6a2"
+  09: "e0af85"
+
+  02: "80c990"
+  10: "5accaf"
+
+  03: "a69460"
+  11: "c8c874"
+
+  04: "a3b8ef"
+  12: "ccaced"
+
+  05: "e6a3dc"
+  13: "f2a1c2"
+
+  06: "50cacd"
+  14: "74c3e4"
+
+  07: "808080"
+  15: "c0c0c0"

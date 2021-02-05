@@ -14,7 +14,7 @@
    height="1230"
    id="svg927"
    sodipodi:docname="Rainbou.svg"
-   inkscape:version="0.1, 2020-01-01">
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
      id="metadata931">
     <rdf:RDF>
@@ -324,7 +324,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#{{index .ColorMap "08" "hex"}};stop-opacity:1;"
          offset="0"
          id="stop5956" />
     </linearGradient>
@@ -392,7 +392,7 @@
      inkscape:connector-curvature="0"
      d="m 428,974.46 h 15 v 15 h -15 z"
      id="tab-tear"
-     style="fill:#3176bf;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "01" "hex"}};fill-rule:evenodd" />
   <rect
      id="dial"
      style="fill:#eaedf4;fill-rule:evenodd"
@@ -405,7 +405,7 @@
   <g
      transform="translate(-76.499996,366.75012)"
      id="dial-notches"
-     style="fill:#ffffff;fill-rule:evenodd">
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd">
     <rect
        id="rect6567"
        style="opacity:0"
@@ -434,7 +434,7 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect6725"
        transform="matrix(0,-1,1,0,0,0)" />
     <path
@@ -443,7 +443,7 @@
        d="M 8,602.986 20,588 32,602.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z" />
   </g>
   <g
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      id="arrow-up-pressed"
      transform="translate(-17,-342.99298)">
     <rect
@@ -461,32 +461,32 @@
   <circle
      r="8.4999743"
      id="slidercursor-normal"
-     style="fill:#fbfbfc;fill-rule:evenodd;stroke:#a5afc3"
+     style="fill:#{{index .ColorMap "00" "hex"}};fill-rule:evenodd;stroke:#a5afc3"
      cy="743.5"
      cx="330" />
   <circle
      id="dial-handle"
      r="5"
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      cy="1063"
      cx="98" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="slider-toggled-topleft"
      d="m 194.9999,721.7499 c -6.648,0 -12,5.352 -12,12 h 12 v -12 z " />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="slider-toggled-left"
      d="m 182.9999,733.7499 0,16.4063 0,.094 12,0 0,-16.5 -12,0 z " />
   <g
      id="common-normal-left"
      transform="translate(35,5)">
     <path
-       style="fill:#d2d2d2"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect4962"
        d="m 271,1170 h 2 v 30 h -2 z" />
     <path
-       style="fill:#fff"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="path5131"
        d="m 272,1170 0,30 1,0 0,-30 z" />
     <path
@@ -498,12 +498,12 @@
      id="common-normal-topleft"
      transform="translate(35,5)">
     <path
-       style="fill:#d2d2d2"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect5015"
        d="m 308.5,1173 -2,0 0,2 2,0 z"
        transform="translate(-35.5,-5)" />
     <path
-       style="fill:#fff"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="path5157"
        d="m 273,1169 -1,0 0,1 1,0 z" />
     <path
@@ -512,11 +512,11 @@
        d="m 273,1167 -3,0 0,3 1,0 c 0,-1.125 0.875,-2 2,-2 z" />
   </g>
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="slider-toggled-topright"
      d="m 194.9999,721.7499 c 6.648,0 12,5.352 12,12 h -12 v -12 z " />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="slider-toggled-right"
      d="m 194.9999,733.7499 0,16.4063 0,.094 12,0 0,-16.5 -12,0 z " />
   <use
@@ -575,7 +575,7 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect4881"
        transform="matrix(0,-1,1,0,0,0)" />
     <path
@@ -615,7 +615,7 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect4909"
        transform="matrix(0,-1,1,0,0,0)" />
     <path
@@ -706,7 +706,7 @@
        style="opacity:0;fill-rule:evenodd"
        id="rect8118" />
     <path
-       style="fill:#58acff;stroke:#58acff;stroke-width:1.649"
+       style="fill:#{{index .ColorMap "01" "hex"}};stroke:#{{index .ColorMap "01" "hex"}};stroke-width:1.649"
        id="path8184"
        d="m -406.2267,1440.9483 -4.9485,-4.9486 10.2267,-10.2267 4.9485,-4.9483 4.9485,4.9483 10.2267,10.2269 -4.9485,4.9484 L -396,1430.7215 Z" />
   </g>
@@ -718,10 +718,10 @@
        x="422.50674"
        y="1535.4932"
        height="32"
-       style="opacity:0;fill:#d2d2d2;fill-rule:evenodd"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="rect8229" />
     <path
-       style="fill:#58acff"
+       style="fill:#{{index .ColorMap "01" "hex"}}"
        id="path8320"
        d="m 444.6943,1540.5245 -6.1875,6.2187 -6.1875,-6.1875 -4.7812,4.75 6.2188,6.1875 -6.1875,6.1875 4.75,4.7813 6.1875,-6.2188 6.1875,6.1875 4.7812,-4.75 -6.2188,-6.1875 6.1875,-6.1875 -4.75,-4.7812 z" />
   </g>
@@ -757,27 +757,27 @@
        d="m 400,92.5 -20,20 20,0 z" />
   </g>
   <path
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 305,805 h 20 v 20 h -20 z"
      id="menubar-normal" />
   <path
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 305,805 v 20 h -5 v -20 z"
      id="menubar-normal-left" />
   <path
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 305,800 v 5 h -5 v -5 z"
      id="menubar-normal-topleft" />
   <path
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 305,800 h 20 v 5 h -20 z"
      id="menubar-normal-top" />
   <path
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 330,805 v 20 h -5 v -20 z"
      id="menubar-normal-right" />
@@ -877,7 +877,7 @@
   </g>
   <path
      inkscape:connector-curvature="0"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      d="m 330,800 v 5 h -5 v -5 z"
      id="menubar-normal-topright" />
   <path
@@ -911,18 +911,18 @@
      id="slider-toggled-bottomright"
      transform="matrix(1,0,0,-1,0,1484.0002)" />
   <path
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      id="dock-focused"
      d="m 407,1170 h 30 v 30 h -30 z" />
   <g
      id="button-normal-left"
      transform="matrix(0.8,0,0,0.98461538,-14,-28.001575)">
     <path
-       style="fill:#fbfbfc;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "00" "hex"}};fill-rule:evenodd"
        id="path4266"
        d="m 28.75,81.2514 0,-32.4998 -7.5,0 0,32.5 z" />
     <path
-       style="fill:#c9cfdb;color:#000"
+       style="fill:#{{index .ColorMap "00" "hex"}};color:#000"
        id="path4268"
        d="m 21.25,48.7516 0,32.5 2.5,0 0,-32.5 z" />
   </g>
@@ -930,16 +930,16 @@
      id="button-normal-topleft"
      transform="matrix(0.8,0,0,0.8,-14,-19.00128)">
     <path
-       style="fill:#fbfbfc;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "00" "hex"}};fill-rule:evenodd"
        id="path4272"
        d="m 28.75,41.2516 c -4.125,-5.1e-05 -7.50003,3.37497 -7.5,7.5 h 7.5 z " />
     <path
-       style="fill:#c9cfdb;color:#000"
+       style="fill:#{{index .ColorMap "00" "hex"}};color:#000"
        id="path4274"
        d="m 28.75,41.2516 c -4.125,-5.1e-05 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z " />
   </g>
   <path
-     style="fill:#fbfbfc;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "00" "hex"}};fill-rule:evenodd"
      id="button-normal"
      d="M 9,20 9,52 41,52 41,20 9,20 Z" />
   <path
@@ -960,7 +960,7 @@
        id="rect7888"
        transform="matrix(0,1,-1,0,0,0)" />
     <path
-       style="fill:#0078f0"
+       style="fill:#{{index .ColorMap "01" "hex"}}"
        id="path7945"
        d="m 227.2385,689 -2.2462,0 0,2 2.2462,0 z m -4.4924,0 -2.2461,0 0,2 2.2461,0 z" />
   </g>
@@ -983,7 +983,7 @@
        id="splitter-normal0" />
   </g>
   <g
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      id="flat-arrow-down-normal"
      transform="rotate(180,28.75,494.89999)">
     <rect
@@ -1095,7 +1095,7 @@
          x="-306.17694"
          y="458.20486"
          height="14.142136"
-         style="stroke-opacity:.784;stroke:#fff;fill-opacity:0"
+         style="stroke-opacity:.784;stroke:#{{index .ColorMap "bg" "hex"}};fill-opacity:0"
          id="rect5017"
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
       <rect
@@ -1117,13 +1117,13 @@
        x="28.999998"
        y="524"
        height="32.000004"
-       style="fill:#fff;fill-opacity:0"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:0"
        id="rect8374" />
     <g
        style="fill:none;stroke-width:5"
        id="g584">
       <path
-         style="stroke-opacity:.784;stroke:#fff"
+         style="stroke-opacity:.784;stroke:#{{index .ColorMap "bg" "hex"}}"
          id="path5040"
          d="m 33.25,550.1057 11.971,-12.8169 11.5,12.8687" />
       <path
@@ -1141,13 +1141,13 @@
        x="28.999998"
        y="524"
        height="32.000004"
-       style="fill:#fff;fill-opacity:0"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:0"
        id="rect5051" />
     <g
        style="fill:none;stroke-width:5"
        id="g590">
       <path
-         style="stroke-opacity:.784;stroke:#fff"
+         style="stroke-opacity:.784;stroke:#{{index .ColorMap "bg" "hex"}}"
          id="path5053"
          d="m 33.25,544.1057 11.971,-12.8169 11.5,12.8687" />
       <path
@@ -1179,7 +1179,7 @@
        x="-341.17902"
        y="496.74249"
        height="14.142136"
-       style="fill:none;fill-rule:evenodd;stroke:#58acff;stroke-width:6"
+       style="fill:none;fill-rule:evenodd;stroke:#{{index .ColorMap "01" "hex"}};stroke-width:6"
        id="rect5065"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
   </g>
@@ -1191,13 +1191,13 @@
        x="267.87665"
        y="520.56409"
        height="32"
-       style="fill:#fff;fill-opacity:0"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:0"
        id="rect8398" />
     <g
        style="fill:none;stroke-width:5"
        id="g554">
       <g
-         style="stroke-opacity:.784;stroke:#fff"
+         style="stroke-opacity:.784;stroke:#{{index .ColorMap "bg" "hex"}}"
          id="g5086"
          transform="translate(35.0625,-5.125)">
         <path
@@ -1235,7 +1235,7 @@
        style="fill:none"
        id="g608">
       <g
-         style="stroke-opacity:.784;stroke:#fff;stroke-width:4"
+         style="stroke-opacity:.784;stroke:#{{index .ColorMap "bg" "hex"}};stroke-width:4"
          id="g610">
         <path
            id="path5113"
@@ -1402,7 +1402,7 @@
      xlink:href="#titlebar-normal"
      id="titlebar-focused"
      transform="translate(-0.5,-46.5)"
-     style="fill:#ffffff" />
+     style="fill:#{{index .ColorMap "bg" "hex"}}" />
   <use
      width="100%"
      x="0"
@@ -1423,78 +1423,78 @@
        style="opacity:0;fill:#7b7b7b"
        id="rect4970" />
     <path
-       style="fill:#3176bf"
+       style="fill:#{{index .ColorMap "01" "hex"}}"
        id="path4972"
        d="m 398.5859,91.0859 c -7.80469,7.80469 -15.6094,15.6094 -23.4141,23.4141 8.9427,0 17.8854,0 26.8281,0 0,-8.94271 0,-17.8854 0,-26.8281 -1.13802,1.13802 -2.27604,2.27604 -3.41406,3.41406 z" />
   </g>
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 52,1188 h 8 v 4 h -8 z"
      id="itemview-pressed-top" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 52,1200 h 8 v 4 h -8 z"
      id="itemview-pressed-bottom" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      inkscape:connector-curvature="0"
      d="m 52,1192 h 8 v 8 h -8 z"
      id="itemview-pressed" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 60,1188 h 4 v 4 h -4 z"
      id="itemview-pressed-topright" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 60,1200 h 4 v 4 h -4 z"
      id="itemview-pressed-bottomright" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 60,1192 h 4 v 8 h -4 z"
      id="itemview-pressed-right" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 48,1192 h 4 v 8 h -4 z"
      id="itemview-pressed-left" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 52,1188 v 4 h -4 v -4 z"
      id="itemview-pressed-topleft" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 48,1200 h 4 v 4 h -4 z"
      id="itemview-pressed-bottomleft" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      id="itemview-toggled-top"
      d="m 85,1187 h 8 v 4 h -8 z" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-bottom"
      d="m 85,1203 h 8 v 4 h -8 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="itemview-toggled"
      d="m 85,1193 8,0 0,8 -8,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      id="itemview-toggled-right"
      d="m 95,1193 h 4 v 8 h -4 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;fill-opacity:1"
      id="itemview-toggled-left"
      d="m 79,1193 h 4 v 8 h -4 z" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-topleft"
      d="m 83,1187 v 4 h -4 c 0,-2.3887 1.596915,-4 4,-4 z"
      inkscape:connector-curvature="0"
@@ -1504,7 +1504,7 @@
      x="0"
      y="0"
      height="1230"
-     style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
+     style="opacity:0.2;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:0.2"
      id="itemview-focused-top"
      xlink:href="#itemview-toggled-top"
      transform="translate(-63,-1)" />
@@ -1513,7 +1513,7 @@
      x="0"
      y="0"
      height="1230"
-     style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
+     style="opacity:0.2;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:0.2"
      id="itemview-focused-bottom"
      xlink:href="#itemview-toggled-bottom"
      transform="translate(-63,1)" />
@@ -1531,7 +1531,7 @@
      x="0"
      y="0"
      height="1230"
-     style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
+     style="opacity:0.2;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:0.2"
      id="itemview-focused-right"
      xlink:href="#itemview-toggled-right"
      transform="translate(-63)" />
@@ -1540,7 +1540,7 @@
      x="0"
      y="0"
      height="1230"
-     style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
+     style="opacity:0.2;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:0.2"
      id="itemview-focused-left"
      xlink:href="#itemview-toggled-left"
      transform="translate(-64)" />
@@ -1549,7 +1549,7 @@
      x="0"
      y="0"
      height="1230"
-     style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
+     style="opacity:0.2;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:0.2"
      id="itemview-focused-topleft"
      xlink:href="#itemview-toggled-topleft"
      transform="translate(-64,-1)" />
@@ -1567,13 +1567,13 @@
     <circle
        cx="362.5"
        cy="743.5"
-       style="fill:#fff;stroke:#a5afc3"
+       style="fill:#{{index .ColorMap "bg" "hex"}};stroke:#a5afc3"
        r="8.4999743"
        id="slidercursor-focused" />
     <circle
        cx="391.5"
        cy="744"
-       style="fill:#5294e2"
+       style="fill:#{{index .ColorMap "08" "hex"}}"
        id="slidercursor-pressed"
        r="9" />
     <circle
@@ -1746,39 +1746,39 @@
      id="arrow-left-toggled"
      transform="rotate(90,14.903505,467.4035)" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-left"
      d="m 252.5,802.5002 0,32.4998 -7.5,0 0,-32.5 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-bottomleft"
      d="m 252.5,842.5 -7.5,0 0,-7.5 7.5,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-topleft"
      d="m 245,802.5 0,-7.5 7.5,0 0,7.5 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-bottom"
      d="m 252.5002,835.0001 32.4998,0 0,7.5 -32.5,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-top"
      d="m 284.9998,802.5001 -32.4998,0 0,-7.5 32.5,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled"
      d="m 252.5,835.0001 0,-32.5 32.5,0 0,32.5 -32.5,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-right"
      d="m 284.9998,802.5001 0,32.4998 7.5,0 0,-32.5 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-bottomright"
      d="m 284.9998,842.4999 7.5002,10e-5 -2e-4,-7.5001 -7.5,0 z" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="menuitem-toggled-topright"
      d="M 292.4998,802.4999 292.5,795 l -7.5002,-10e-5 0,7.5 z" />
   <use
@@ -1802,7 +1802,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-left"
      id="menuitem-pressed-left"
      transform="translate(-50,0)" />
@@ -1811,7 +1811,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-bottomleft"
      id="menuitem-pressed-bottomleft"
      transform="translate(-50,0)" />
@@ -1820,7 +1820,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-topleft"
      id="menuitem-pressed-topleft"
      transform="translate(-50,0)" />
@@ -1829,7 +1829,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-bottom"
      id="menuitem-pressed-bottom"
      transform="translate(-50,0)" />
@@ -1838,7 +1838,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-top"
      id="menuitem-pressed-top"
      transform="translate(-50,0)" />
@@ -1847,7 +1847,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled"
      id="menuitem-pressed"
      transform="translate(-50,0)" />
@@ -1856,7 +1856,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-right"
      id="menuitem-pressed-right"
      transform="translate(-50,0)" />
@@ -1865,7 +1865,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-bottomright"
      id="menuitem-pressed-bottomright"
      transform="translate(-50,0)" />
@@ -1874,7 +1874,7 @@
      x="0"
      y="0"
      height="100%"
-     style="fill:#fff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      xlink:href="#menuitem-toggled-topright"
      id="menuitem-pressed-topright"
      transform="translate(-50,0)" />
@@ -1892,10 +1892,10 @@
      inkscape:connector-curvature="0"
      d="M 53,20 V 52 H 85 V 20 Z"
      id="button-focused"
-     style="fill:#ffffff;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd" />
   <g
      id="g373"
-     style="fill:#5294e2;fill-rule:evenodd">
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd">
     <path
        inkscape:connector-curvature="0"
        d="m 17.5,140.0003 v 32.4998 H 10 v -32.5 z"
@@ -1985,11 +1985,11 @@
      id="button-focused-left"
      transform="matrix(0.8,0,0,0.98461538,30,-28.001575)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5064"
        d="m 28.75,81.2514 0,-32.4998 -7.5,0 0,32.5 z" />
     <path
-       style="fill:#c9cfdb;color:#000"
+       style="fill:#{{index .ColorMap "00" "hex"}};color:#000"
        id="path5066"
        d="m 21.25,48.7516 0,32.5 2.5,0 0,-32.5 z" />
   </g>
@@ -1997,11 +1997,11 @@
      id="button-focused-topleft"
      transform="matrix(0.8,0,0,0.8,30,-19.00128)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5070"
        d="m 28.75,41.2516 c -4.125,-5.1e-05 -7.50003,3.37497 -7.5,7.5 h 7.5 z " />
     <path
-       style="fill:#c9cfdb;color:#000"
+       style="fill:#{{index .ColorMap "00" "hex"}};color:#000"
        id="path5072"
        d="m 28.75,41.2516 c -4.125,-5.1e-05 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z " />
   </g>
@@ -2054,18 +2054,18 @@
      id="button-focused-bottomright"
      transform="matrix(-1,0,0,-1,138,72.000098)" />
   <path
-     style="fill:#fff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="tabframe-normal"
      d="m 285.5,883.5 0,32 32,0 0,-32 -32,0 z" />
   <g
      id="tabframe-normal-left"
      transform="matrix(0.8,0,0,0.98461538,264.5002,835.49842)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5181"
        d="m 26.25,81.2514 0,-32.4998 -5,0 0,32.5 z" />
     <path
-       style="fill:#d2d2d2;color:#000"
+       style="fill:#{{index .ColorMap "bg" "hex"}};color:#000"
        id="path5183"
        d="m 21.25,48.7516 0,32.5 1.2497,0 0,-32.5 z " />
   </g>
@@ -2073,11 +2073,11 @@
      id="tabframe-normal-topleft"
      transform="matrix(0.8,0,0,0.8,264.5002,846.49872)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5188"
        d="m 26.25,41.2516 -5,0 0,5 5,0 z" />
     <path
-       style="fill:#d2d2d2;color:#000"
+       style="fill:#{{index .ColorMap "bg" "hex"}};color:#000"
        id="path5190"
        d="m 26.25,41.2516 -5,0 0,5 1.2497,0 -.0003,-3.75 3.7503,0 z " />
   </g>
@@ -2085,11 +2085,11 @@
      id="tabframe-normal-top"
      transform="matrix(0,0.8,-0.98461538,0,365.50158,862.5)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5194"
        d="m 26.25,81.2514 0,-32.4998 -5,0 0,32.5 z" />
     <path
-       style="fill:#d2d2d2;color:#000"
+       style="fill:#{{index .ColorMap "bg" "hex"}};color:#000"
        id="path5196"
        d="m 21.25,48.7516 0,32.5 1.25,0 0,-32.5 z" />
   </g>
@@ -2105,11 +2105,11 @@
      id="tabframe-normal-right"
      transform="matrix(-0.8,0,0,-0.98461538,338.5,963.50158)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5202"
        d="m 26.25,81.2514 0,-32.4998 -5,0 0,32.5 z" />
     <path
-       style="fill:#d2d2d2;color:#000"
+       style="fill:#{{index .ColorMap "bg" "hex"}};color:#000"
        id="path5204"
        d="m 21.25,48.7516 0,32.5 1.25,0 0,-32.5 z" />
   </g>
@@ -2117,11 +2117,11 @@
      id="tabframe-normal-bottom"
      transform="matrix(0,-0.8,0.98461538,0,237.49862,936.4999)">
     <path
-       style="fill:#fff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5208"
        d="m 26.25,81.2514 0,-32.4998 -5,0 0,32.5 z" />
     <path
-       style="fill:#d2d2d2;color:#000"
+       style="fill:#{{index .ColorMap "bg" "hex"}};color:#000"
        id="path5210"
        d="m 21.25,48.7516 0,32.5 1.2499,0 0,-32.5 z " />
   </g>
@@ -2203,7 +2203,7 @@
      inkscape:connector-curvature="0"
      d="m 321,76 v 32 h 32 V 76 Z"
      id="lineedit-normal"
-     style="fill:#ffffff;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd" />
   <use
      width="100%"
      x="0"
@@ -2269,7 +2269,7 @@
      id="lineedit-normal-bottomright"
      transform="rotate(180,203,63.99995)" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="lineedit-focused"
      d="m 379,76 v 32 h 32 V 76 Z"
      inkscape:connector-curvature="0" />
@@ -2277,12 +2277,12 @@
      id="lineedit-focused-left"
      transform="matrix(0.8,0,0,0.98461538,356,27.998425)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5041"
        d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"
        inkscape:connector-curvature="0" />
     <path
-       style="color:#000000;fill:#4693e6;stroke-width:1"
+       style="color:#000000;fill:#{{index .ColorMap "01" "hex"}};stroke-width:1"
        id="path5043"
        d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"
        inkscape:connector-curvature="0" />
@@ -2291,12 +2291,12 @@
      id="lineedit-focused-topleft"
      transform="matrix(0.8,0,0,0.8,356,36.99872)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
        id="path5047"
        d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"
        inkscape:connector-curvature="0" />
     <path
-       style="color:#000000;fill:#4693e6;stroke-width:0.80000001"
+       style="color:#000000;fill:#{{index .ColorMap "01" "hex"}};stroke-width:0.80000001"
        d="M 379 70 C 375.7 69.999959 372.99998 72.699976 373 76 L 375 76 C 374.99998 73.799984 376.8 71.999973 379 72 L 379 70 z "
        transform="matrix(1.25,0,0,1.25,-445,-46.2484)"
        id="path5049" />
@@ -2361,7 +2361,7 @@
        d="m -52.1851,35.7084 8.8388,8.8388 -1.7678,1.7678 -8.8388,-8.8388 z " />
   </g>
   <g
-     style="fill-rule:evenodd;fill:#fff"
+     style="fill-rule:evenodd;fill:#{{index .ColorMap "bg" "hex"}}"
      id="spin-plus-pressed"
      transform="matrix(1.1313709,1.1313709,-1.1313709,1.1313709,189.94019,338.6412)">
     <path
@@ -2417,7 +2417,7 @@
        x="328"
        y="-297.5"
        height="20.000002"
-       style="fill:#fff"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="rect5118"
        transform="matrix(0,1,-1,0,0,0)" />
   </g>
@@ -2511,12 +2511,12 @@
        inkscape:connector-curvature="0"
        d="m 107.4994,801.9998 h 5 v 48 h -5 z"
        id="menu-normal-left"
-       style="fill:#ffffff" />
+       style="fill:#{{index .ColorMap "bg" "hex"}}" />
     <path
        inkscape:connector-curvature="0"
        d="m 112.4994,796.9998 h -4.9989 l -0.001,5 h 5 z"
        id="menu-normal-topleft"
-       style="fill:#ffffff" />
+       style="fill:#{{index .ColorMap "bg" "hex"}}" />
   </g>
   <g
      style="fill:#b74aff"
@@ -2532,32 +2532,32 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-top"
      d="m 160.4997,797 v 5 h -48 v -5 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-topright"
      d="m 165.4994,802 v -4.9989 l -5,-10e-4 v 5 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-right"
      d="m 165.4992,802 h -5 v 48 h 5 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-bottomright"
      d="m 160.4992,855.0008 h 5 l 0.001,-5 h -5 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-bottom"
      d="m 112.5002,855 v -5 h 48 v 5 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="menu-normal-bottomleft"
      d="m 107.4998,850 v 4.9989 l 5,10e-4 v -5 z"
      inkscape:connector-curvature="0" />
@@ -2565,7 +2565,7 @@
      inkscape:connector-curvature="0"
      d="m 112.4994,802 h 48 v 48 h -48 z"
      id="menu-normal"
-     style="fill:#ffffff;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd" />
   <g
      id="splitter-grip-focused"
      transform="matrix(1.1428571,0,0,1,-10.285716,0)">
@@ -2601,7 +2601,7 @@
        d="m 271,1170 h 2 v 30 h -2 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#fff"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="path4872"
        d="m 272,1170 0,30 1,0 0,-30 z" />
     <path
@@ -2618,7 +2618,7 @@
        d="m 273,1168 h -2 v 2 h 2 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#fff"
+       style="fill:#{{index .ColorMap "bg" "hex"}}"
        id="path4880"
        d="m 273,1169 -1,0 0,1 1,0 z" />
     <path
@@ -2691,12 +2691,12 @@
          id="rect4869"
          d="m 265,475 2,0 0,4 -2,0 z" />
       <path
-         style="fill:#c9cfdb"
+         style="fill:#{{index .ColorMap "00" "hex"}}"
          id="path4881"
          d="m 267,473 0,2 -2,0 0,-2 z" />
     </g>
     <g
-       style="fill:#5294e2"
+       style="fill:#{{index .ColorMap "08" "hex"}}"
        id="g647">
       <rect
          width="2"
@@ -2725,7 +2725,7 @@
          id="path4847"
          d="m 265,475 2,0 0,4 -2,0 z" />
       <path
-         style="fill:#c9cfdb"
+         style="fill:#{{index .ColorMap "00" "hex"}}"
          id="path4849"
          d="m 267,473 0,2 -2,0 0,-2 z" />
     </g>
@@ -2803,7 +2803,7 @@
      transform="matrix(1,0,0,-1,146.69298,607.00002)" />
   <g
      id="g703"
-     style="fill:#ffffff;fill-rule:evenodd">
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd">
     <path
        inkscape:connector-curvature="0"
        d="m 78.5,96.5 h -6 v 6 h 6 z"
@@ -2817,39 +2817,39 @@
      inkscape:connector-curvature="0"
      d="m 146,96.5 h -6 v 6 h 6 z"
      id="header-pressed-bottom"
-     style="fill:#5294e2;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-bottomleft"
      d="m 84.5,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-bottomright"
      d="m 90.5,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-left"
      d="m 90.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-right"
      d="m 84.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-top"
      d="m 78.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-topright"
      d="m 84.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal-topleft"
      d="m 90.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
@@ -2866,72 +2866,72 @@
        d="m 62.5,75.3333 0,21.3333 6,0 0,-21.3333 z " />
   </g>
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-bottomleft"
      d="m 107,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-bottomright"
      d="m 113,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-left"
      d="m 113,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-right"
      d="m 107,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-top"
      d="m 101,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-topright"
      d="m 107,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused-topleft"
      d="m 113,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-bottomleft"
      d="m 152,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-bottomright"
      d="m 158,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-left"
      d="m 152,84.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-right"
      d="m 158,84.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-top"
      d="m 146,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-topleft"
      d="m 152,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="header-pressed-topright"
      d="m 158,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
@@ -3001,12 +3001,12 @@
      id="focus-left"
      transform="matrix(0,-1,1,0,115,294)" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-normal"
      d="m 78.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-focused"
      d="m 101,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
@@ -3014,49 +3014,49 @@
      inkscape:connector-curvature="0"
      d="m 146,84.5 h -6 v 6 h 6 z"
      id="header-pressed"
-     style="fill:#5294e2;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-bottom"
      d="m 123.5,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-bottomleft"
      d="m 129.5,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-bottomright"
      d="m 135.5,96.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-right"
      d="m 135.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-left"
      d="m 129.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-top"
      d="m 123.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-topleft"
      d="m 129.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled-topright"
      d="m 135.5,90.5 h -6 v 6 h 6 z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd"
      id="header-toggled"
      d="m 123.5,90.5 v -6 h -6 v 6 z"
      inkscape:connector-curvature="0" />
@@ -3125,7 +3125,7 @@
      id="combo-normal-top"
      transform="matrix(0,1,-1,0,245.5,11)" />
   <path
-     style="fill:#fbfbfc;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "00" "hex"}};fill-rule:evenodd"
      id="combo-normal"
      d="m 193.5,20 0,32 32,0 0,-32 -32,0 z" />
   <use
@@ -3196,7 +3196,7 @@
      inkscape:connector-curvature="0"
      d="m 237.5001,20 v 32 h 32 V 20 Z"
      id="combo-focused"
-     style="fill:#ffffff;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd" />
   <use
      width="100%"
      x="0"
@@ -3265,7 +3265,7 @@
      inkscape:connector-curvature="0"
      d="m 325.5001,20 v 32 h 32 V 20 Z"
      id="combo-pressed"
-     style="fill:#ffffff;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "bg" "hex"}};fill-rule:evenodd" />
   <path
      style="fill-rule:evenodd"
      inkscape:connector-curvature="0"
@@ -3638,7 +3638,7 @@
        inkscape:connector-curvature="0"
        d="m 398,624 v 27 h 32 v -27 z"
        id="titlebar-normal-b"
-       style="fill:#ffffff;stroke-width:1" />
+       style="fill:#{{index .ColorMap "bg" "hex"}};stroke-width:1" />
     <path
        style="opacity:0.15;fill:#000000;stroke-width:1"
        id="path2062"
@@ -3688,17 +3688,17 @@
        id="tab-toggled-topleft" />
   </g>
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottom"
      d="m 25,936 h 10 v 10 H 25 Z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottomright"
      d="m 35,936 h 10 v 10 H 35 Z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottomleft"
      d="m 15,936 h 10 v 10 H 15 Z"
      inkscape:connector-curvature="0" />
@@ -3706,17 +3706,17 @@
      inkscape:connector-curvature="0"
      d="m 61,936 h 10 v 10 H 61 Z"
      id="tab-focused-bottom"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421342" />
+     style="opacity:0.5;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421342" />
   <path
      inkscape:connector-curvature="0"
      d="m 71,936 h 10 v 10 H 71 Z"
      id="tab-focused-bottomright"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
+     style="opacity:0.5;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
   <path
      inkscape:connector-curvature="0"
      d="m 51,936 h 10 v 10 H 51 Z"
      id="tab-focused-bottomleft"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
+     style="opacity:0.5;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
   <use
      width="100%"
      x="0"
@@ -3813,12 +3813,12 @@
        style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1" />
   </g>
   <path
-     style="opacity:0;fill:#5294e2"
+     style="opacity:0;fill:#{{index .ColorMap "08" "hex"}}"
      inkscape:connector-curvature="0"
      d="m 365,812 h 10 v 10 h -10 z"
      id="menubaritem-pressed" />
   <path
-     style="opacity:0;fill:#5294e2;fill-opacity:1"
+     style="opacity:0;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
      inkscape:connector-curvature="0"
      d="m 407,812 h 10 v 10 h -10 z"
      id="menubaritem-toggled" />
@@ -3829,7 +3829,7 @@
        id="menubaritem-pressed-top-b"
        d="m 365,802 h 10 v 10 h -10 z"
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#5294e2;fill-opacity:1" />
+       style="opacity:1;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1" />
   </g>
   <use
      x="0"
@@ -3839,7 +3839,7 @@
      transform="rotate(90,370,817)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <g
      id="menubaritem-pressed-topleft"
      style="opacity:0">
@@ -3847,7 +3847,7 @@
        id="11"
        d="m 355,802 h 10 v 10 h -10 z"
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#5294e2;fill-opacity:1" />
+       style="opacity:1;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1" />
   </g>
   <use
      x="0"
@@ -3857,7 +3857,7 @@
      transform="matrix(-1,0,0,1,740,0)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <use
      x="0"
      y="0"
@@ -3866,33 +3866,33 @@
      transform="rotate(-90,370,817)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <g
      id="menubaritem-pressed-bottom"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      transform="matrix(1,0,0,-1,0,1634)">
     <path
-       style="opacity:1;fill:#5294e2;fill-opacity:1"
+       style="opacity:1;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 365,802 h 10 v 10 h -10 z"
        id="path1758" />
   </g>
   <g
      id="menubaritem-pressed-bottomleft"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      transform="matrix(1,0,0,-1,0,1634)">
     <path
-       style="opacity:1;fill:#5294e2;fill-opacity:1"
+       style="opacity:1;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 355,802 h 10 v 10 h -10 z"
        id="path1754" />
   </g>
   <g
      id="menubaritem-pressed-bottomright"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      transform="rotate(-180,370,817)">
     <path
-       style="opacity:1;fill:#5294e2;fill-opacity:1"
+       style="opacity:1;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 355,802 h 10 v 10 h -10 z"
        id="path1762" />
@@ -3905,7 +3905,7 @@
        id="12"
        d="m 407.5,802 h 10 v 10 h -10 z"
        inkscape:connector-curvature="0"
-       style="opacity:0.9;fill:#5294e2;fill-opacity:1" />
+       style="opacity:0.9;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1" />
   </g>
   <g
      id="menubaritem-toggled-topleft"
@@ -3914,7 +3914,7 @@
        id="13"
        d="m 397,802 h 10 v 10 h -10 z"
        inkscape:connector-curvature="0"
-       style="opacity:0.9;fill:#5294e2;fill-opacity:1" />
+       style="opacity:0.9;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1" />
   </g>
   <use
      x="0"
@@ -3924,7 +3924,7 @@
      transform="rotate(-90,412,817)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <use
      x="0"
      y="0"
@@ -3933,23 +3933,23 @@
      transform="rotate(90,412,817)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <g
      transform="matrix(1,0,0,-1,-0.5,1634)"
      id="menubaritem-toggled-bottom"
-     style="fill:#ffffff">
+     style="fill:#{{index .ColorMap "bg" "hex"}}">
     <path
-       style="opacity:0.9;fill:#5294e2;fill-opacity:1"
+       style="opacity:0.9;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 407.5,802 h 10 v 10 h -10 z"
        id="path1770" />
   </g>
   <g
      id="menubaritem-toggled-bottomleft"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      transform="matrix(1,0,0,-1,0,1634)">
     <path
-       style="opacity:0.9;fill:#5294e2;fill-opacity:1"
+       style="opacity:0.9;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 397,802 h 10 v 10 h -10 z"
        id="path1766" />
@@ -3962,13 +3962,13 @@
      transform="matrix(-1,0,0,1,824,0)"
      width="100%"
      height="100%"
-     style="opacity:0;fill:#ffffff" />
+     style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}}" />
   <g
      id="menubaritem-toggled-bottomright"
-     style="fill:#ffffff"
+     style="fill:#{{index .ColorMap "bg" "hex"}}"
      transform="rotate(-180,412,817)">
     <path
-       style="opacity:0.9;fill:#5294e2;fill-opacity:1"
+       style="opacity:0.9;fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 397,802 h 10 v 10 h -10 z"
        id="path1774" />
@@ -4021,7 +4021,7 @@
        inkscape:connector-curvature="0"
        d="m 268.7501,972 a 1.74961,1.74961 0 0 0 -1.21879,3.00483 l 3.9958,3.9935 -3.9958,3.9958 a 1.74961,1.74961 0 1 0 2.47403,2.47403 l 3.9958,-3.9958 3.9935,3.9958 a 1.74961,1.74961 0 1 0 2.47403,-2.47403 l -3.9935,-3.9958 3.9935,-3.9935 A 1.74961,1.74961 0 0 0 279.24988,972 a 1.74961,1.74961 0 0 0 -1.25524,0.5308 l -3.9935,3.9935 -3.9958,-3.9935 A 1.74961,1.74961 0 0 0 268.7501,972 Z"
        id="path4857"
-       style="color:#000000;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#5294e2;stroke-width:3;stroke-linecap:round;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto" />
+       style="color:#000000;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#{{index .ColorMap "08" "hex"}};stroke-width:3;stroke-linecap:round;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto" />
   </g>
   <g
      style="fill-rule:evenodd;stroke:none;opacity:0.5"
@@ -4044,17 +4044,17 @@
      inkscape:connector-curvature="0"
      d="M 129,52 V 20 H 97 v 32 z"
      id="button-pressed"
-     style="fill:#5294e2;fill-rule:evenodd" />
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd" />
   <g
      id="button-pressed-bottomright"
      transform="rotate(180,113,36)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1948"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1950"
        inkscape:connector-curvature="0" />
@@ -4063,18 +4063,18 @@
      id="button-pressed-bottomleft"
      transform="rotate(-90,113,36)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1954"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1956"
        inkscape:connector-curvature="0" />
   </g>
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      inkscape:connector-curvature="0"
      d="M 173.0001,52 V 20 h -32 v 32 z"
      id="button-toggled" />
@@ -4082,12 +4082,12 @@
      id="button-toggled-bottomleft"
      transform="rotate(-90,157.0001,36)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1942"
        d="m 141.0001,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 141,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1e-5,-2.200013 1.8,-4.000027 4,-4 z"
        id="path1944"
        inkscape:connector-curvature="0" />
@@ -4096,12 +4096,12 @@
      id="button-toggled-bottomright"
      transform="rotate(180,157.00005,36)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1936"
        d="m 141.0001,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 141,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1e-5,-2.200013 1.8,-4.000027 4,-4 z"
        id="path1938"
        inkscape:connector-curvature="0" />
@@ -4110,18 +4110,18 @@
      id="button-toggled-topright"
      transform="matrix(-1,0,0,1,314.0002,0)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1930"
        d="m 141.0001,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 141,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1e-5,-2.200013 1.8,-4.000027 4,-4 z"
        id="path1932"
        inkscape:connector-curvature="0" />
   </g>
   <path
-     style="fill:#5294e2;fill-rule:evenodd"
+     style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd"
      id="combo-toggled"
      d="M 313.5,52 V 20 h -32 v 32 z"
      inkscape:connector-curvature="0" />
@@ -4129,12 +4129,12 @@
      id="combo-toggled-topleft"
      transform="translate(184.4999)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1978"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1980"
        inkscape:connector-curvature="0" />
@@ -4143,12 +4143,12 @@
      id="combo-toggled-topright"
      transform="matrix(-1,0,0,1,410.5,0)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1966"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1968"
        inkscape:connector-curvature="0" />
@@ -4157,12 +4157,12 @@
      id="combo-toggled-bottomleft"
      transform="matrix(1,0,0,-1,184.5,72)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1972"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1974"
        inkscape:connector-curvature="0" />
@@ -4171,12 +4171,12 @@
      id="combo-toggled-bottomright"
      transform="rotate(180,205.25,36)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1960"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1962"
        inkscape:connector-curvature="0" />
@@ -4187,10 +4187,10 @@
        inkscape:connector-curvature="0"
        d="M 97.0002,20 H 129 V 14 H 97 Z"
        id="button-pressed-top-b"
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#2472cc;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+       style="opacity:1;fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1"
        id="path1861"
        d="M 97.0002,16 H 129 V 14 H 97 Z" />
   </g>
@@ -4200,12 +4200,12 @@
        inkscape:connector-curvature="0"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        id="button-pressed-topleft-b"
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd" />
     <path
        inkscape:connector-curvature="0"
        id="path1863"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd" />
   </g>
   <use
      x="0"
@@ -4237,9 +4237,9 @@
        id="button-toggled-top-b"
        d="M 141.0002,20 H 173 v -6 h -32 z"
        inkscape:connector-curvature="0"
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1"
        inkscape:connector-curvature="0"
        d="M 141.0002,16 H 173 v -2 h -32 z"
        id="path1891" />
@@ -4250,12 +4250,12 @@
        inkscape:connector-curvature="0"
        d="m 141.0001,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        id="button-toggled-topleft-b"
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd" />
     <path
        inkscape:connector-curvature="0"
        id="path1897"
        d="m 141,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1e-5,-2.200013 1.8,-4.000027 4,-4 z"
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd" />
   </g>
   <use
      x="0"
@@ -4287,9 +4287,9 @@
        inkscape:connector-curvature="0"
        d="m 281.5001,20 h 31.9998 v -6 h -32 z"
        id="combo-toggled-top-b"
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd" />
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke-width:1"
        id="path1912"
        d="m 281.5001,16 h 31.9998 v -2 h -32 z"
        inkscape:connector-curvature="0" />
@@ -4322,12 +4322,12 @@
      id="button-pressed-topright"
      transform="matrix(-1,0,0,1,226,0)">
     <path
-       style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-opacity:1;fill-rule:evenodd"
        id="path1924"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 6 z"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#2472cc;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#{{index .ColorMap "01" "hex"}};fill-opacity:1;fill-rule:evenodd"
        d="m 97,14 c -3.3,-4.1e-5 -6.00002,2.69998 -6,6 h 2 c -1.3e-5,-2.200013 1.8,-4.000026 4,-4 z"
        id="path1926"
        inkscape:connector-curvature="0" />
@@ -4343,7 +4343,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect1187"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#9d9d9d;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        d="m 89.429167,158.09375 c -0.293161,0 -0.529166,0.23601 -0.529166,0.52917 v 2.91041 c 0,0.29316 0.236005,0.52917 0.529166,0.52917 h 2.910417 c 0.293161,0 0.529167,-0.23601 0.529167,-0.52917 v -2.91041 c 0,-0.29316 -0.236006,-0.52917 -0.529167,-0.52917 z m 0,0.26458 h 2.910417 c 0.146579,0 0.264583,0.11801 0.264583,0.26459 v 2.91041 c 0,0.14658 -0.118004,0.26459 -0.264583,0.26459 h -2.910417 c -0.146579,0 -0.264583,-0.11801 -0.264583,-0.26459 v -2.91041 c 0,-0.14658 0.118004,-0.26459 0.264583,-0.26459 z"
@@ -4354,7 +4354,7 @@
      transform="matrix(3.7795276,0,0,3.7795276,-265,-385.51969)"
      id="checkbox-checked-normal">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2026"
        width="4.2333331"
        height="4.2333331"
@@ -4388,7 +4388,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2028"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <g
        transform="translate(0.66146333,11.81176)"
        id="g2035">
@@ -4412,7 +4412,7 @@
      transform="matrix(3.7795276,0,0,3.7795276,-265,-385.51969)"
      id="radio-normal">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2039"
        width="4.2333331"
        height="4.2333331"
@@ -4437,7 +4437,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2041"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <g
        transform="translate(3.5718767,11.81176)"
        id="g2004">
@@ -4461,7 +4461,7 @@
      id="menu-checkbox-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-136,-385.51969)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2145"
        width="4.2333331"
        height="4.2333331"
@@ -4473,7 +4473,7 @@
        inkscape:connector-curvature="0"
        id="path2147"
        d="m 89.429167,158.09375 c -0.293161,0 -0.529166,0.23601 -0.529166,0.52917 v 2.91041 c 0,0.29316 0.236005,0.52917 0.529166,0.52917 h 2.910417 c 0.293161,0 0.529167,-0.23601 0.529167,-0.52917 v -2.91041 c 0,-0.29316 -0.236006,-0.52917 -0.529167,-0.52917 z m 0,0.26458 h 2.910417 c 0.146579,0 0.264583,0.11801 0.264583,0.26459 v 2.91041 c 0,0.14658 -0.118004,0.26459 -0.264583,0.26459 h -2.910417 c -0.146579,0 -0.264583,-0.11801 -0.264583,-0.26459 v -2.91041 c 0,-0.14658 0.118004,-0.26459 0.264583,-0.26459 z"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   </g>
   <g
      id="menu-checkbox-checked-focused"
@@ -4486,7 +4486,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2151"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <g
        id="g2157"
        transform="translate(0.132296,11.81176)">
@@ -4494,9 +4494,9 @@
          inkscape:connector-curvature="0"
          id="path2153"
          d="m 95.117704,146.28199 c -0.293161,0 -0.529167,0.23601 -0.529167,0.52917 v 2.91041 c 0,0.29316 0.236006,0.52917 0.529167,0.52917 h 2.910416 c 0.293161,0 0.529167,-0.23601 0.529167,-0.52917 v -2.91041 c 0,-0.29316 -0.236006,-0.52917 -0.529167,-0.52917 z m 0,0.26458 h 2.910416 c 0.14658,0 0.264584,0.11801 0.264584,0.26459 v 2.91041 c 0,0.14658 -0.118004,0.26459 -0.264584,0.26459 h -2.910416 c -0.146579,0 -0.264583,-0.11801 -0.264583,-0.26459 v -2.91041 c 0,-0.14658 0.118004,-0.26459 0.264583,-0.26459 z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0.26458332"
          d="m 97.601786,147.42456 -1.309481,1.30948 -0.748274,-0.74828 -0.187068,0.18707 0.748274,0.74827 0.187068,0.18707 0.187068,-0.18707 1.309481,-1.30948 z"
          id="path2155"
          inkscape:connector-curvature="0" />
@@ -4506,7 +4506,7 @@
      id="menu-checkbox-tristate-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-136,-385.51969)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2161"
        width="4.2333331"
        height="4.2333331"
@@ -4524,12 +4524,12 @@
          height="2.3812499"
          width="0.26459071"
          id="rect2163"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19844048"
+         style="fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0.19844048"
          transform="rotate(-90)" />
       <path
          id="path2165"
          d="m 100.40937,146.28199 c -0.29316,0 -0.529166,0.23601 -0.529166,0.52917 v 2.91041 c 0,0.29316 0.236006,0.52917 0.529166,0.52917 h 2.91042 c 0.29316,0 0.52916,-0.23601 0.52916,-0.52917 v -2.91041 c 0,-0.29316 -0.236,-0.52917 -0.52916,-0.52917 z m 0,0.26458 h 2.91042 c 0.14658,0 0.26458,0.11801 0.26458,0.26459 v 2.91041 c 0,0.14658 -0.118,0.26459 -0.26458,0.26459 h -2.91042 c -0.14658,0 -0.26458,-0.11801 -0.26458,-0.26459 v -2.91041 c 0,-0.14658 0.118,-0.26459 0.26458,-0.26459 z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
          inkscape:connector-curvature="0" />
     </g>
   </g>
@@ -4544,18 +4544,18 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2171"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <path
        inkscape:connector-curvature="0"
        id="path2173"
        d="m 110.19896,158.09375 a 1.984375,1.984375 0 0 0 -1.98438,1.98438 1.984375,1.984375 0 0 0 1.98438,1.98437 1.984375,1.984375 0 0 0 1.98437,-1.98437 1.984375,1.984375 0 0 0 -1.98437,-1.98438 z m 0,0.26458 a 1.7197923,1.7197923 0 0 1 1.71979,1.7198 1.7197923,1.7197923 0 0 1 -1.71979,1.71979 1.7197923,1.7197923 0 0 1 -1.71979,-1.71979 1.7197923,1.7197923 0 0 1 1.71979,-1.7198 z"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.23345588;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:1;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0.23345588;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
   </g>
   <g
      id="menu-radio-checked-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-136,-385.51969)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2177"
        width="4.2333331"
        height="4.2333331"
@@ -4568,7 +4568,7 @@
        transform="translate(3.5718767,11.81176)">
       <rect
          ry="0.66145831"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.69069147;marker:none;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0.69069147;marker:none;enable-background:accumulate"
          id="rect2179"
          width="1.3229166"
          height="1.3229166"
@@ -4579,14 +4579,14 @@
          inkscape:connector-curvature="0"
          id="path2181"
          d="m 112.44792,146.28199 a 1.984375,1.984375 0 0 0 -1.98438,1.98438 1.984375,1.984375 0 0 0 1.98438,1.98437 1.984375,1.984375 0 0 0 1.98437,-1.98437 1.984375,1.984375 0 0 0 -1.98437,-1.98438 z m 0,0.26458 a 1.7197923,1.7197923 0 0 1 1.71979,1.7198 1.7197923,1.7197923 0 0 1 -1.71979,1.71979 1.7197923,1.7197923 0 0 1 -1.7198,-1.71979 1.7197923,1.7197923 0 0 1 1.7198,-1.7198 z"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.23345588;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+         style="opacity:1;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;stroke:none;stroke-width:0.23345588;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     </g>
   </g>
   <g
      id="checkbox-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-265,-407.5197)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2317"
        width="4.2333331"
        height="4.2333331"
@@ -4611,7 +4611,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2323"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <g
        id="g2329"
        transform="translate(0.132296,11.81176)">
@@ -4631,7 +4631,7 @@
      id="checkbox-tristate-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-265,-407.5197)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2333"
        width="4.2333331"
        height="4.2333331"
@@ -4669,7 +4669,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2343"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <path
        inkscape:connector-curvature="0"
        id="path2345"
@@ -4680,7 +4680,7 @@
      id="radio-checked-focused"
      transform="matrix(3.7795276,0,0,3.7795276,-265,-407.5197)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2349"
        width="4.2333331"
        height="4.2333331"
@@ -4711,7 +4711,7 @@
      id="menu-checkbox-normal"
      transform="matrix(3.7795276,0,0,3.7795276,-136,-407.5197)">
     <rect
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke"
        id="rect2462"
        width="4.2333331"
        height="4.2333331"
@@ -4736,7 +4736,7 @@
        height="4.2333331"
        width="4.2333331"
        id="rect2468"
-       style="opacity:0;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
+       style="opacity:0;fill:#{{index .ColorMap "bg" "hex"}};fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.3499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.29411765;paint-order:fill markers stroke" />
     <path
        inkscape:connector-curvature="0"
        id="path2470"
@@ -4816,7 +4816,7 @@
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.66568142"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;stroke-width:0.66568142"
        d="m 51,1099 v 6.998 h 4 V 1103 c 0,-2.216 -1.784,-4 -4,-4 z"
        transform="matrix(1.3333333,0,0,0.96701614,156.99932,-391.01787)"
        id="path5158" />
@@ -4831,7 +4831,7 @@
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.66576654"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;stroke-width:0.66576654"
        d="m 51,1099 c -2.216,0 -4,1.784 -4,4 v 2.998 h 4 z"
        transform="matrix(1.3333333,0,0,0.96701502,156.99933,-391.01675)"
        id="path5164" />
@@ -4847,7 +4847,7 @@
        style="opacity:0"
        id="rect5168" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.75592905"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;stroke-width:0.75592905"
        id="path5170"
        d="m 219.66667,678.5 v 23 H 225 v -23 z"
        inkscape:connector-curvature="0" />
@@ -4863,7 +4863,7 @@
        style="opacity:0"
        id="rect5174" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.7559303"
+       style="fill:#{{index .ColorMap "08" "hex"}};fill-rule:evenodd;stroke-width:0.7559303"
        id="path5176"
        d="m 225,678.5005 v 23 h 5.33333 v -23 z"
        inkscape:connector-curvature="0" />

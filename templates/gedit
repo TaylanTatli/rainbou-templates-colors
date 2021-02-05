@@ -111,7 +111,7 @@
   <style name="rubyonrails:special-variable" foreground="color05"/>
   <style name="rubyonrails:symbol" foreground="color02"/>
   <style name="search-match" background="color10" bold="true" underline="true"/>
-  <style name="selection" foreground="color13" background="color11"/>
+  <style name="selection" foreground="color13" background="colorbg"/>
   <style name="text" foreground="colorfg" background="colorbg"/>
   <style name="xml:attribute-name" foreground="color01"/>
   <style name="xml:doctype" foreground="color01"/>

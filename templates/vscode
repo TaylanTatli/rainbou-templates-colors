@@ -1,0 +1,1175 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "{{.Metadata.Name}}",
+    "author": "{{.Metadata.Author}}",
+    "semanticClass": "theme.rainbou",
+    "semanticHighlighting": true,
+    "rainbou": {
+        "base": [
+            "#{{index .ColorMap "bg" "hex"}}",
+            "#{{index .ColorMap "fg" "hex"}}",
+            "#{{index .ColorMap "00" "hex"}}",
+            "#{{index .ColorMap "08" "hex"}}",
+            "#{{index .ColorMap "06" "hex"}}",
+            "#{{index .ColorMap "02" "hex"}}",
+            "#{{index .ColorMap "11" "hex"}}",
+            "#{{index .ColorMap "05" "hex"}}",
+            "#{{index .ColorMap "04" "hex"}}",
+            "#{{index .ColorMap "01" "hex"}}",
+            "#{{index .ColorMap "03" "hex"}}"
+        ],
+        "ansi": [
+            "#{{index .ColorMap "00" "hex"}}",
+            "#{{index .ColorMap "01" "hex"}}",
+            "#{{index .ColorMap "02" "hex"}}",
+            "#{{index .ColorMap "03" "hex"}}",
+            "#{{index .ColorMap "04" "hex"}}",
+            "#{{index .ColorMap "05" "hex"}}",
+            "#{{index .ColorMap "06" "hex"}}",
+            "#{{index .ColorMap "07" "hex"}}",
+            "#{{index .ColorMap "08" "hex"}}",
+            "#{{index .ColorMap "09" "hex"}}",
+            "#{{index .ColorMap "10" "hex"}}",
+            "#{{index .ColorMap "11" "hex"}}",
+            "#{{index .ColorMap "12" "hex"}}",
+            "#{{index .ColorMap "13" "hex"}}",
+            "#{{index .ColorMap "14" "hex"}}",
+            "#{{index .ColorMap "15" "hex"}}"
+        ],
+        "brightOther": [
+            "#{{index .ColorMap "11" "hex"}}",
+            "#{{index .ColorMap "14" "hex"}}"
+        ],
+        "other": [
+            "#{{index .ColorMap "00" "hex"}}75",
+            "#{{index .ColorMap "15" "hex"}}1A",
+            "#{{index .ColorMap "15" "hex"}}",
+            "#{{index .ColorMap "00" "hex"}}70",
+            "#{{index .ColorMap "08" "hex"}}",
+            "#{{index .ColorMap "00" "hex"}}",
+            "#{{index .ColorMap "00" "hex"}}",
+            "#{{index .ColorMap "00" "hex"}}"
+        ]
+    },
+    "colors": {
+        "terminal.background": "#{{index .ColorMap "bg" "hex"}}",
+        "terminal.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "terminal.ansiBrightBlack": "#{{index .ColorMap "08" "hex"}}",
+        "terminal.ansiBrightRed": "#{{index .ColorMap "09" "hex"}}",
+        "terminal.ansiBrightGreen": "#{{index .ColorMap "10" "hex"}}",
+        "terminal.ansiBrightYellow": "#{{index .ColorMap "11" "hex"}}",
+        "terminal.ansiBrightBlue": "#{{index .ColorMap "12" "hex"}}",
+        "terminal.ansiBrightMagenta": "#{{index .ColorMap "13" "hex"}}",
+        "terminal.ansiBrightCyan": "#{{index .ColorMap "14" "hex"}}",
+        "terminal.ansiBrightWhite": "#{{index .ColorMap "15" "hex"}}",
+        "terminal.ansiBlack": "#{{index .ColorMap "00" "hex"}}",
+        "terminal.ansiRed": "#{{index .ColorMap "01" "hex"}}",
+        "terminal.ansiGreen": "#{{index .ColorMap "02" "hex"}}",
+        "terminal.ansiYellow": "#{{index .ColorMap "03" "hex"}}",
+        "terminal.ansiBlue": "#{{index .ColorMap "04" "hex"}}",
+        "terminal.ansiMagenta": "#{{index .ColorMap "05" "hex"}}",
+        "terminal.ansiCyan": "#{{index .ColorMap "06" "hex"}}",
+        "terminal.ansiWhite": "#{{index .ColorMap "fg" "hex"}}",
+        "contrastBorder": "#{{index .ColorMap "00" "hex"}}",
+        "focusBorder": "#{{index .ColorMap "08" "hex"}}",
+        "foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "selection.background": "#{{index .ColorMap "04" "hex"}}",
+        "errorForeground": "#{{index .ColorMap "01" "hex"}}",
+        "button.background": "#{{index .ColorMap "00" "hex"}}",
+        "button.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "dropdown.background": "#{{index .ColorMap "00" "hex"}}",
+        "dropdown.border": "#{{index .ColorMap "00" "hex"}}",
+        "dropdown.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "input.background": "#{{index .ColorMap "bg" "hex"}}",
+        "input.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "input.border": "#{{index .ColorMap "00" "hex"}}",
+        "input.placeholderForeground": "#{{index .ColorMap "08" "hex"}}",
+        "inputOption.activeBorder": "#{{index .ColorMap "04" "hex"}}",
+        "inputValidation.infoBorder": "#{{index .ColorMap "05" "hex"}}",
+        "inputValidation.warningBorder": "#{{index .ColorMap "11" "hex"}}",
+        "inputValidation.errorBorder": "#{{index .ColorMap "01" "hex"}}",
+        "badge.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "badge.background": "#{{index .ColorMap "00" "hex"}}",
+        "progressBar.background": "#{{index .ColorMap "05" "hex"}}",
+        "list.activeSelectionBackground": "#{{index .ColorMap "04" "hex"}}",
+        "list.activeSelectionForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "list.dropBackground": "#{{index .ColorMap "00" "hex"}}",
+        "list.focusBackground": "#{{index .ColorMap "04" "hex"}}75",
+        "list.highlightForeground": "#{{index .ColorMap "06" "hex"}}",
+        "list.hoverBackground": "#{{index .ColorMap "00" "hex"}}75",
+        "list.inactiveSelectionBackground": "#{{index .ColorMap "00" "hex"}}75",
+        "list.warningForeground": "#{{index .ColorMap "11" "hex"}}",
+        "list.errorForeground": "#{{index .ColorMap "01" "hex"}}",
+        "activityBar.background": "#{{index .ColorMap "00" "hex"}}",
+        "activityBar.inactiveForeground": "#{{index .ColorMap "08" "hex"}}",
+        "activityBar.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "activityBar.activeBorder": "#{{index .ColorMap "05" "hex"}}80",
+        "activityBar.activeBackground": "#{{index .ColorMap "04" "hex"}}10",
+        "activityBarBadge.background": "#{{index .ColorMap "bg" "hex"}}",
+        "activityBarBadge.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "sideBar.background": "#{{index .ColorMap "00" "hex"}}",
+        "sideBarTitle.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "sideBarSectionHeader.background": "#{{index .ColorMap "bg" "hex"}}",
+        "sideBarSectionHeader.border": "#{{index .ColorMap "00" "hex"}}",
+        "editorGroup.border": "#{{index .ColorMap "04" "hex"}}",
+        "editorGroup.dropBackground": "#{{index .ColorMap "00" "hex"}}70",
+        "editorGroupHeader.tabsBackground": "#{{index .ColorMap "00" "hex"}}",
+        "tab.activeBackground": "#{{index .ColorMap "bg" "hex"}}",
+        "tab.activeForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "tab.border": "#{{index .ColorMap "00" "hex"}}",
+        "tab.activeBorderTop": "#{{index .ColorMap "05" "hex"}}80",
+        "tab.inactiveBackground": "#{{index .ColorMap "00" "hex"}}",
+        "tab.inactiveForeground": "#{{index .ColorMap "08" "hex"}}",
+        "editor.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "editor.background": "#{{index .ColorMap "bg" "hex"}}",
+        "editorLineNumber.foreground": "#{{index .ColorMap "08" "hex"}}",
+        "editor.selectionBackground": "#{{index .ColorMap "00" "hex"}}",
+        "editor.selectionHighlightBackground": "#{{index .ColorMap "08" "hex"}}",
+        "editor.foldBackground": "#{{index .ColorMap "00" "hex"}}",
+        "editor.wordHighlightBackground": "#{{index .ColorMap "06" "hex"}}50",
+        "editor.wordHighlightStrongBackground": "#{{index .ColorMap "02" "hex"}}50",
+        "editor.findMatchBackground": "#{{index .ColorMap "11" "hex"}}80",
+        "editor.findMatchHighlightBackground": "#{{index .ColorMap "15" "hex"}}40",
+        "editor.findRangeHighlightBackground": "#{{index .ColorMap "00" "hex"}}75",
+        "editor.hoverHighlightBackground": "#{{index .ColorMap "06" "hex"}}50",
+        "editor.lineHighlightBorder": "#{{index .ColorMap "00" "hex"}}",
+        "editorLink.activeForeground": "#{{index .ColorMap "06" "hex"}}",
+        "editor.rangeHighlightBackground": "#{{index .ColorMap "04" "hex"}}15",
+        "editor.snippetTabstopHighlightBackground": "#{{index .ColorMap "bg" "hex"}}",
+        "editor.snippetTabstopHighlightBorder": "#{{index .ColorMap "08" "hex"}}",
+        "editor.snippetFinalTabstopHighlightBackground": "#{{index .ColorMap "bg" "hex"}}",
+        "editor.snippetFinalTabstopHighlightBorder": "#{{index .ColorMap "02" "hex"}}",
+        "editorWhitespace.foreground": "#{{index .ColorMap "15" "hex"}}1A",
+        "editorIndentGuide.background": "#{{index .ColorMap "15" "hex"}}1A",
+        "editorIndentGuide.activeBackground": "#{{index .ColorMap "15" "hex"}}45",
+        "editorRuler.foreground": "#{{index .ColorMap "15" "hex"}}1A",
+        "editorCodeLens.foreground": "#{{index .ColorMap "08" "hex"}}",
+        "editorOverviewRuler.border": "#{{index .ColorMap "00" "hex"}}",
+        "editorOverviewRuler.selectionHighlightForeground": "#{{index .ColorMap "11" "hex"}}",
+        "editorOverviewRuler.wordHighlightForeground": "#{{index .ColorMap "06" "hex"}}",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#{{index .ColorMap "02" "hex"}}",
+        "editorOverviewRuler.modifiedForeground": "#{{index .ColorMap "06" "hex"}}80",
+        "editorOverviewRuler.addedForeground": "#{{index .ColorMap "02" "hex"}}80",
+        "editorOverviewRuler.deletedForeground": "#{{index .ColorMap "01" "hex"}}80",
+        "editorOverviewRuler.errorForeground": "#{{index .ColorMap "01" "hex"}}80",
+        "editorOverviewRuler.warningForeground": "#{{index .ColorMap "11" "hex"}}80",
+        "editorOverviewRuler.infoForeground": "#{{index .ColorMap "06" "hex"}}80",
+        "editorError.foreground": "#{{index .ColorMap "01" "hex"}}",
+        "editorWarning.foreground": "#{{index .ColorMap "06" "hex"}}",
+        "editorGutter.modifiedBackground": "#{{index .ColorMap "06" "hex"}}80",
+        "editorGutter.addedBackground": "#{{index .ColorMap "02" "hex"}}80",
+        "editorGutter.deletedBackground": "#{{index .ColorMap "01" "hex"}}80",
+        "gitDecoration.modifiedResourceForeground": "#{{index .ColorMap "06" "hex"}}",
+        "gitDecoration.deletedResourceForeground": "#{{index .ColorMap "01" "hex"}}",
+        "gitDecoration.untrackedResourceForeground": "#{{index .ColorMap "02" "hex"}}",
+        "gitDecoration.ignoredResourceForeground": "#{{index .ColorMap "08" "hex"}}",
+        "gitDecoration.conflictingResourceForeground": "#{{index .ColorMap "11" "hex"}}",
+        "diffEditor.insertedTextBackground": "#{{index .ColorMap "02" "hex"}}20",
+        "diffEditor.removedTextBackground": "#{{index .ColorMap "01" "hex"}}50",
+        "editorWidget.background": "#{{index .ColorMap "00" "hex"}}",
+        "editorSuggestWidget.background": "#{{index .ColorMap "00" "hex"}}",
+        "editorSuggestWidget.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "editorSuggestWidget.selectedBackground": "#{{index .ColorMap "00" "hex"}}",
+        "editorHoverWidget.background": "#{{index .ColorMap "bg" "hex"}}",
+        "editorHoverWidget.border": "#{{index .ColorMap "08" "hex"}}",
+        "editorMarkerNavigation.background": "#{{index .ColorMap "00" "hex"}}",
+        "peekView.border": "#{{index .ColorMap "00" "hex"}}",
+        "peekViewEditor.background": "#{{index .ColorMap "bg" "hex"}}",
+        "peekViewEditor.matchHighlightBackground": "#{{index .ColorMap "03" "hex"}}80",
+        "peekViewResult.background": "#{{index .ColorMap "00" "hex"}}",
+        "peekViewResult.fileForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "peekViewResult.lineForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "peekViewResult.matchHighlightBackground": "#{{index .ColorMap "03" "hex"}}80",
+        "peekViewResult.selectionBackground": "#{{index .ColorMap "00" "hex"}}",
+        "peekViewResult.selectionForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "peekViewTitle.background": "#{{index .ColorMap "00" "hex"}}",
+        "peekViewTitleDescription.foreground": "#{{index .ColorMap "08" "hex"}}",
+        "peekViewTitleLabel.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "merge.currentHeaderBackground": "#{{index .ColorMap "02" "hex"}}90",
+        "merge.incomingHeaderBackground": "#{{index .ColorMap "04" "hex"}}90",
+        "editorOverviewRuler.currentContentForeground": "#{{index .ColorMap "02" "hex"}}",
+        "editorOverviewRuler.incomingContentForeground": "#{{index .ColorMap "04" "hex"}}",
+        "panel.background": "#{{index .ColorMap "bg" "hex"}}",
+        "panel.border": "#{{index .ColorMap "04" "hex"}}",
+        "panelTitle.activeBorder": "#{{index .ColorMap "05" "hex"}}",
+        "panelTitle.activeForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "panelTitle.inactiveForeground": "#{{index .ColorMap "08" "hex"}}",
+        "statusBar.background": "#{{index .ColorMap "00" "hex"}}",
+        "statusBar.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "statusBar.debuggingBackground": "#{{index .ColorMap "01" "hex"}}",
+        "statusBar.debuggingForeground": "#{{index .ColorMap "00" "hex"}}",
+        "statusBar.noFolderBackground": "#{{index .ColorMap "00" "hex"}}",
+        "statusBar.noFolderForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "statusBarItem.prominentBackground": "#{{index .ColorMap "01" "hex"}}",
+        "statusBarItem.prominentHoverBackground": "#{{index .ColorMap "11" "hex"}}",
+        "statusBarItem.remoteForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "statusBarItem.remoteBackground": "#{{index .ColorMap "04" "hex"}}",
+        "titleBar.activeBackground": "#{{index .ColorMap "00" "hex"}}",
+        "titleBar.activeForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "titleBar.inactiveBackground": "#{{index .ColorMap "00" "hex"}}",
+        "titleBar.inactiveForeground": "#{{index .ColorMap "08" "hex"}}",
+        "notification.background": "#{{index .ColorMap "bg" "hex"}}",
+        "notification.foreground": "#{{index .ColorMap "fg" "hex"}}",
+        "notification.buttonBackground": "#{{index .ColorMap "00" "hex"}}",
+        "notification.buttonForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "notification.buttonHoverBackground": "#{{index .ColorMap "00" "hex"}}75",
+        "notification.errorBackground": "#{{index .ColorMap "01" "hex"}}",
+        "notification.errorForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "notification.infoBackground": "#{{index .ColorMap "06" "hex"}}",
+        "notification.infoForeground": "#{{index .ColorMap "bg" "hex"}}",
+        "notification.warningBackground": "#{{index .ColorMap "11" "hex"}}",
+        "notification.warningForeground": "#{{index .ColorMap "bg" "hex"}}",
+        "extensionButton.prominentForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "extensionButton.prominentBackground": "#{{index .ColorMap "02" "hex"}}90",
+        "extensionButton.prominentHoverBackground": "#{{index .ColorMap "02" "hex"}}60",
+        "pickerGroup.border": "#{{index .ColorMap "04" "hex"}}",
+        "pickerGroup.foreground": "#{{index .ColorMap "06" "hex"}}",
+        "debugToolBar.background": "#{{index .ColorMap "00" "hex"}}",
+        "walkThrough.embeddedEditorBackground": "#{{index .ColorMap "00" "hex"}}",
+        "settings.headerForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "settings.modifiedItemForeground": "#{{index .ColorMap "11" "hex"}}",
+        "settings.modifiedItemIndicator": "#{{index .ColorMap "11" "hex"}}",
+        "settings.dropdownBackground": "#{{index .ColorMap "00" "hex"}}",
+        "settings.dropdownForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "settings.dropdownBorder": "#{{index .ColorMap "00" "hex"}}",
+        "settings.checkboxBackground": "#{{index .ColorMap "00" "hex"}}",
+        "settings.checkboxForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "settings.checkboxBorder": "#{{index .ColorMap "00" "hex"}}",
+        "settings.textInputBackground": "#{{index .ColorMap "00" "hex"}}",
+        "settings.textInputForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "settings.textInputBorder": "#{{index .ColorMap "00" "hex"}}",
+        "settings.numberInputBackground": "#{{index .ColorMap "00" "hex"}}",
+        "settings.numberInputForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "settings.numberInputBorder": "#{{index .ColorMap "00" "hex"}}",
+        "breadcrumb.foreground": "#{{index .ColorMap "08" "hex"}}",
+        "breadcrumb.background": "#{{index .ColorMap "bg" "hex"}}",
+        "breadcrumb.focusForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "breadcrumb.activeSelectionForeground": "#{{index .ColorMap "fg" "hex"}}",
+        "breadcrumbPicker.background": "#{{index .ColorMap "00" "hex"}}",
+        "listFilterWidget.background": "#{{index .ColorMap "00" "hex"}}",
+        "listFilterWidget.outline": "#{{index .ColorMap "08" "hex"}}",
+        "listFilterWidget.noMatchesOutline": "#{{index .ColorMap "01" "hex"}}"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "emphasis"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "strong"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "header"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "source"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "meta.diff",
+                "meta.diff.header"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "08" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "markup.inserted"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "markup.deleted"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "01" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "markup.changed"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "invalid"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "01" "hex"}}",
+                "fontStyle": "underline italic"
+            }
+        },
+        {
+            "scope": [
+                "invalid.deprecated"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}",
+                "fontStyle": "underline italic"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.filename"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "scope": [
+                "markup.error"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "01" "hex"}}"
+            }
+        },
+        {
+            "name": "Underlined markup",
+            "scope": [
+                "markup.underline"
+            ],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Bold markup",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "Markup headings",
+            "scope": [
+                "markup.heading"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Markup italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Bullets, lists (prose)",
+            "scope": [
+                "beginning.punctuation.definition.list.markdown",
+                "beginning.punctuation.definition.quote.markdown",
+                "punctuation.definition.link.restructuredtext"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Inline code (prose)",
+            "scope": [
+                "markup.inline.raw",
+                "markup.raw.restructuredtext"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Links (prose)",
+            "scope": [
+                "markup.underline.link",
+                "markup.underline.link.image"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Link text, image alt text (prose)",
+            "scope": [
+                "meta.link.reference.def.restructuredtext",
+                "punctuation.definition.directive.restructuredtext",
+                "string.other.link.description",
+                "string.other.link.title"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Blockquotes (prose)",
+            "scope": [
+                "entity.name.directive.restructuredtext",
+                "markup.quote"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Horizontal rule (prose)",
+            "scope": [
+                "meta.separator.markdown"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "08" "hex"}}"
+            }
+        },
+        {
+            "name": "Code blocks",
+            "scope": [
+                "fenced_code.block.language",
+                "markup.raw.inner.restructuredtext",
+                "markup.fenced_code.block.markdown punctuation.definition.markdown"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Prose constants",
+            "scope": [
+                "punctuation.definition.constant.restructuredtext"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Braces in markdown headings",
+            "scope": [
+                "markup.heading.markdown punctuation.definition.string.begin",
+                "markup.heading.markdown punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Braces in markdown paragraphs",
+            "scope": [
+                "meta.paragraph.markdown punctuation.definition.string.begin",
+                "meta.paragraph.markdown punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "Braces in markdown blockquotes",
+            "scope": [
+                "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.begin",
+                "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "User-defined class names",
+            "scope": [
+                "entity.name.type.class",
+                "entity.name.class"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}",
+                "fontStyle": "normal"
+            }
+        },
+        {
+            "name": "this, super, self, etc.",
+            "scope": [
+                "keyword.expressions-and-types.swift",
+                "keyword.other.this",
+                "variable.language",
+                "variable.language punctuation.definition.variable.php",
+                "variable.other.readwrite.instance.ruby",
+                "variable.parameter.function.language.special"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Inherited classes",
+            "scope": [
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "unused.comment",
+                "wildcard.comment"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "08" "hex"}}"
+            }
+        },
+        {
+            "name": "JSDoc-style keywords",
+            "scope": [
+                "comment keyword.codetag.notation",
+                "comment.block.documentation keyword",
+                "comment.block.documentation storage.type.class"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "JSDoc-style types",
+            "scope": [
+                "comment.block.documentation entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "JSDoc-style type brackets",
+            "scope": [
+                "comment.block.documentation entity.name.type punctuation.definition.bracket"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "JSDoc-style comment parameters",
+            "scope": [
+                "comment.block.documentation variable"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "11" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Constant escape sequences",
+            "scope": [
+                "constant.character.escape",
+                "constant.character.string.escape",
+                "constant.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "HTML tags",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "CSS attribute parent selectors ('&')",
+            "scope": [
+                "entity.other.attribute-name.parent-selector"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "HTML/CSS attribute names",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Function names",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call.generic",
+                "meta.function-call.object",
+                "meta.function-call.php",
+                "meta.function-call.static",
+                "meta.method-call.java meta.method",
+                "meta.method.groovy",
+                "support.function.any-method.lua",
+                "keyword.operator.function.infix"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Function parameters",
+            "scope": [
+                "entity.name.variable.parameter",
+                "meta.at-rule.function variable",
+                "meta.at-rule.mixin variable",
+                "meta.function.arguments variable.other.php",
+                "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
+                "variable.parameter"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "Decorators",
+            "scope": [
+                "meta.decorator variable.other.readwrite",
+                "meta.decorator variable.other.property"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Decorator Objects",
+            "scope": [
+                "meta.decorator variable.other.object"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "punctuation.definition.keyword"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Keyword \"new\"",
+            "scope": [
+                "keyword.control.new",
+                "keyword.operator.new"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Generic selectors (CSS/SCSS/Less/Stylus)",
+            "scope": [
+                "meta.selector"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Language Built-ins",
+            "scope": [
+                "support"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Built-in magic functions and constants",
+            "scope": [
+                "support.function.magic",
+                "support.variable",
+                "variable.other.predefined"
+            ],
+            "settings": {
+                "fontStyle": "regular",
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Built-in functions / properties",
+            "scope": [
+                "support.function",
+                "support.type.property-name"
+            ],
+            "settings": {
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "Separators (key/value, namespace, inheritance, pointer, hash, slice, etc)",
+            "scope": [
+                "constant.other.symbol.hashkey punctuation.definition.constant.ruby",
+                "entity.other.attribute-name.placeholder punctuation",
+                "entity.other.attribute-name.pseudo-class punctuation",
+                "entity.other.attribute-name.pseudo-element punctuation",
+                "meta.group.double.toml",
+                "meta.group.toml",
+                "meta.object-binding-pattern-variable punctuation.destructuring",
+                "punctuation.colon.graphql",
+                "punctuation.definition.block.scalar.folded.yaml",
+                "punctuation.definition.block.scalar.literal.yaml",
+                "punctuation.definition.block.sequence.item.yaml",
+                "punctuation.definition.entity.other.inherited-class",
+                "punctuation.function.swift",
+                "punctuation.separator.dictionary.key-value",
+                "punctuation.separator.hash",
+                "punctuation.separator.inheritance",
+                "punctuation.separator.key-value",
+                "punctuation.separator.key-value.mapping.yaml",
+                "punctuation.separator.namespace",
+                "punctuation.separator.pointer-access",
+                "punctuation.separator.slice",
+                "string.unquoted.heredoc punctuation.definition.string",
+                "support.other.chomping-indicator.yaml",
+                "punctuation.separator.annotation"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Brackets, braces, parens, etc.",
+            "scope": [
+                "keyword.operator.other.powershell",
+                "keyword.other.statement-separator.powershell",
+                "meta.brace.round",
+                "meta.function-call punctuation",
+                "punctuation.definition.arguments.begin",
+                "punctuation.definition.arguments.end",
+                "punctuation.definition.entity.begin",
+                "punctuation.definition.entity.end",
+                "punctuation.definition.tag.cs",
+                "punctuation.definition.type.begin",
+                "punctuation.definition.type.end",
+                "punctuation.section.scope.begin",
+                "punctuation.section.scope.end",
+                "storage.type.generic.java",
+                "string.template meta.brace",
+                "string.template punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "Variable interpolation operators",
+            "scope": [
+                "meta.string-contents.quoted.double punctuation.definition.variable",
+                "punctuation.definition.interpolation.begin",
+                "punctuation.definition.interpolation.end",
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.coffee",
+                "punctuation.section.embedded.end",
+                "punctuation.section.embedded.end source.php",
+                "punctuation.section.embedded.end source.ruby",
+                "punctuation.definition.variable.makefile"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Keys (serializable languages)",
+            "scope": [
+                "entity.name.function.target.makefile",
+                "entity.name.section.toml",
+                "entity.name.tag.yaml",
+                "variable.other.key.toml"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Dates / timestamps (serializable languages)",
+            "scope": [
+                "constant.other.date",
+                "constant.other.timestamp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "YAML aliases",
+            "scope": [
+                "variable.other.alias.yaml"
+            ],
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": [
+                "storage",
+                "meta.implementation storage.type.objc",
+                "meta.interface-or-protocol storage.type.objc",
+                "source.groovy storage.type.def"
+            ],
+            "settings": {
+                "fontStyle": "regular",
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "entity.name.type",
+                "keyword.primitive-datatypes.swift",
+                "keyword.type.cs",
+                "meta.protocol-list.objc",
+                "meta.return-type.objc",
+                "source.go storage.type",
+                "source.groovy storage.type",
+                "source.java storage.type",
+                "source.powershell entity.other.attribute-name",
+                "storage.class.std.rust",
+                "storage.type.attribute.swift",
+                "storage.type.c",
+                "storage.type.core.rust",
+                "storage.type.cs",
+                "storage.type.groovy",
+                "storage.type.objc",
+                "storage.type.php",
+                "storage.type.haskell",
+                "storage.type.ocaml"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Generics, templates, and mapped type declarations",
+            "scope": [
+                "entity.name.type.type-parameter",
+                "meta.indexer.mappedtype.declaration entity.name.type",
+                "meta.type.parameters entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "Modifiers",
+            "scope": [
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "RegExp string",
+            "scope": [
+                "string.regexp",
+                "constant.other.character-class.set.regexp",
+                "constant.character.escape.backslash.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "Non-capture operators",
+            "scope": [
+                "punctuation.definition.group.capture.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "05" "hex"}}"
+            }
+        },
+        {
+            "name": "RegExp start and end characters",
+            "scope": [
+                "string.regexp punctuation.definition.string.begin",
+                "string.regexp punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "01" "hex"}}"
+            }
+        },
+        {
+            "name": "Character group",
+            "scope": [
+                "punctuation.definition.character-class.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Capture groups",
+            "scope": [
+                "punctuation.definition.group.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "Assertion operators",
+            "scope": [
+                "punctuation.definition.group.assertion.regexp",
+                "keyword.operator.negation.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "01" "hex"}}"
+            }
+        },
+        {
+            "name": "Positive lookaheads",
+            "scope": [
+                "meta.assertion.look-ahead.regexp"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "02" "hex"}}"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "String quotes (temporary vscode fix)",
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#E9F284"
+            }
+        },
+        {
+            "name": "Property quotes (temporary vscode fix)",
+            "scope": [
+                "punctuation.support.type.property-name.begin",
+                "punctuation.support.type.property-name.end"
+            ],
+            "settings": {
+                "foreground": "#8BE9FE"
+            }
+        },
+        {
+            "name": "Docstrings",
+            "scope": [
+                "string.quoted.docstring.multi",
+                "string.quoted.docstring.multi.python punctuation.definition.string.begin",
+                "string.quoted.docstring.multi.python punctuation.definition.string.end",
+                "string.quoted.docstring.multi.python constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "08" "hex"}}"
+            }
+        },
+        {
+            "name": "Variables and object properties",
+            "scope": [
+                "variable",
+                "constant.other.key.perl",
+                "support.variable.property",
+                "variable.other.constant.js",
+                "variable.other.constant.ts",
+                "variable.other.constant.tsx"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "Destructuring / aliasing reference name (LHS)",
+            "scope": [
+                "meta.import variable.other.readwrite",
+                "meta.object-binding-pattern-variable variable.object.property",
+                "meta.variable.assignment.destructured.object.coffee variable"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#{{index .ColorMap "11" "hex"}}"
+            }
+        },
+        {
+            "name": "Destructuring / aliasing variable name (RHS)",
+            "scope": [
+                "meta.import variable.other.readwrite.alias",
+                "meta.export variable.other.readwrite.alias",
+                "meta.variable.assignment.destructured.object.coffee variable variable"
+            ],
+            "settings": {
+                "fontStyle": "normal",
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "GraphQL keys",
+            "scope": [
+                "meta.selectionset.graphql variable"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "GraphQL function arguments",
+            "scope": [
+                "meta.selectionset.graphql meta.arguments variable"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "GraphQL fragment name (definition)",
+            "scope": [
+                "entity.name.fragment.graphql",
+                "variable.fragment.graphql"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "06" "hex"}}"
+            }
+        },
+        {
+            "name": "Edge cases (foreground color resets)",
+            "scope": [
+                "constant.other.symbol.hashkey.ruby",
+                "keyword.operator.dereference.java",
+                "keyword.operator.navigation.groovy",
+                "meta.scope.for-loop.shell punctuation.definition.string.begin",
+                "meta.scope.for-loop.shell punctuation.definition.string.end",
+                "meta.scope.for-loop.shell string",
+                "storage.modifier.import",
+                "punctuation.section.embedded.begin.tsx",
+                "punctuation.section.embedded.end.tsx",
+                "punctuation.section.embedded.begin.jsx",
+                "punctuation.section.embedded.end.jsx",
+                "punctuation.separator.list.comma.css",
+                "constant.language.empty-list.haskell"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "Shell variables prefixed with \"$\" (edge case)",
+            "scope": [
+                "source.shell variable.other"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Powershell constants mistakenly scoped to `support`, rather than `constant` (edge)",
+            "scope": [
+                "support.constant"
+            ],
+            "settings": {
+                "fontStyle": "normal",
+                "foreground": "#{{index .ColorMap "04" "hex"}}"
+            }
+        },
+        {
+            "name": "Makefile prerequisite names",
+            "scope": [
+                "meta.scope.prerequisites.makefile"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "SCSS attibute selector strings",
+            "scope": [
+                "meta.attribute-selector.scss"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "03" "hex"}}"
+            }
+        },
+        {
+            "name": "SCSS attribute selector brackets",
+            "scope": [
+                "punctuation.definition.attribute-selector.end.bracket.square.scss",
+                "punctuation.definition.attribute-selector.begin.bracket.square.scss"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "fg" "hex"}}"
+            }
+        },
+        {
+            "name": "Haskell Pragmas",
+            "scope": [
+                "meta.preprocessor.haskell"
+            ],
+            "settings": {
+                "foreground": "#{{index .ColorMap "08" "hex"}}"
+            }
+        }
+    ]
+}

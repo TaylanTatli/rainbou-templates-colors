@@ -1,0 +1,31 @@
+metadata:
+  name: Yaru
+  author: Ubuntu
+colors:
+  bg: "171717"
+  fg: "c5c8c6"
+  cr: "c5c8c6"
+
+  00: "222222"
+  08: "928986"
+
+  01: "ff794a"
+  09: "ff6d4c"
+
+  02: "52d866"
+  10: "69ff94"
+
+  03: "ffdc98"
+  11: "fff5bc"
+
+  04: "ee80d6"
+  12: "ffa2eb"
+
+  05: "ff9d88"
+  13: "ffaea0"
+
+  06: "60d4fd"
+  14: "98e4ff"
+
+  07: "fdfdfd"
+  15: "ffffff"

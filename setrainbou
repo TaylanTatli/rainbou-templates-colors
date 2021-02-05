@@ -19,7 +19,9 @@ swap_dialog() {
     rainbou ${NEW_THEME} alacritty >~/dotfiles/alacritty/.config/alacritty/alacritty.yml
     rainbou ${NEW_THEME} linux_tty >~/dotfiles/zsh/.zsh/zsh_tty
     rainbou ${NEW_THEME} gedit >~/dotfiles/gedit/.local/share/gedit/styles/${NEW_THEME}.xml
+    rainbou ${NEW_THEME} vscode >~//.vscode/extensions/taylantatli.rainbou-1.0.0/themes/rainbou.json
     rainbou ${NEW_THEME} polybar >~/dotfiles/polybar/.config/polybar/colors.ini
+    polybar-msg cmd restart >/dev/null 2>&1
     rainbou ${NEW_THEME} rofi_applets >~/dotfiles/rofi/.config/rofi/applets/colors.rasi
     rainbou ${NEW_THEME} rofi_launchers >~/dotfiles/rofi/.config/rofi/launchers/colors.rasi
     rainbou ${NEW_THEME} ulauncher >~/dotfiles/ulauncher/.config/ulauncher/user-themes/rainbou/theme.css
@@ -29,7 +31,10 @@ swap_dialog() {
     rainbou ${NEW_THEME} jgmenu >~/dotfiles/jgmenu/.config/jgmenu/jgmenurc
     rainbou ${NEW_THEME} plank >~/dotfiles/plank/.local/share/plank/themes/rainbou/dock.theme
     rainbou ${NEW_THEME} deadd >~/dotfiles/deadd/.config/deadd/deadd.css
+    notify-send.py a --hint boolean:deadd-notification-center:true string:type:reloadStyle >/dev/null 2>&1
+    rainbou ${NEW_THEME} qutebrowser >~/dotfiles/qutebrowser/.config/qutebrowser/rainbou.py
     rainbou ${NEW_THEME} dunst >~/dotfiles/dunst/.config/dunst/dunstrc
+    rainbou ${NEW_THEME} vimiv >~/dotfiles/vimiv/.config/vimiv/styles/rainbou
     rainbou ${NEW_THEME} gtk >~/.themes/rainbou/gtk-3.0/gtk.css
     rainbou ${NEW_THEME} gtkrc >~/.themes/rainbou/gtk-2.0/gtkrc
     rainbou ${NEW_THEME} zathura >~/dotfiles/zathura/.config/zathura/zathurarc
@@ -38,16 +43,18 @@ swap_dialog() {
     #openbox --reconfigure
     rainbou ${NEW_THEME} qt5ct >~/.config/qt5ct/colors/rainbou.conf
     rainbou ${NEW_THEME} kvantum >~/.config/Kvantum/Rainbou/Rainbou.kvconfig
+    rainbou ${NEW_THEME} kvantum-svg >~/.config/Kvantum/Rainbou/Rainbou.svg
     #rainbou ${NEW_THEME} telegram > ~/Rainbou.tdesktop-theme
     rainbou ${NEW_THEME} escsequences >/tmp/escsequences
     sh /tmp/escsequences
     #rainbou ${NEW_THEME} gnome-terminal >/tmp/gnome-terminal-theme
     #sh /tmp/gnome-terminal-theme
     #rainbou ${NEW_THEME} konsole >~/.local/share/konsole/rainbou.colorscheme
-    #rainbou ${NEW_THEME} wallpaper-octagon > ~/Resimler/Wallpapers/Rainbou/${NEW_THEME}-octagon.svg
-    #rainbou ${NEW_THEME} wallpaper-blockwave > ~/Resimler/Wallpapers/Rainbou/${NEW_THEME}-blockwave.svg
-    #rainbou ${NEW_THEME} wallpaper-diamonds > ~/Resimler/Wallpapers/Rainbou/${NEW_THEME}-diamonds.svg
-    #rainbou ${NEW_THEME} wallpaper-tortoise > ~/Resimler/Wallpapers/Rainbou/${NEW_THEME}-tortoise.svg
+    rainbou ${NEW_THEME} wallpaper-octagon > ~/Resimler/Wallpapers/Rainbou/Rainbou-octagon.svg
+    rainbou ${NEW_THEME} wallpaper-blockwave > ~/Resimler/Wallpapers/Rainbou/Rainbou-blockwave.svg
+    rainbou ${NEW_THEME} wallpaper-diamonds > ~/Resimler/Wallpapers/Rainbou/Rainbou-diamonds.svg
+    rainbou ${NEW_THEME} wallpaper-tortoise > ~/Resimler/Wallpapers/Rainbou/Rainbou-tortoise.svg
+    rainbou ${NEW_THEME} wallpaper-simplegradient > ~/Resimler/Wallpapers/Rainbou/Rainbou-gradient.svg
     rainbou ${NEW_THEME} firefox-dark > ~/.mozilla/firefox/wmhune9w.default-release/chrome/firefox-gnome-theme/theme/colors/dark-rainbou.css
     rainbou ${NEW_THEME} userContent.css > ~/.mozilla/firefox/wmhune9w.default-release/chrome/userContent.css
     echo "Colorscheme ${b}${cr}${NEW_THEME}${n} is set!"
