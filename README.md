@@ -3,8 +3,12 @@
 ![1984.svg](./previews/1984.svg)  
 ## adapta
 ![adapta.svg](./previews/adapta.svg)  
+## adwaita
+![adwaita.svg](./previews/adwaita.svg)  
 ## agac
 ![agac.svg](./previews/agac.svg)  
+## akaroa
+![akaroa.svg](./previews/akaroa.svg)  
 ## alnj
 ![alnj.svg](./previews/alnj.svg)  
 ## altair
@@ -169,6 +173,10 @@
 ![depth.svg](./previews/depth.svg)  
 ## designr
 ![designr.svg](./previews/designr.svg)  
+## detoxdark
+![detoxdark.svg](./previews/detoxdark.svg)  
+## detox
+![detox.svg](./previews/detox.svg)  
 ## dftst
 ![dftst.svg](./previews/dftst.svg)  
 ## diner
@@ -257,6 +265,8 @@
 ![horse.svg](./previews/horse.svg)  
 ## hotline
 ![hotline.svg](./previews/hotline.svg)  
+## hundredrabbits
+![hundredrabbits.svg](./previews/hundredrabbits.svg)  
 ## hybrid
 ![hybrid.svg](./previews/hybrid.svg)  
 ## iceberg

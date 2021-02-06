@@ -1,0 +1,9 @@
+<svg width="100" height="100" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <rect width="100" height="100" fill="#{{index .ColorMap "bg" "hex"}}" stroke-opacity=".4996" stroke-width="1.5418"/>
+ <path d="m30.286 30.286 39.428 39.428" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+ <path d="m30.286 69.714 39.428-39.428" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+ <path d="m0.14303 0.14303 19.714 19.714" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+ <path d="m80.109 80.109 19.714 19.714" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+ <path d="m80.143 19.857 19.714-19.714" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+ <path d="m0.14303 99.857 19.714-19.714" fill="none" stroke="#{{index .ColorMap "00" "hex"}}"/>
+</svg>

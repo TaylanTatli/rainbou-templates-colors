@@ -1,0 +1,31 @@
+metadata:
+  name: HundredRabbits
+  author: TaylanTatli
+colors:
+  bg: "29272c"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "201e21"
+  08: "464148"
+
+  01: "e47464"
+  09: "f08e7f"
+
+  02: "b3e464"
+  10: "c5f07f"
+
+  03: "e4a164"
+  11: "f0b57f"
+
+  04: "649ee4"
+  12: "7fb2f0"
+
+  05: "e464af"
+  13: "f07fc1"
+
+  06: "64e4be"
+  14: "7ff0ce"
+
+  07: "66606b"
+  15: "c5c8c6"

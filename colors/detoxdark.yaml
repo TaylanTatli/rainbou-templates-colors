@@ -1,0 +1,31 @@
+metadata:
+  name: DetoxDark
+  author: TaylanTatli
+colors:
+  bg: "2d2d2d"
+  fg: "fc6db4"
+  cr: "fc6db4"
+
+  00: "232323"
+  08: "535353"
+
+  01: "f33e11"
+  09: "f37555"
+
+  02: "b8de91"
+  10: "cef1a9"
+
+  03: "fdab3d"
+  11: "fdc172"
+
+  04: "43cfd7"
+  12: "79dce2"
+
+  05: "bd2a5c"
+  13: "b64e71"
+
+  06: "279e76"
+  14: "4bb390"
+
+  07: "696764"
+  15: "e4e0d9"

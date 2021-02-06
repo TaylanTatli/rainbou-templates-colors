@@ -1,0 +1,31 @@
+metadata:
+  name: Adwaita
+  author: TaylanTatli
+colors:
+  bg: "2d2d2d"
+  fg: "eeeeec"
+  cr: "eeeeec"
+
+  00: "232323"
+  08: "535353"
+
+  01: "ed333b"
+  09: "f66151"
+
+  02: "4e9a06"
+  10: "83b850"
+
+  03: "f57900"
+  11: "ffbe6f"
+
+  04: "15539e"
+  12: "99c1f1"
+
+  05: "9141ac"
+  13: "dc8add"
+
+  06: "33d18c"
+  14: "8ff0c6"
+
+  07: "919190"
+  15: "ffffff"
