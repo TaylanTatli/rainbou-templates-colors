@@ -1,0 +1,31 @@
+metadata:
+  name: DeadByTomorrow
+  author: obliviousofcraps
+colors:
+  bg: "20242d"
+  fg: "e3e3e3"
+  cr: "e3e3e3"
+
+  00: "1c2028"
+  08: "585e74"
+
+  01: "fc8993"
+  09: "fb9199"
+
+  02: "89e19c"
+  10: "8de19f"
+
+  03: "fbdf90"
+  11: "ffe28e"
+
+  04: "a7bdfb"
+  12: "afc3fb"
+
+  05: "d990cd"
+  13: "df95d3"
+
+  06: "81d4ee"
+  14: "81d4ee"
+
+  07: "d6d6d6"
+  15: "f0f0f0"

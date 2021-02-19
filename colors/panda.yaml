@@ -1,0 +1,31 @@
+metadata:
+  name: Panda
+  author: Tinkertrain
+colors:
+  bg: "1f1f20"
+  fg: "f3f3f3"
+  cr: "f3f3f3"
+
+  00: "2a2d32"
+  08: "757575"
+
+  01: "ff2c6d"
+  09: "ff2c6d"
+
+  02: "19f9d8"
+  10: "19f9d8"
+
+  03: "ffb86c"
+  11: "ffcc95"
+
+  04: "45a9f9"
+  12: "6fc1ff"
+
+  05: "ff75b5"
+  13: "ff9ac1"
+
+  06: "b084eb"
+  14: "bcaafe"
+
+  07: "cdcdcd"
+  15: "e6e6e6"

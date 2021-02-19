@@ -1,4 +1,6 @@
 # Rainbou Colors
+## 16
+![16.svg](./previews/16.svg)  
 ## 1984
 ![1984.svg](./previews/1984.svg)  
 ## adapta
@@ -167,6 +169,8 @@
 ![darkerthanshrek.svg](./previews/darkerthanshrek.svg)  
 ## dawn
 ![dawn.svg](./previews/dawn.svg)  
+## deadbytomorrow
+![deadbytomorrow.svg](./previews/deadbytomorrow.svg)  
 ## denisidoro
 ![denisidoro.svg](./previews/denisidoro.svg)  
 ## depth
@@ -237,6 +241,8 @@
 ![goeswellwithblack.svg](./previews/goeswellwithblack.svg)  
 ## gotham
 ![gotham.svg](./previews/gotham.svg)  
+## gruvbox-dark-hard-adwaita
+![gruvbox-dark-hard-adwaita.svg](./previews/gruvbox-dark-hard-adwaita.svg)  
 ## gruvbox-dark-hard
 ![gruvbox-dark-hard.svg](./previews/gruvbox-dark-hard.svg)  
 ## gruvbox-dark-soft
@@ -369,6 +375,8 @@
 ![paints.svg](./previews/paints.svg)  
 ## palenight
 ![palenight.svg](./previews/palenight.svg)  
+## panda
+![panda.svg](./previews/panda.svg)  
 ## papercolor
 ![papercolor.svg](./previews/papercolor.svg)  
 ## paper
@@ -473,6 +481,8 @@
 ![stars.svg](./previews/stars.svg)  
 ## stormy
 ![stormy.svg](./previews/stormy.svg)  
+## strawberry
+![strawberry.svg](./previews/strawberry.svg)  
 ## sundr
 ![sundr.svg](./previews/sundr.svg)  
 ## synthwave

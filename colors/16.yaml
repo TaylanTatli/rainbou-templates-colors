@@ -1,0 +1,31 @@
+metadata:
+  name: 16
+  author: TaylanTatli
+colors:
+  bg: "1a1a1c"
+  fg: "fafafa"
+  cr: "fafafa"
+
+  00: "222224"
+  08: "474749"
+
+  01: "fe8d6f"
+  09: "fead98"
+
+  02: "dfdd6c"
+  10: "efeda5"
+
+  03: "fdc453"
+  11: "fdd992"
+
+  04: "77dbe0"
+  12: "aadde0"
+
+  05: "f886a8"
+  13: "f8acc2"
+
+  06: "5bc8a3"
+  14: "8fc8b5"
+
+  07: "c5c7c8"
+  15: "ffffff"

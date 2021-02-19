@@ -1,8 +1,8 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 window:
   dimensions:
-    columns: 80
-    lines: 26
+    columns: 94
+    lines: 28
   padding:
     x: 14
     y: 14
@@ -20,18 +20,18 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: RobotoMono Nerd Font
+    family: SF Mono
     style: Medium
   bold:
-    family: RobotoMono Nerd Font
+    family: SF Mono
     style: Bold
   italic:
-    family: RobotoMono Nerd Font
+    family: SF Mono
     style: Medium Italic
   bold_italic:
-    family: RobotoMono Nerd Font
+    family: SF Mono
     style: Bold Italic
-  size: 7
+  size: 6.5
   offset:
     x: 0
     y: 0

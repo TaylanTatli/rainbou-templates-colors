@@ -1,0 +1,31 @@
+metadata:
+  name: Strawberry
+  author: TaylanTatli
+colors:
+  bg: "121212"
+  fg: "e2e2e2"
+  cr: "e2e2e2"
+
+  00: "1d1d1d"
+  08: "434343"
+
+  01: "ff4181"
+  09: "ff78a5"
+
+  02: "b2ff59"
+  10: "d5ffa5"
+
+  03: "fbe739"
+  11: "fbf2a6"
+
+  04: "006776"
+  12: "467076"
+
+  05: "c38fff"
+  13: "d6b3ff"
+
+  06: "03dac6"
+  14: "79dad1"
+
+  07: "a5a5a5"
+  15: "ffffff"

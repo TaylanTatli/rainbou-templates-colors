@@ -242,18 +242,35 @@ rubberband, .rubberband {
 
 progressbar trough {
   background: #{{index .ColorMap "00" "hex"}};
+  border: 1px solid rgba(0,0,0,0.6);
+  border-radius: 6px;
 }
 
 progressbar.horizontal progress {
   background-image: linear-gradient(to right, #{{index .ColorMap "09" "hex"}}, #{{index .ColorMap "01" "hex"}});
+  min-height: 2px;
 }
 
 progressbar.vertical progress {
   background-image: linear-gradient(to bottom, #{{index .ColorMap "09" "hex"}}, #{{index .ColorMap "01" "hex"}});
+  min-width: 2px;
+}
+
+progressbar.vertical trough {
+  min-width: 2px;
+}
+
+progressbar.horizontal trough {
+  min-height: 2px;
+}
+
+progress {
+  border-width: 0;
+  border-radius: 6px;
 }
 
 levelbar trough block {
-  padding: 3px;
+  padding: 2px;
   border-radius: 3px;
 }
 levelbar trough block.filled {
@@ -261,6 +278,14 @@ levelbar trough block.filled {
 }
 levelbar trough block.empty {
   background: #{{index .ColorMap "00" "hex"}};
+}
+
+levelbar.horizontal trough {
+  min-height: 2px;
+}
+
+levelbar.vertical trough {
+  min-width: 2px;
 }
 
 levelbar.discrete block:not(:first-child) {
@@ -292,6 +317,12 @@ scale.horizontal highlight {
 }
 scale.vertical highlight {
   background-image: linear-gradient(to bottom, #{{index .ColorMap "09" "hex"}}, #{{index .ColorMap "01" "hex"}});
+}
+
+scale highlight,
+scale trough {
+  border: 1px solid rgba(0,0,0,0.6);
+  border-radius: 6px;
 }
 scale:disabled {
   opacity: 0.3;

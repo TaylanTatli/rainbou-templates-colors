@@ -1,7 +1,7 @@
 [color]
 
-bg = #D9{{index .ColorMap "bg" "hex"}}
-;bg = #FF{{index .ColorMap "bg" "hex"}}
+;bg = #D9{{index .ColorMap "bg" "hex"}}
+bg = #FF{{index .ColorMap "bg" "hex"}}
 fg = #{{index .ColorMap "fg" "hex"}}
 fg-alt = #{{index .ColorMap "15" "hex"}}
 
