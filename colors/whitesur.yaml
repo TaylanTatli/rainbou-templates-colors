@@ -1,0 +1,31 @@
+metadata:
+  name: WhiteSur
+  author: Vinceliuice
+colors:
+  bg: "242424"
+  fg: "dadada"
+  cr: "dadada"
+
+  00: "333333"
+  08: "666666"
+
+  01: "ed5f5d"
+  09: "f28c8b"
+
+  02: "79b757"
+  10: "95c67b"
+
+  03: "e9873a"
+  11: "eea368"
+
+  04: "2e7cf7"
+  12: "5f9bf9"
+
+  05: "e55e9c"
+  13: "ec8ab7"
+
+  06: "53cfc9"
+  14: "7bdad6"
+
+  07: "8c8c8c"
+  15: "ffffff"

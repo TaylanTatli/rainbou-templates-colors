@@ -1,0 +1,31 @@
+metadata:
+  name: WarmForest
+  author: TaylanTatli
+colors:
+  bg: "100C0C"
+  fg: "e5dab8"
+  cr: "e5dab8"
+
+  00: "161010"
+  08: "4a3838"
+
+  01: "882e2e"
+  09: "ae3b3b"
+
+  02: "75882e"
+  10: "96ae3b"
+
+  03: "d28221"
+  11: "e29b44"
+
+  04: "2e5788"
+  12: "3b6fae"
+
+  05: "882e48"
+  13: "ae3b5c"
+
+  06: "3b8283"
+  14: "4ba5a6"
+
+  07: "d7c793"
+  15: "faf7f0"

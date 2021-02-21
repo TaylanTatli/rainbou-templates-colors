@@ -1,4 +1,4 @@
-/* vim: set ft=javascript: */
+/* vim: set ft=css: */
 @define-color borders #{{index .ColorMap "bg" "hex"}};
 
 window, dialog {
@@ -131,6 +131,48 @@ notebook stack:only-child {
   background: #{{index .ColorMap "bg" "hex"}};
 }
 
+notebook > stack:not(:only-child) {
+  background-color: #{{index .ColorMap "00" "hex"}};
+}
+
+notebook > header {
+  padding: 0;
+  background-color: #{{index .ColorMap "bg" "hex"}};
+  border: none;
+  box-shadow: none;
+}
+
+notebook > header > tabs > tab {
+  border: none;
+}
+
+notebook > header.top > tabs > tab {
+  padding: 10px;
+  border-radius: 3px 3px 0 0;
+}
+notebook > header.bottom > tabs > tab {
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+}
+notebook > header.left > tabs > tab {
+  padding: 10px;
+  border-radius: 3px 0 0 3px;
+}
+notebook > header.right > tabs > tab {
+  padding: 10px;
+  border-radius: 0 3px 3px 0;
+}
+
+notebook > header > tabs > tab:checked {
+  color: #{{index .ColorMap "fg" "hex"}};
+  background-color: #{{index .ColorMap "00" "hex"}};
+}
+
+notebook > header > tabs > tab:not(:checked):hover {
+  background-color: #{{index .ColorMap "00" "hex"}};
+  color: #{{index .ColorMap "fg" "hex"}};
+}
+
 tabs {
   background: #{{index .ColorMap "bg" "hex"}};
 }
@@ -181,9 +223,9 @@ treeview {
   -GtkTreeView-tree-line-pattern: '';
   -GtkTreeView-horizontal-separator: 8;
   -GtkTreeView-vertical-separator: 8;
-  background: #{{index .ColorMap "bg" "hex"}};
-  border-left-color: #{{index .ColorMap "bg" "hex"}};
-  border-top-color: #{{index .ColorMap "bg" "hex"}};
+  background: #{{index .ColorMap "00" "hex"}};
+  border-left-color: #{{index .ColorMap "00" "hex"}};
+  border-top-color: #{{index .ColorMap "00" "hex"}};
 }
 treeview:hover {
   background: #151a1e;
@@ -463,30 +505,36 @@ radiobutton:disabled {
 }
 
 switch {
-  background: rgba(219, 209, 201, 0.2);
-  border-radius: 20px;
+  background-color: #{{index .ColorMap "fg" "hex"}};
+  border-radius: 100px;
   color: transparent;
   min-width: 40px;
-  border: 5px solid transparent;
+  border: 0;
   background-clip: padding-box;
 }
 switch slider {
-  background: #{{index .ColorMap "fg" "hex"}};
+  background-color: #{{index .ColorMap "bg" "hex"}};
+  border: 0;
   border-radius: 100%;
-  min-width: 5px;
-  min-height: 5px;
+  min-width: 20px;
+  min-height: 20px;
   background-clip: padding-box;
-  margin: -4px -2px;
+  margin: 2px;
+  box-shadow: none;
 }
 switch:checked {
-  background: rgba(172, 155, 145, 0.3);
+  background-color: #{{index .ColorMap "01" "hex"}};
   background-clip: content-box;
 }
 switch:checked slider {
   background: #{{index .ColorMap "00" "hex"}};
 }
 switch:disabled {
+  background-color: #{{index .ColorMap "08" "hex"}};
   opacity: 0.3;
+}
+switch:disabled slider {
+  background-color: #{{index .ColorMap "00" "hex"}};
 }
 switch:hover slider {
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.05);
@@ -496,18 +544,17 @@ switch:hover:checked slider {
 }
 
 separator {
-  /* background-image: image(rgba(255, 255, 255, 0.05));*/
   background-image: image(rgba(255, 255, 255, 0.00));
   background-size: 1px 1px;
   background-position: center center;
   min-width: 7px;
   min-height: 7px;
   background-repeat: repeat-x;
-  margin: -3px 0;
+  margin: -4px 0;
 }
 separator.vertical, .horizontal > separator {
   background-repeat: repeat-y;
-  margin: 0 -3px;
+  margin: 0 -4px;
 }
 
 menubar {

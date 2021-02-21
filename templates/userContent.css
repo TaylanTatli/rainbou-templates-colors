@@ -130,7 +130,8 @@
     box-shadow: 0px 0 0 5px rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.1) !important;
     border-radius: 13px !important;
   }
-  .top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) .tile {
+  .top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) .tile,
+  .ds-top-sites .top-sites .top-site-outer .top-site-inner > a:is(.active, :focus) .tile {
     box-shadow: 0px 0 0 5px rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.1) !important;
     border-radius: 13px !important;
   }

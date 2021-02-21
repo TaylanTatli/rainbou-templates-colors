@@ -519,8 +519,12 @@
 ![vans.svg](./previews/vans.svg)  
 ## victory
 ![victory.svg](./previews/victory.svg)  
+## warmforest
+![warmforest.svg](./previews/warmforest.svg)  
 ## waterset
 ![waterset.svg](./previews/waterset.svg)  
+## whitesur
+![whitesur.svg](./previews/whitesur.svg)  
 ## wintry
 ![wintry.svg](./previews/wintry.svg)  
 ## woody
