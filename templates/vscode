@@ -124,7 +124,7 @@
         "editor.background": "#{{index .ColorMap "bg" "hex"}}",
         "editorLineNumber.foreground": "#{{index .ColorMap "08" "hex"}}",
         "editor.selectionBackground": "#{{index .ColorMap "00" "hex"}}",
-        "editor.selectionHighlightBackground": "#{{index .ColorMap "08" "hex"}}",
+        "editor.selectionHighlightBackground": "#{{index .ColorMap "00" "hex"}}",
         "editor.foldBackground": "#{{index .ColorMap "00" "hex"}}",
         "editor.wordHighlightBackground": "#{{index .ColorMap "06" "hex"}}50",
         "editor.wordHighlightStrongBackground": "#{{index .ColorMap "02" "hex"}}50",

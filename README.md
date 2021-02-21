@@ -463,8 +463,6 @@
 ![solarized-dark.svg](./previews/solarized-dark.svg)  
 ## solarized-light
 ![solarized-light.svg](./previews/solarized-light.svg)  
-## solarized
-![solarized.svg](./previews/solarized.svg)  
 ## sol
 ![sol.svg](./previews/sol.svg)  
 ## sourcerer
