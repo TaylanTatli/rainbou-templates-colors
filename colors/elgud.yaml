@@ -1,0 +1,31 @@
+metadata:
+  name: ElGud
+  author: TaylanTatli
+colors:
+  bg: "0f1219"
+  fg: "e9f7f2"
+  cr: "e9f7f2"
+
+  00: "181f29"
+  08: "3e5069"
+
+  01: "e86363"
+  09: "ec7e7e"
+
+  02: "88e362"
+  10: "9fe880"
+
+  03: "e6b363"
+  11: "ebc282"
+
+  04: "5fc2e4"
+  12: "7ecee9"
+
+  05: "cb61e2"
+  13: "d57fe8"
+
+  06: "4cd1ae"
+  14: "68d8bb"
+
+  07: "555555"
+  15: "eeeeee"

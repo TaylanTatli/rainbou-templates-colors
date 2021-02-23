@@ -1,0 +1,23 @@
+<pre style="background-color:#{{index .ColorMap "bg" "hex"}};color:#{{index .ColorMap "fg" "hex"}}">
+<span class="color_title" style="font-weight: bolder;color:#{{index .ColorMap "08" "hex"}}"># {{.Metadata.Name}} by {{.Metadata.Author}}</span></br>
+<span style="color:#{{index .ColorMap "14" "hex"}}">require</span> <span style="color:#{{index .ColorMap "02" "hex"}}">"gem"</span>
+
+  <span style="color:#{{index .ColorMap "01" "hex"}}">number</span> = <span style="color:#{{index .ColorMap "09" "hex"}}">0</span>
+  <span style="color:#{{index .ColorMap "01" "hex"}}">regexp</span> = <span style="color:#{{index .ColorMap "06" "hex"}}">/[abc]/</span>
+  
+  <span style="color:#{{index .ColorMap "08" "hex"}}"># This is a comment</span>
+  <span style="color:#{{index .ColorMap "05" "hex"}}">class</span> <span style="color:#{{index .ColorMap "03" "hex"}}">Person</span>
+    
+    <span style="color:#{{index .ColorMap "04" "hex"}}">attr_accessor</span> <span style="color:#{{index .ColorMap "02" "hex"}}">:name</span>
+    
+    <span style="color:#{{index .ColorMap "05" "hex"}}">def</span> <span style="color:#{{index .ColorMap "04" "hex"}}">initialize</span>(<span style="color:#{{index .ColorMap "01" "hex"}}">attributes</span> = {})
+      <span style="color:#{{index .ColorMap "01" "hex"}}">@name</span> = <span style="color:#{{index .ColorMap "01" "hex"}}">attributes</span>[<span style="color:#{{index .ColorMap "02" "hex"}}">:name</span>]
+    <span style="color:#{{index .ColorMap "05" "hex"}}">end</span>
+    
+    <span style="color:#{{index .ColorMap "05" "hex"}}">def</span> <span style="color:#{{index .ColorMap "05" "hex"}}">self</span>.<span style="color:#{{index .ColorMap "04" "hex"}}">greet</span>
+      <span style="color:#{{index .ColorMap "11" "hex"}}"><span style="color:#{{index .ColorMap "02" "hex"}}">"hello"</span></span>
+    <span style="color:#{{index .ColorMap "05" "hex"}}">end</span>
+  <span style="color:#{{index .ColorMap "05" "hex"}}">end</span>
+  
+  <span style="color:#{{index .ColorMap "01" "hex"}}">person1</span> = <span style="color:#{{index .ColorMap "03" "hex"}}">Person</span>.<span style="color:#{{index .ColorMap "04" "hex"}}">new</span>(<span style="color:#{{index .ColorMap "02" "hex"}}">:name</span> =&gt; <span style="color:#{{index .ColorMap "02" "hex"}}">"Chris"</span>)
+  <span style="color:#{{index .ColorMap "04" "hex"}}">puts</span> <span style="color:#{{index .ColorMap "02" "hex"}}">"</span><span style="color:#{{index .ColorMap "14" "hex"}}">#{</span><span style="color:#{{index .ColorMap "03" "hex"}}">Person</span>::<span style="color:#{{index .ColorMap "04" "hex"}}">greet</span><span style="color:#{{index .ColorMap "14" "hex"}}">}</span> <span style="color:#{{index .ColorMap "14" "hex"}}">#{</span><span style="color:#{{index .ColorMap "01" "hex"}}">person1</span>.<span style="color:#{{index .ColorMap "04" "hex"}}">name</span><span style="color:#{{index .ColorMap "14" "hex"}}">}</span><span style="color:#{{index .ColorMap "09" "hex"}}">\n</span><span style="color:#{{index .ColorMap "02" "hex"}}">"</span></pre>

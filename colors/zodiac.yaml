@@ -1,0 +1,31 @@
+metadata:
+  name: Zodiac
+  author: TaylanTatli
+colors:
+  bg: "0a1032"
+  fg: "e5eaf0"
+  cr: "e5eaf0"
+
+  00: "121e5c"
+  08: "2439b1"
+
+  01: "d20d38"
+  09: "f86f8d"
+
+  02: "67bb0b"
+  10: "a4e064"
+
+  03: "e96800"
+  11: "ffa94c"
+
+  04: "0090d7"
+  12: "58c0f3"
+
+  05: "502fc4"
+  13: "9f87f9"
+
+  06: "24d7a8"
+  14: "78f7d6"
+
+  07: "454f59"
+  15: "f6f7fb"

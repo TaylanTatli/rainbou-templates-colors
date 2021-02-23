@@ -199,6 +199,8 @@
 ![eggshell.svg](./previews/eggshell.svg)  
 ## elephants
 ![elephants.svg](./previews/elephants.svg)  
+## elgud
+![elgud.svg](./previews/elgud.svg)  
 ## eti0
 ![eti0.svg](./previews/eti0.svg)  
 ## evabream
@@ -535,3 +537,5 @@
 ![yuno.svg](./previews/yuno.svg)  
 ## zent
 ![zent.svg](./previews/zent.svg)  
+## zodiac
+![zodiac.svg](./previews/zodiac.svg)  
