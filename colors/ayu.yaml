@@ -1,0 +1,31 @@
+metadata:
+  name: Ayu
+  author: teabyii
+colors:
+  bg: "0A0E14"
+  fg: "B3B1AD"
+  cr: "B3B1AD"
+
+  00: "01060E"
+  08: "686868"
+
+  01: "EA6C73"
+  09: "F07178"
+
+  02: "91B362"
+  10: "C2D94C"
+
+  03: "F9AF4F"
+  11: "FFB454"
+
+  04: "53BDFA"
+  12: "59C2FF"
+
+  05: "FAE994"
+  13: "FFEE99"
+
+  06: "90E1C6"
+  14: "95E6CB"
+
+  07: "C7C7C7"
+  15: "FFFFFF"

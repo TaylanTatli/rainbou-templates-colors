@@ -1,6 +1,4 @@
 # Rainbou Colors
-## 16
-![16.svg](./previews/16.svg)  
 ## 1984
 ![1984.svg](./previews/1984.svg)  
 ## adapta
@@ -31,6 +29,8 @@
 ![aurorax.svg](./previews/aurorax.svg)  
 ## autobahn
 ![autobahn.svg](./previews/autobahn.svg)  
+## ayu
+![ayu.svg](./previews/ayu.svg)  
 ## azar
 ![azar.svg](./previews/azar.svg)  
 ## barn
@@ -451,6 +451,8 @@
 ![sea.svg](./previews/sea.svg)  
 ## serenade
 ![serenade.svg](./previews/serenade.svg)  
+## shark
+![shark.svg](./previews/shark.svg)  
 ## sky
 ![sky.svg](./previews/sky.svg)  
 ## soft
