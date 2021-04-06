@@ -7,11 +7,11 @@
     Original color schemes by {{.Metadata.Author}}
 -->
 
-<style-scheme id="gedit-{{.Metadata.Name}}-dark" _name="Gedit {{.Metadata.Name}} Dark" version="1.0">
+<style-scheme id="{{.Metadata.Name}}" _name="{{.Metadata.Name}}" version="1.0">
   
   <!-- Meta -->
   <author>{{.Metadata.Author}}</author>
-  <_description>Gedit {{.Metadata.Name}} Dark</_description>
+  <_description>{{.Metadata.Name}} theme for Gedit</_description>
 
   <!-- Palette -->
   <color name="colorbg" value="#{{index .ColorMap "bg" "hex"}}"/>

@@ -1,0 +1,31 @@
+metadata:
+  name: OpenColor
+  author: heeyeun
+colors:
+  bg: "212529"
+  fg: "c5c8c6"
+  cr: "c5c8c6"
+
+  00: "343a40"
+  08: "495057"
+
+  01: "fa5252"
+  09: "ff8787"
+
+  02: "40c057"
+  10: "69db7c"
+
+  03: "fd7e14"
+  11: "ffa94d"
+
+  04: "228be6"
+  12: "4dabf7"
+
+  05: "e64980"
+  13: "f783ac"
+
+  06: "15aabf"
+  14: "3bc9db"
+
+  07: "adb5bd"
+  15: "e9ecef"

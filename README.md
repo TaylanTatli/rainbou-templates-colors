@@ -175,6 +175,8 @@
 ![denisidoro.svg](./previews/denisidoro.svg)  
 ## depth
 ![depth.svg](./previews/depth.svg)  
+## desert
+![desert.svg](./previews/desert.svg)  
 ## designr
 ![designr.svg](./previews/designr.svg)  
 ## detoxdark
@@ -291,6 +293,8 @@
 ![kites.svg](./previews/kites.svg)  
 ## kit
 ![kit.svg](./previews/kit.svg)  
+## kripton
+![kripton.svg](./previews/kripton.svg)  
 ## lc
 ![lc.svg](./previews/lc.svg)  
 ## leaf
@@ -369,6 +373,8 @@
 ![onedark.svg](./previews/onedark.svg)  
 ## onelight
 ![onelight.svg](./previews/onelight.svg)  
+## opencolor
+![opencolor.svg](./previews/opencolor.svg)  
 ## orange
 ![orange.svg](./previews/orange.svg)  
 ## owl
@@ -391,6 +397,8 @@
 ![parkd.svg](./previews/parkd.svg)  
 ## pastel
 ![pastel.svg](./previews/pastel.svg)  
+## pegasus
+![pegasus.svg](./previews/pegasus.svg)  
 ## pencil-dark
 ![pencil-dark.svg](./previews/pencil-dark.svg)  
 ## pencil-light

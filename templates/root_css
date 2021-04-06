@@ -1,0 +1,25 @@
+:root {
+  /* {{.Metadata.Name}} by {{.Metadata.Author}} */
+  --bg: #{{index .ColorMap "bg" "hex"}};
+  --fg: #{{index .ColorMap "fg" "hex"}};
+
+  --bg_dark: #{{index .ColorMap "00" "hex"}};
+  --bg_light: #{{index .ColorMap "08" "hex"}};
+
+  --gray: #{{index .ColorMap "07" "hex"}};
+  --gray_l: #{{index .ColorMap "15" "hex"}};
+
+  --red: #{{index .ColorMap "01" "hex"}};
+  --green: #{{index .ColorMap "02" "hex"}};
+  --yellow: #{{index .ColorMap "03" "hex"}};
+  --blue: #{{index .ColorMap "04" "hex"}};
+  --magenta: #{{index .ColorMap "05" "hex"}};
+  --cyan: #{{index .ColorMap "06" "hex"}};
+
+  --red_l: #{{index .ColorMap "09" "hex"}};
+  --green_l: #{{index .ColorMap "10" "hex"}};
+  --yellow_l: #{{index .ColorMap "11" "hex"}};
+  --blue_l: #{{index .ColorMap "12" "hex"}};
+  --magenta_l: #{{index .ColorMap "13" "hex"}};
+  --cyan_l: #{{index .ColorMap "14" "hex"}};
+}

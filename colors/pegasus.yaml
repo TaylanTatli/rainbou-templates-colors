@@ -1,0 +1,31 @@
+metadata:
+  name: Pegasus
+  author: Pegasys
+colors:
+  bg: "141529"
+  fg: "f7f7fc"
+  cr: "f7f7fc"
+
+  00: "262339"
+  08: "514f69"
+
+  01: "c30052"
+  09: "ed2e7e"
+
+  02: "00966d"
+  10: "00ba88"
+
+  03: "f7956f"
+  11: "faba75"
+
+  04: "0096b7"
+  12: "1cc8ee"
+
+  05: "9049ff"
+  13: "af63ff"
+
+  06: "23d8c4"
+  14: "6ed8cc"
+
+  07: "a0a3bd"
+  15: "fcfcfc"

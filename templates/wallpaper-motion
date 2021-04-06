@@ -1,0 +1,94 @@
+<svg width="1920" height="1080" enable-background="new 0 0 1800 1200" version="1.1" viewBox="0 0 1920 1080" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+<rect x=".46981" y=".4638" width="1919.1" height="1079.1" fill="#{{index .ColorMap "bg" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064"/><path d="m74.517 1058.9c0 5.7029-5.5252 10.326-12.341 10.326-6.8158 0-12.341-4.623-12.341-10.326v-278.8c0-5.7028 5.5252-10.326 12.341-10.326 6.8158 0 12.341 4.623 12.341 10.326z" fill="#{{index .ColorMap "01" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m441.67 960.79c0 5.7028-5.5252 10.326-12.341 10.326s-12.341-4.623-12.341-10.326v-278.8c0-5.7029 5.5252-10.326 12.341-10.326s12.341 4.623 12.341 10.326z" fill="#{{index .ColorMap "03" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m342.94 715.54c0 5.7028-5.5252 10.326-12.341 10.326-6.8158 0-12.341-4.623-12.341-10.326v-278.8c0-5.7028 5.5252-10.326 12.341-10.326 6.8158 0 12.341 4.623 12.341 10.326z" fill="#{{index .ColorMap "01" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m157.82 599.37c0 5.7029-5.5252 10.326-12.341 10.326s-12.341-4.623-12.341-10.326v-278.8c0-5.7028 5.5252-10.326 12.341-10.326s12.341 4.623 12.341 10.326z" fill="#{{index .ColorMap "04" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m568.17 1053.8c0 4.2281-5.5252 7.6552-12.341 7.6552-6.8158 0-12.341-3.4279-12.341-7.6552v-206.7c0-4.2281 5.5252-7.6551 12.341-7.6551 6.8158 0 12.341 3.4279 12.341 7.6551z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m716.26 998c0 7.964-5.5252 14.421-12.341 14.421s-12.341-6.4566-12.341-14.421v-389.36c0-7.964 5.5252-14.421 12.341-14.421s12.341 6.4566 12.341 14.421z" fill="#{{index .ColorMap "03" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.25s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m848.93 1060.3c0 5.4257-5.5252 9.8239-12.341 9.8239-6.8158 0-12.341-4.3982-12.341-9.8239v-265.24c0-5.4257 5.5252-9.8238 12.341-9.8238 6.8158 0 12.341 4.3981 12.341 9.8238z" fill="#{{index .ColorMap "05" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".87002">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1330.2 536.35c0 4.8674-4.1442 8.8124-9.256 8.8124s-9.256-3.9459-9.256-8.8124v-237.94c0-4.8674 4.1442-8.8124 9.256-8.8124s9.256 3.9459 9.256 8.8124z" fill="#{{index .ColorMap "04" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1083.4 531.1c0 6.3422-5.5252 11.483-12.341 11.483s-12.341-5.141-12.341-11.483v-310.05c0-6.3421 5.5252-11.483 12.341-11.483s12.341 5.141 12.341 11.483z" fill="#{{index .ColorMap "03" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m944.57 288.12c0 5.0921-5.5252 9.2198-12.341 9.2198-6.8158 0-12.341-4.1277-12.341-9.2198v-248.94c0-5.0921 5.5252-9.2198 12.341-9.2198 6.8158 0 12.341 4.1277 12.341 9.2198z" fill="#{{index .ColorMap "01" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".84285">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1756 928.13c0 5.2623-5.5253 9.5283-12.341 9.5283-6.8157 0-12.341-4.266-12.341-9.5283v-257.27c0-5.2623 5.5253-9.5283 12.341-9.5283 6.8158 0 12.341 4.266 12.341 9.5283z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1131.2 1047c0 7.964-3.4531 14.421-7.7135 14.421s-7.7136-6.4566-7.7136-14.421v-389.36c0-7.964 3.4532-14.421 7.7136-14.421 4.2593 0 7.7135 6.4566 7.7135 14.421z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.25s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1257.6 907.82c0 5.0145-4.1009 9.08-9.1593 9.08s-9.1594-4.0655-9.1594-9.08v-245.15c0-5.0145 4.101-9.08 9.1594-9.08s9.1593 4.0655 9.1593 9.08z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m962.31 1012.4c0 3.4847-2.4176 6.3095-5.3988 6.3095-2.9822 0-5.3998-2.8248-5.3998-6.3095v-170.35c0-3.4847 2.4176-6.3094 5.3998-6.3094 2.9822 0 5.3988 2.8248 5.3988 6.3094z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m882.1 669.06c0 3.4847-2.4176 6.3094-5.3998 6.3094s-5.3998-2.8248-5.3998-6.3094v-170.35c0-3.4847 2.4176-6.3094 5.3998-6.3094s5.3998 2.8248 5.3998 6.3094z" fill="#{{index .ColorMap "04" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1212.2 219.88c0 3.4847-2.4177 6.3094-5.3988 6.3094-2.9822 0-5.3987-2.8248-5.3987-6.3094v-170.35c0-3.4847 2.4176-6.3094 5.3987-6.3094 2.9822 0 5.3988 2.8248 5.3988 6.3094z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m251.15 991.76c0 5.7028-3.7987 10.326-8.4848 10.326s-8.4848-4.623-8.4848-10.326v-278.8c0-5.7029 3.7987-10.326 8.4848-10.326s8.4848 4.623 8.4848 10.326z" fill="#{{index .ColorMap "04" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m737.09 421.25c0 5.7028-3.7987 10.326-8.4848 10.326s-8.4848-4.623-8.4848-10.326v-278.8c0-5.7029 3.7987-10.326 8.4848-10.326s8.4848 4.623 8.4848 10.326z" fill="#{{index .ColorMap "05" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.25s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1820 601.96c0 5.7028-3.7986 10.326-8.4847 10.326s-8.4848-4.623-8.4848-10.326v-278.8c0-5.7029 3.7987-10.326 8.4848-10.326s8.4847 4.623 8.4847 10.326z" fill="#{{index .ColorMap "01" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m531.91 550.33c0 5.7029-3.7987 10.326-8.4848 10.326s-8.4848-4.623-8.4848-10.326v-278.8c0-5.7028 3.7987-10.326 8.4848-10.326s8.4848 4.623 8.4848 10.326z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m609.05 150.54c0 2.66-3.7987 4.8166-8.4848 4.8166s-8.4848-2.1566-8.4848-4.8166v-130.06c0-2.66 3.7987-4.8166 8.4848-4.8166s8.4848 2.1566 8.4848 4.8166z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".79898">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m91.859 155.25c0 2.9089-3.6197 5.2665-8.0858 5.2665s-8.0858-2.3576-8.0858-5.2665v-142.19c0-2.9089 3.6197-5.2665 8.0858-5.2665s8.0858 2.3576 8.0858 5.2665z" fill="#{{index .ColorMap "05" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".82992">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m354.08 267.34c0 5.1625-4.2984 9.3467-9.6015 9.3467s-9.6015-4.1851-9.6015-9.3467v-252.37c0-5.1625 4.2984-9.3467 9.6015-9.3467s9.6015 4.1851 9.6015 9.3467z" fill="#{{index .ColorMap "03" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1637.6 1031.5c0 3.7368-3.6197 6.7655-8.0858 6.7655-4.466 0-8.0857-3.0287-8.0857-6.7655v-182.67c0-3.7368 3.6197-6.7655 8.0857-6.7655 4.4661 0 8.0858 3.0287 8.0858 6.7655z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.25s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1492.6 242.82c0 4.4474-4.2984 8.0528-9.6015 8.0528s-9.6015-3.6055-9.6015-8.0528v-217.43c0-4.4474 4.2984-8.0528 9.6015-8.0528s9.6015 3.6055 9.6015 8.0528z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".85693">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1403.1 1067.8c0 3.6383-3.6197 6.5871-8.0858 6.5871-4.466 0-8.0857-2.9488-8.0857-6.5871v-177.85c0-3.6383 3.6197-6.5871 8.0857-6.5871 4.4661 0 8.0858 2.9488 8.0858 6.5871z" fill="#{{index .ColorMap "06" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".92816">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1527.5 783.55c0 5.2116-4.7509 9.4362-10.612 9.4362-5.8615 0-10.612-4.2246-10.612-9.4362v-254.77c0-5.2116 4.7509-9.4362 10.612-9.4362 5.8614 0 10.612 4.2247 10.612 9.4362z" fill="#{{index .ColorMap "03" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1826.8 197.74c0 3.6813-4.7509 6.6654-10.612 6.6654s-10.612-2.9842-10.612-6.6654v-179.96c0-3.6813 4.7509-6.6654 10.612-6.6654s10.612 2.9842 10.612 6.6654z" fill="#{{index .ColorMap "02" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".79056">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1876.4 1068.7c0 4.3695-4.7509 7.9116-10.612 7.9116s-10.612-3.5421-10.612-7.9116v-213.6c0-4.3695 4.7509-7.9115 10.612-7.9115s10.612 3.542 10.612 7.9115z" fill="#{{index .ColorMap "05" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".8613">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.5s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path><path d="m1679 373.09c0 5.2116-4.7509 9.4362-10.612 9.4362s-10.612-4.2247-10.612-9.4362v-254.77c0-5.2116 4.7509-9.4362 10.612-9.4362s10.612 4.2247 10.612 9.4362z" fill="#{{index .ColorMap "04" "hex"}}" stroke="#{{index .ColorMap "08" "hex"}}" stroke-miterlimit="10" stroke-width=".94064">
+
+		<animateTransform attributeName="transform" attributeType="XML" dur="1.25s" repeatCount="indefinite" type="translate" values="0,1200;0,-1200;"/>
+	</path>
+</svg>

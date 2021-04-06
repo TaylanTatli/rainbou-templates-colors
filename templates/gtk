@@ -228,7 +228,7 @@ treeview {
   border-top-color: #{{index .ColorMap "00" "hex"}};
 }
 treeview:hover {
-  background: #151a1e;
+  background: #{{index .ColorMap "08" "hex"}};;
 }
 treeview:selected {
   background: #{{index .ColorMap "fg" "hex"}};
@@ -417,6 +417,10 @@ toolbar.osd {
   background: rgba(15, 18, 21, 0.5);
   padding: 10px;
 }
+
+/*widget {*/
+  /*background-color: #{{index .ColorMap "00" "hex"}};*/
+/*}*/
 
 frame.app-notification border {
   background: #{{index .ColorMap "bg" "hex"}};
@@ -747,6 +751,13 @@ window.nautilus-window .floating-bar.bottom.left {
 }
 window.nautilus-window .floating-bar.bottom.right {
   border-top-left-radius: 3px;
+}
+
+.org-gnome-gedit treeview,
+.org-gnome-gedit grid,
+.org-gnome-gedit statusbar {
+  background-color: #000;
+  background-image: image(rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.9));
 }
 
 .pavucontrol-window {
