@@ -1,0 +1,31 @@
+metadata:
+  name: Rxyhn
+  author: Rxyhn
+colors:
+  bg: "061115"
+  fg: "d9d7d6"
+  cr: "d9d7d6"
+
+  00: "1c252c"
+  08: "484e5b"
+
+  01: "df5b61"
+  09: "f16269"
+
+  02: "78b892"
+  10: "8cd7aa"
+
+  03: "de8f78"
+  11: "e9967e"
+
+  04: "6791c9"
+  12: "79aaeb"
+
+  05: "bc83e3"
+  13: "c488ec"
+
+  06: "67afc1"
+  14: "7acfe4"
+
+  07: "d9d7d6"
+  15: "e5e5e5"

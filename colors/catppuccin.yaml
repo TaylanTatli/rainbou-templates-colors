@@ -1,0 +1,31 @@
+metadata:
+  name: Catppuccin
+  author: Pocco81
+colors:
+  bg: "1E1E2E"
+  fg: "D9E0EE"
+  cr: "D9E0EE"
+
+  00: "6E6C7E"
+  08: "988BA2"
+
+  01: "F28FAD"
+  09: "F28FAD"
+
+  02: "ABE9B3"
+  10: "ABE9B3"
+
+  03: "FAE3B0"
+  11: "FAE3B0"
+
+  04: "96CDFB"
+  12: "96CDFB"
+
+  05: "DDB6F2"
+  13: "DDB6F2"
+
+  06: "F5C2E7"
+  14: "F5C2E7"
+
+  07: "C3BAC6"
+  15: "D9E0EE"
