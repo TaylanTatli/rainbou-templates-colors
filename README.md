@@ -131,6 +131,8 @@
 ![carl.svg](./previews/carl.svg)  
 ## cathulu
 ![cathulu.svg](./previews/cathulu.svg)  
+## catppuccin
+![catppuccin.svg](./previews/catppuccin.svg)  
 ## celestial
 ![celestial.svg](./previews/celestial.svg)  
 ## chaires
@@ -439,6 +441,8 @@
 ![royal.svg](./previews/royal.svg)  
 ## rök
 ![rök.svg](./previews/rök.svg)  
+## rxyhn
+![rxyhn.svg](./previews/rxyhn.svg)  
 ## s3r0
 ![s3r0.svg](./previews/s3r0.svg)  
 ## sami
