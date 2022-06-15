@@ -15,23 +15,24 @@ window:
     instance: Alacritty
     general: Alacritty
   gtk_theme_variant: None
+  opacity: 1.0
 scrolling:
   history: 10000
   multiplier: 3
 font:
   normal:
-    family: SF Mono
+    family: JetBrains Mono
     style: Medium
   bold:
-    family: SF Mono
+    family: JetBrains Mono
     style: Bold
   italic:
-    family: SF Mono
+    family: JetBrains Mono
     style: Medium Italic
   bold_italic:
-    family: SF Mono
+    family: JetBrains Mono
     style: Bold Italic
-  size: 6.5
+  size: 10.0
   offset:
     x: 0
     y: 0
@@ -70,8 +71,6 @@ colors:
     cyan:    '#{{index .ColorMap "14" "hex"}}'
     white:   '#{{index .ColorMap "15" "hex"}}'
 
-background_opacity: 1.0
-
 bell:
   animation: EaseOutExpo
   duration: 0
@@ -95,7 +94,7 @@ mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
   hide_when_typing: true
-  url:
+  hints:
     launcher:
       program: xdg-open
       args: []

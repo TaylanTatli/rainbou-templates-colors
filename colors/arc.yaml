@@ -1,0 +1,31 @@
+metadata:
+  name: Arc
+  author: selloween
+colors:
+  bg: "383c4a"
+  fg: "D2D2D2"
+  cr: "D2D2D2"
+
+  00: "30333f"
+  08: "595f75"
+
+  01: "9A4138"
+  09: "E7766B"
+
+  02: "4BEC90"
+  10: "3CBF75"
+
+  03: "D8D782"
+  11: "CFCD63"
+
+  04: "5294e2"
+  12: "579CEF"
+
+  05: "CE50DD"
+  13: "E7766B"
+
+  06: "6BE5E7"
+  14: "90FDFF"
+
+  07: "CCCCCC"
+  15: "FFFFFF"

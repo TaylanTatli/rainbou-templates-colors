@@ -9,7 +9,7 @@
 /**
  * Input
  */
-@define-color selected_bg_color #{{index .ColorMap "01" "hex"}};
+@define-color selected_bg_color #{{index .ColorMap "04" "hex"}};
 @define-color selected_fg_color #{{index .ColorMap "fg" "hex"}};
 @define-color input_color #ddd;
 @define-color caret_color darker(@input_color);
@@ -19,7 +19,7 @@
  */
 @define-color item_name #ddd;
 @define-color item_text #999;
-@define-color item_box_selected #{{index .ColorMap "01" "hex"}};
+@define-color item_box_selected #{{index .ColorMap "04" "hex"}};
 @define-color item_text_selected #99ccff;
 @define-color item_name_selected #eee;
 @define-color item_shortcut_color #777;
