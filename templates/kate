@@ -1,0 +1,174 @@
+{
+    "metadata": {
+        "copyright": [
+            "SPDX-FileCopyrightText: {{.Metadata.Author}}"
+        ],
+        "license": "SPDX-License-Identifier: MIT",
+        "name": "{{.Metadata.Name}}",
+        "revision": 1
+    },
+    "editor-colors": {
+        "BackgroundColor": "#{{index .ColorMap "bg" "hex"}}",
+        "BracketMatching": "#{{index .ColorMap "11" "hex"}}",
+        "CodeFolding": "#{{index .ColorMap "11" "hex"}}",
+        "CurrentLine": "#{{index .ColorMap "08" "hex"}}",
+        "CurrentLineNumber": "#{{index .ColorMap "12" "hex"}}",
+        "IconBorder": "#{{index .ColorMap "00" "hex"}}",
+        "IndentationLine": "#{{index .ColorMap "11" "hex"}}",
+        "LineNumbers": "#{{index .ColorMap "08" "hex"}}",
+        "MarkBookmark": "#{{index .ColorMap "03" "hex"}}",
+        "MarkBreakpointActive": "#{{index .ColorMap "04" "hex"}}",
+        "MarkBreakpointDisabled": "#{{index .ColorMap "08" "hex"}}",
+        "MarkBreakpointReached": "#{{index .ColorMap "07" "hex"}}",
+        "MarkError": "#{{index .ColorMap "01" "hex"}}",
+        "MarkExecution": "#{{index .ColorMap "01" "hex"}}",
+        "MarkWarning": "#{{index .ColorMap "02" "hex"}}",
+        "ModifiedLines": "#{{index .ColorMap "01" "hex"}}",
+        "ReplaceHighlight": "#{{index .ColorMap "12" "hex"}}",
+        "SavedLines": "#{{index .ColorMap "03" "hex"}}",
+        "SearchHighlight": "#{{index .ColorMap "10" "hex"}}",
+        "Separator": "#{{index .ColorMap "09" "hex"}}",
+        "SpellChecking": "#{{index .ColorMap "03" "hex"}}",
+        "TabMarker": "#{{index .ColorMap "11" "hex"}}",
+        "TemplateBackground": "#{{index .ColorMap "08" "hex"}}",
+        "TemplateFocusedPlaceholder": "#{{index .ColorMap "12" "hex"}}",
+        "TemplatePlaceholder": "#{{index .ColorMap "02" "hex"}}",
+        "TemplateReadOnlyPlaceholder": "#{{index .ColorMap "08" "hex"}}",
+        "TextSelection": "#{{index .ColorMap "11" "hex"}}",
+        "WordWrapMarker": "#{{index .ColorMap "11" "hex"}}"
+    },
+    "text-styles": {
+        "Alert": {
+            "background-color": "#{{index .ColorMap "05" "hex"}}",
+            "bold": true,
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}"
+        },
+        "Annotation": {
+            "selected-text-color": "#{{index .ColorMap "07" "hex"}}",
+            "text-color": "#{{index .ColorMap "07" "hex"}}"
+        },
+        "Attribute": {
+            "selected-text-color": "#{{index .ColorMap "03" "hex"}}",
+            "text-color": "#{{index .ColorMap "03" "hex"}}"
+        },
+        "BaseN": {
+            "selected-text-color": "#{{index .ColorMap "09" "hex"}}",
+            "text-color": "#{{index .ColorMap "09" "hex"}}"
+        },
+        "BuiltIn": {
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}"
+        },
+        "Char": {
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}"
+        },
+        "Comment": {
+            "italic": true,
+            "selected-text-color": "#{{index .ColorMap "08" "hex"}}",
+            "text-color": "#{{index .ColorMap "08" "hex"}}"
+        },
+        "CommentVar": {
+            "selected-text-color": "#{{index .ColorMap "08" "hex"}}",
+            "text-color": "#{{index .ColorMap "08" "hex"}}"
+        },
+        "Constant": {
+            "selected-text-color": "#{{index .ColorMap "08" "hex"}}",
+            "text-color": "#{{index .ColorMap "08" "hex"}}"
+        },
+        "ControlFlow": {
+            "bold": true,
+            "selected-text-color": "#{{index .ColorMap "05" "hex"}}",
+            "text-color": "#{{index .ColorMap "05" "hex"}}"
+        },
+        "DataType": {
+            "selected-text-color": "#{{index .ColorMap "05" "hex"}}",
+            "text-color": "#{{index .ColorMap "05" "hex"}}"
+        },
+        "DecVal": {
+            "selected-text-color": "#{{index .ColorMap "09" "hex"}}",
+            "text-color": "#{{index .ColorMap "09" "hex"}}"
+        },
+        "Documentation": {
+            "selected-text-color": "#{{index .ColorMap "08" "hex"}}",
+            "text-color": "#{{index .ColorMap "08" "hex"}}"
+        },
+        "Error": {
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}",
+            "underline": true
+        },
+        "Extension": {
+            "bold": true,
+            "selected-text-color": "#{{index .ColorMap "03" "hex"}}",
+            "text-color": "#{{index .ColorMap "03" "hex"}}"
+        },
+        "Float": {
+            "selected-text-color": "#{{index .ColorMap "09" "hex"}}",
+            "text-color": "#{{index .ColorMap "09" "hex"}}"
+        },
+        "Function": {
+            "selected-text-color": "#{{index .ColorMap "04" "hex"}}",
+            "text-color": "#{{index .ColorMap "04" "hex"}}"
+        },
+        "Import": {
+            "selected-text-color": "#{{index .ColorMap "02" "hex"}}",
+            "text-color": "#{{index .ColorMap "02" "hex"}}"
+        },
+        "Information": {
+            "selected-text-color": "#{{index .ColorMap "09" "hex"}}",
+            "text-color": "#{{index .ColorMap "09" "hex"}}"
+        },
+        "Keyword": {
+            "bold": true,
+            "selected-text-color": "#{{index .ColorMap "05" "hex"}}",
+            "text-color": "#{{index .ColorMap "05" "hex"}}"
+        },
+        "Normal": {
+            "selected-text-color": "#{{index .ColorMap "07" "hex"}}",
+            "text-color": "#{{index .ColorMap "fg" "hex"}}"
+        },
+        "Operator": {
+            "selected-text-color": "#{{index .ColorMap "07" "hex"}}",
+            "text-color": "#{{index .ColorMap "07" "hex"}}"
+        },
+        "Others": {
+            "selected-text-color": "#{{index .ColorMap "07" "hex"}}",
+            "text-color": "#{{index .ColorMap "07" "hex"}}"
+        },
+        "Preprocessor": {
+            "selected-text-color": "#{{index .ColorMap "04" "hex"}}",
+            "text-color": "#{{index .ColorMap "04" "hex"}}"
+        },
+        "RegionMarker": {
+            "background-color": "#{{index .ColorMap "08" "hex"}}",
+            "selected-text-color": "#{{index .ColorMap "03" "hex"}}",
+            "text-color": "#{{index .ColorMap "03" "hex"}}"
+        },
+        "SpecialChar": {
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}"
+        },
+        "SpecialString": {
+            "selected-text-color": "#{{index .ColorMap "01" "hex"}}",
+            "text-color": "#{{index .ColorMap "01" "hex"}}"
+        },
+        "String": {
+            "selected-text-color": "#{{index .ColorMap "02" "hex"}}",
+            "text-color": "#{{index .ColorMap "02" "hex"}}"
+        },
+        "Variable": {
+            "selected-text-color": "#{{index .ColorMap "07" "hex"}}",
+            "text-color": "#{{index .ColorMap "07" "hex"}}"
+        },
+        "VerbatimString": {
+            "selected-text-color": "#{{index .ColorMap "02" "hex"}}",
+            "text-color": "#{{index .ColorMap "02" "hex"}}"
+        },
+        "Warning": {
+            "selected-text-color": "#{{index .ColorMap "04" "hex"}}",
+            "text-color": "#{{index .ColorMap "04" "hex"}}"
+        }
+    }
+}

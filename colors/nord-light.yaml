@@ -1,13 +1,13 @@
 metadata:
-  name: Nord
+  name: Nord Light
   author: Arctic Ice Studio
 colors:
-  bg: "2e3440"
-  fg: "d8dee9"
-  cr: "d8dee9"
+  bg: "eceff4"
+  fg: "2e3440"
+  cr: "2e3440"
 
   00: "3b4252"
-  08: "4c566a"
+  08: "434c5e"
 
   01: "bf616a"
   09: "bf616a"
@@ -27,5 +27,5 @@ colors:
   06: "88c0d0"
   14: "8fbcbb"
 
-  07: "e5e9f0"
-  15: "eceff4"
+  07: "2e3440"
+  15: "4c566a"

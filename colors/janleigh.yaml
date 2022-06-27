@@ -1,0 +1,31 @@
+metadata:
+  name: janleigh
+  author: Jan Leigh Munoz
+colors:
+  bg: "0b0f10"
+  fg: "c5c8c9"
+  cr: "c5c8c9"
+
+  00: "131718"
+  08: "151a1c"
+
+  01: "df5b61"
+  09: "ee6a70"
+
+  02: "87c7a1"
+  10: "96d6b0"
+
+  03: "de8f78"
+  11: "ffb29b"
+
+  04: "6791c9"
+  12: "7ba5dd"
+
+  05: "bc83e3"
+  13: "cb92f2"
+
+  06: "70b9cc"
+  14: "7fc8db"
+
+  07: "c4c4c4"
+  15: "cccccc"

@@ -1,13 +1,13 @@
 metadata:
-  name: Rose Pine
+  name: Rose Pine Moon
   author: Rose Pine
 colors:
-  bg: "191724"
+  bg: "232136"
   fg: "e0def4"
   cr: "e0def4"
 
-  00: "26233a"
-  08: "6e6a86"
+  00: "393552"
+  08: "817c9c"
 
   01: "eb6f92"
   09: "eb6f92"
@@ -18,14 +18,14 @@ colors:
   03: "f6c177"
   11: "f6c177"
 
-  04: "31748f"
-  12: "31748f"
+  04: "3e8fb0"
+  12: "3e8fb0"
 
   05: "c4a7e7"
   13: "c4a7e7"
 
-  06: "ebbcba"
-  14: "ebbcba"
+  06: "ea9a97"
+  14: "ea9a97"
 
   07: "e0def4"
   15: "e0def4"

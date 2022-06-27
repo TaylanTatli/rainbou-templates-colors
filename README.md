@@ -25,10 +25,14 @@
 ![antique.svg](./previews/antique.svg)  
 ## ao
 ![ao.svg](./previews/ao.svg)  
+## arc
+![arc.svg](./previews/arc.svg)  
 ## aurorax
 ![aurorax.svg](./previews/aurorax.svg)  
 ## autobahn
 ![autobahn.svg](./previews/autobahn.svg)  
+## ayu-mirage
+![ayu-mirage.svg](./previews/ayu-mirage.svg)  
 ## ayu
 ![ayu.svg](./previews/ayu.svg)  
 ## azar
@@ -285,12 +289,16 @@
 ![iceberg.svg](./previews/iceberg.svg)  
 ## itermocean
 ![itermocean.svg](./previews/itermocean.svg)  
+## janleigh
+![janleigh.svg](./previews/janleigh.svg)  
+## kanagawa
+![kanagawa.svg](./previews/kanagawa.svg)  
 ## kasugano
 ![kasugano.svg](./previews/kasugano.svg)  
+## kisnis
+![kisnis.svg](./previews/kisnis.svg)  
 ## kiss
 ![kiss.svg](./previews/kiss.svg)  
-## kişniş
-![kişniş.svg](./previews/kişniş.svg)  
 ## kites
 ![kites.svg](./previews/kites.svg)  
 ## kit
@@ -365,6 +373,8 @@
 ![neon.svg](./previews/neon.svg)  
 ## newleaf
 ![newleaf.svg](./previews/newleaf.svg)  
+## nord-light
+![nord-light.svg](./previews/nord-light.svg)  
 ## nord
 ![nord.svg](./previews/nord.svg)  
 ## novmbr
@@ -431,6 +441,12 @@
 ![relicdark.svg](./previews/relicdark.svg)  
 ## reloaded
 ![reloaded.svg](./previews/reloaded.svg)  
+## rok
+![rok.svg](./previews/rok.svg)  
+## rose-pine-dawn
+![rose-pine-dawn.svg](./previews/rose-pine-dawn.svg)  
+## rose-pine-moon
+![rose-pine-moon.svg](./previews/rose-pine-moon.svg)  
 ## rose-pine
 ![rose-pine.svg](./previews/rose-pine.svg)  
 ## rose
@@ -439,8 +455,6 @@
 ![rowdy.svg](./previews/rowdy.svg)  
 ## royal
 ![royal.svg](./previews/royal.svg)  
-## rök
-![rök.svg](./previews/rök.svg)  
 ## rxyhn
 ![rxyhn.svg](./previews/rxyhn.svg)  
 ## s3r0
@@ -477,6 +491,8 @@
 ![solarized-dark-higher-contrast.svg](./previews/solarized-dark-higher-contrast.svg)  
 ## solarized-dark
 ![solarized-dark.svg](./previews/solarized-dark.svg)  
+## solarized-light-fix
+![solarized-light-fix.svg](./previews/solarized-light-fix.svg)  
 ## solarized-light
 ![solarized-light.svg](./previews/solarized-light.svg)  
 ## sol
