@@ -1,0 +1,31 @@
+metadata:
+  name: Everblush
+  author: Everblush
+colors:
+  bg: "181f21"
+  fg: "dadada"
+  cr: "dadada"
+
+  00: "22292b"
+  08: "3b4244"
+
+  01: "e06e6e"
+  09: "ef7d7d"
+
+  02: "8ccf7e"
+  10: "9bdead"
+
+  03: "e5c76b"
+  11: "f4d67a"
+
+  04: "67b0e8"
+  12: "6cb5ed"
+
+  05: "c47fd5"
+  13: "ce89df"
+
+  06: "6da4cd"
+  14: "67cbe7"
+
+  07: "b3b9b8"
+  15: "bdc3c2"

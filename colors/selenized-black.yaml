@@ -1,0 +1,31 @@
+metadata:
+  name: Selenized Black
+  author: Jan Warchol
+colors:
+  bg: "181818"
+  fg: "b9b9b9"
+  cr: "b9b9b9"
+
+  00: "252525"
+  08: "3b3b3b"
+
+  01: "ed4a46"
+  09: "ff5e56"
+
+  02: "70b433"
+  10: "83c746"
+
+  03: "dbb32d"
+  11: "efc541"
+
+  04: "368aeb"
+  12: "4f9cfe"
+
+  05: "eb6eb7"
+  13: "ff81ca"
+
+  06: "3fc5b7"
+  14: "56d8c9"
+
+  07: "777777"
+  15: "dedede"

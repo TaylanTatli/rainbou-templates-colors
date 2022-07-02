@@ -1,0 +1,31 @@
+metadata:
+  name: OK
+  author: itsook
+colors:
+  bg: "0b0d10"
+  fg: "d2daf4"
+  cr: "d2daf4"
+
+  00: "636c7e"
+  08: "6e7b8f"
+
+  01: "c44949"
+  09: "e15858"
+
+  02: "3fcc6c"
+  10: "53db7f"
+
+  03: "dfa93f"
+  11: "daa640"
+
+  04: "3580c1"
+  12: "4796d9"
+
+  05: "ac45cc"
+  13: "b057cb"
+
+  06: "36b5a4"
+  14: "51d5c3"
+
+  07: "6e7d8a"
+  15: "b5cdbd"

@@ -1,0 +1,31 @@
+metadata:
+  name: Selenized White
+  author: Jan Warchol
+colors:
+  bg: "ffffff"
+  fg: "474747"
+  cr: "474747"
+
+  00: "ebebeb"
+  08: "cdcdcd"
+
+  01: "d6000c"
+  09: "bf0000"
+
+  02: "1d9700"
+  10: "008400"
+
+  03: "c49700"
+  11: "af8500"
+
+  04: "0064e4"
+  12: "0054cf"
+
+  05: "dd0f9d"
+  13: "c7008b"
+
+  06: "00ad9c"
+  14: "009a8a"
+
+  07: "878787"
+  15: "282828"

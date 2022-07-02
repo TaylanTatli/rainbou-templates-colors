@@ -1,0 +1,31 @@
+metadata:
+  name: Selenized Dark
+  author: Jan Warchol
+colors:
+  bg: "103c48"
+  fg: "adbcbc"
+  cr: "adbcbc"
+
+  00: "174956"
+  08: "325b66"
+
+  01: "fa5750"
+  09: "ff665c"
+
+  02: "75b938"
+  10: "84c747"
+
+  03: "dbb32d"
+  11: "ebc13d"
+
+  04: "4695f7"
+  12: "58a3ff"
+
+  05: "f275be"
+  13: "ff84cd"
+
+  06: "41c7b9"
+  14: "53d6c7"
+
+  07: "72898f"
+  15: "cad8d9"
