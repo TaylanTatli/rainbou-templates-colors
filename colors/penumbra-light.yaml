@@ -1,0 +1,31 @@
+metadata:
+  name: Penumbra Light
+  author: nealmckee
+colors:
+  bg: "fff7ed"
+  fg: "8f8f8f"
+  cr: "8f8f8f"
+
+  00: "fff7ed"
+  08: "bebebe"
+
+  01: "cb7459"
+  09: "cb7459"
+
+  02: "46a473"
+  10: "46a473"
+
+  03: "a28f2d"
+  11: "a28f2d"
+
+  04: "7f87d5"
+  12: "7f87d5"
+
+  05: "bd72a8"
+  13: "bd72a8"
+
+  06: "00a0be"
+  14: "00a0be"
+
+  07: "303338"
+  15: "24272b"

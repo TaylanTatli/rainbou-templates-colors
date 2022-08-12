@@ -1,0 +1,31 @@
+metadata:
+  name: quixotic
+  author: QuixoticCS
+colors:
+  bg: "101313"
+  fg: "d7d7d7"
+  cr: "f076ab"
+
+  00: "232525"
+  08: "3F59AA"
+
+  01: "f85858"
+  09: "f85858"
+
+  02: "2ac68e"
+  10: "2ac68e"
+
+  03: "f076ab"
+  11: "f076ab"
+
+  04: "008ce3"
+  12: "008ce3"
+
+  05: "a07dde"
+  13: "a07dde"
+
+  06: "3dddd8"
+  14: "3dddd8"
+
+  07: "d7d7d7"
+  15: "d7d7d7"

@@ -1,0 +1,31 @@
+metadata:
+  name: Penumbra Dark++
+  author: nealmckee
+colors:
+  bg: "181b1f"
+  fg: "aeaeae"
+  cr: "aeaeae"
+
+  00: "181b1f"
+  08: "636363"
+
+  01: "f48e74"
+  09: "f48e74"
+
+  02: "61c68a"
+  10: "61c68a"
+
+  03: "c7ad40"
+  11: "c7ad40"
+
+  04: "97a6ff"
+  12: "97a6ff"
+
+  05: "e18dce"
+  13: "e18dce"
+
+  06: "1ac2e1"
+  14: "1ac2e1"
+
+  07: "fff7ed"
+  15: "fffdfb"

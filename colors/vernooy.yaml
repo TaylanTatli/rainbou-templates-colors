@@ -1,0 +1,31 @@
+metadata:
+  name: Vernooy
+  author: k-vernooy
+colors:
+  bg: "000000"
+  fg: "eeeeee"
+  cr: "eeeeee"
+
+  00: "262e47"
+  08: "262e47"
+
+  01: "e46368"
+  09: "e46368"
+
+  02: "fa7a80"
+  10: "fa7a80"
+
+  03: "ffa578"
+  11: "ffa578"
+
+  04: "5c94e0"
+  12: "5c94e0"
+
+  05: "d295f6"
+  13: "d295f6"
+
+  06: "95bef8"
+  14: "95bef8"
+
+  07: "e4e9ff"
+  15: "e4e9ff"
