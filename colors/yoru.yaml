@@ -1,0 +1,31 @@
+metadata:
+  name: Yoru
+  author: rxyhn
+colors:
+  bg: "0c0e0f"
+  fg: "edeff0"
+  cr: "edeff0"
+
+  00: "232526"
+  08: "2c2e2f"
+
+  01: "df5b61"
+  09: "e8646a"
+
+  02: "78b892"
+  10: "81c19b"
+
+  03: "de8f78"
+  11: "e79881"
+
+  04: "6791c9"
+  12: "709ad2"
+
+  05: "bc83e3"
+  13: "c58cec"
+
+  06: "67afc1"
+  14: "70b8ca"
+
+  07: "e4e6e7"
+  15: "f2f4f5"

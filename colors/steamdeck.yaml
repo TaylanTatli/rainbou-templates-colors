@@ -1,0 +1,31 @@
+metadata:
+  name: Github-Dark
+  author: Github
+colors:
+  bg: "010101"
+  fg: "abb7c4"
+  cr: "abb7c4"
+
+  00: "161b22"
+  08: "30363d"
+
+  01: "ff7b72"
+  09: "ffa198"
+
+  02: "3fb950"
+  10: "56d364"
+
+  03: "d29922"
+  11: "e3b341"
+
+  04: "58a6ff"
+  12: "79c0ff"
+
+  05: "bc8cff"
+  13: "d2a8ff"
+
+  06: "76e3ea"
+  14: "b3f0ff"
+
+  07: "b1bac4"
+  15: "f0f6fc"

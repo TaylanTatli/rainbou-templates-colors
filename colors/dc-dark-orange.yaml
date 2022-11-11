@@ -1,0 +1,31 @@
+metadata:
+  name: dc-dark-orange
+  author: duanecummins
+colors:
+  bg: "24262e"
+  fg: "eeeeee"
+  cr: "eeeeee"
+
+  00: "24262e"
+  08: "878897"
+
+  01: "dafd50"
+  09: "767692"
+
+  02: "828c89"
+  10: "454751"
+
+  03: "ffa263"
+  11: "666774"
+
+  04: "3083dc"
+  12: "a8a9b9"
+
+  05: "cd3f45"
+  13: "d1d1e1"
+
+  06: "c1b28e"
+  14: "7351fe"
+
+  07: "eeeeee"
+  15: "cacadc"

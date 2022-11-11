@@ -1,0 +1,31 @@
+metadata:
+  name: BlackIris
+  author: pyukusai
+colors:
+  bg: "010101"
+  fg: "dedede"
+  cr: "ffb638"
+
+  00: "141414"
+  08: "323232"
+
+  01: "ff6188"
+  09: "ff85a3"
+
+  02: "a9dc76"
+  10: "c0f57f"
+
+  03: "ffd866"
+  11: "ffe188"
+
+  04: "fc9867"
+  12: "fcaa82"
+
+  05: "ab9df2"
+  13: "bebeff"
+
+  06: "78dce8"
+  14: "90f3ff"
+
+  07: "ebeff4"
+  15: "fcfcfa"

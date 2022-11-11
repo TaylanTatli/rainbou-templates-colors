@@ -1,0 +1,31 @@
+metadata:
+  name: Cherry
+  author: nullxception
+colors:
+  bg: "010101"
+  fg: "c5c8c6"
+  cr: "c5c8c6"
+
+  00: "43434f"
+  08: "53535f"
+
+  01: "ff568e"
+  09: "ff69a2"
+
+  02: "64de83"
+  10: "73de8a"
+
+  03: "efff73"
+  11: "f3ff85"
+
+  04: "73a9ff"
+  12: "85b6ff"
+
+  05: "946ff7"
+  13: "a481f7"
+
+  06: "62c6da"
+  14: "71c2d9"
+
+  07: "dedeef"
+  15: "ebebf0"
