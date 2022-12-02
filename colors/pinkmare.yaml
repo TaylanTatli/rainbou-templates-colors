@@ -1,0 +1,31 @@
+metadata:
+  name: Pinkmare
+  author: Matsuuu
+colors:
+  bg: "202330"
+  fg: "fae8b6"
+  cr: "fae8b6"
+
+  00: "2a2e3f"
+  08: "3f445e"
+
+  01: "ff38a2"
+  09: "ff38a2"
+
+  02: "9cd162"
+  10: "9cd162"
+
+  03: "ffc85b"
+  11: "ffc85b"
+
+  04: "eba4ac"
+  12: "eba4ac"
+
+  05: "d9bcef"
+  13: "d9bcef"
+
+  06: "87c095"
+  14: "87c095"
+
+  07: "e0dcdc"
+  15: "fff0f5"

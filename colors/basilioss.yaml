@@ -1,0 +1,31 @@
+metadata:
+  name: Basilioss
+  author: Basilioss
+colors:
+  bg: "151f29"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "151f29"
+  08: "476072"
+
+  01: "ff6059"
+  09: "ff8c87"
+
+  02: "5fff87"
+  10: "88ffa6"
+
+  03: "ffff87"
+  11: "ffffa1"
+
+  04: "5fafff"
+  12: "88c4ff"
+
+  05: "af87ff"
+  13: "c3a6ff"
+
+  06: "5fafff"
+  14: "7abdff"
+
+  07: "dcdcdc"
+  15: "fafafa"
