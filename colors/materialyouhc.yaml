@@ -1,0 +1,31 @@
+metadata:
+  name: MaterialYouHC
+  author: TaylanTatli
+colors:
+  bg: "303135"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "343c3f"
+  08: "465155"
+
+  01: "f15b8b"
+  09: "f58aac"
+
+  02: "99ee1f"
+  10: "aff24e"
+
+  03: "fe7e10"
+  11: "fe9943"
+
+  04: "2196f3"
+  12: "51adf6"
+
+  05: "e41ad0"
+  13: "ea47da"
+
+  06: "9eebfd"
+  14: "b7f0fe"
+
+  07: "eeeeee"
+  15: "ffffff"

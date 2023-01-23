@@ -1,0 +1,31 @@
+metadata:
+  name: Catppuccin-Latte
+  author: Catppuccin
+colors:
+  bg: "EFF1F5"
+  fg: "4C4F69"
+  cr: "4C4F69"
+
+  00: "5C5F77"
+  08: "6C6F85"
+
+  01: "D20F39"
+  09: "D20F39"
+
+  02: "40A02B"
+  10: "40A02B"
+
+  03: "DF8E1D"
+  11: "DF8E1D"
+
+  04: "1E66F5"
+  12: "1E66F5"
+
+  05: "EA76CB"
+  13: "EA76CB"
+
+  06: "179299"
+  14: "179299"
+
+  07: "ACB0BE"
+  15: "BCC0CC"

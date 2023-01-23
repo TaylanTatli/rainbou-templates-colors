@@ -1,0 +1,31 @@
+metadata:
+  name: MaterialYouLC
+  author: TaylanTatli
+colors:
+  bg: "303135"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "343c3f"
+  08: "465155"
+
+  01: "f1a19a"
+  09: "f4b6b0"
+
+  02: "cdfb8c"
+  10: "d8fca5"
+
+  03: "fad494"
+  11: "fbdeac"
+
+  04: "7ac3fd"
+  12: "93cefd"
+
+  05: "eb72df"
+  13: "ee88e4"
+
+  06: "85e6fc"
+  14: "9eebfd"
+
+  07: "eeeeee"
+  15: "ffffff"

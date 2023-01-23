@@ -1,0 +1,31 @@
+metadata:
+  name: Catppuccin-Mocha
+  author: Catppuccin
+colors:
+  bg: "1E1E2E"
+  fg: "CDD6F4"
+  cr: "CDD6F4"
+
+  00: "45475A"
+  08: "585B70"
+
+  01: "F38BA8"
+  09: "F38BA8"
+
+  02: "A6E3A1"
+  10: "A6E3A1"
+
+  03: "F9E2AF"
+  11: "F9E2AF"
+
+  04: "89B4FA"
+  12: "89B4FA"
+
+  05: "F5C2E7"
+  13: "F5C2E7"
+
+  06: "94E2D5"
+  14: "94E2D5"
+
+  07: "BAC2DE"
+  15: "A6ADC8"

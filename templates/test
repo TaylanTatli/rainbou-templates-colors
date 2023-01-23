@@ -1,0 +1,10 @@
+twobwm.border_width: 4
+twobwm.outer_border: 2
+twobwm.focus_color: #{{.Metadata.Author}}
+twobwm.unfocus_color: #{{index .ColorMap "08" "hex"}}
+twobwm.fixed_color: rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.2)
+twobwm.unkill_color: #{{index .ColorMap "03" "hex"}}
+twobwm.outer_border_color: #{{index .ColorMap "bg" "hex"}}
+twobwm.fixed_unkill_color: rgb({{index .ColorMap "04" "rgb" 0}}, {{index .ColorMap "04" "rgb" 1}}, {{index .ColorMap "04" "rgb" 2}})
+twobwm.inverted_colors: false
+twobwm.enable_compton: true

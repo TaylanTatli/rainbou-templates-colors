@@ -1,0 +1,31 @@
+metadata:
+  name: Everfrost Mod
+  author: Unknown
+colors:
+  bg: "29263c"
+  fg: "edecee"
+  cr: "edecee"
+
+  00: "15141b"
+  08: "15141b"
+
+  01: "ff6767"
+  09: "ff6767"
+
+  02: "61ffca"
+  10: "61ffca"
+
+  03: "ffca85"
+  11: "ffca85"
+
+  04: "82e2ff"
+  12: "82e2ff"
+
+  05: "f694ff"
+  13: "f694ff"
+
+  06: "61ffca"
+  14: "61ffca"
+
+  07: "edecee"
+  15: "edecee"

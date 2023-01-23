@@ -1,0 +1,31 @@
+metadata:
+  name: rkylz
+  author: rkylz
+colors:
+  bg: "17171c"
+  fg: "f2f2e9"
+  cr: "f2f2e9"
+
+  00: "212126"
+  08: "3b3b44"
+
+  01: "cc7a7a"
+  09: "e88b8b"
+
+  02: "b1cc7a"
+  10: "c4e287"
+
+  03: "cca37a"
+  11: "ebbc8d"
+
+  04: "7a96cc"
+  12: "8babe9"
+
+  05: "b886d1"
+  13: "cd95e8"
+
+  06: "7ab1cc"
+  14: "85c1df"
+
+  07: "dbcbba"
+  15: "f2e0ce"

@@ -1,0 +1,36 @@
+/* others */
+/*@define-color background rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.75);*/
+@define-color background #{{index .ColorMap "bg" "hex"}};
+@define-color foreground #{{index .ColorMap "fg" "hex"}};
+
+/* black */
+@define-color black #{{index .ColorMap "00" "hex"}};
+@define-color black_alt #{{index .ColorMap "08" "hex"}};
+
+/* red */
+@define-color red #{{index .ColorMap "01" "hex"}};
+@define-color red_alt #{{index .ColorMap "09" "hex"}};
+
+/* green */
+@define-color green #{{index .ColorMap "02" "hex"}};
+@define-color green_alt #{{index .ColorMap "10" "hex"}};
+
+/* yellow */
+@define-color yellow #{{index .ColorMap "03" "hex"}};
+@define-color yellow_alt #{{index .ColorMap "11" "hex"}};
+
+/* blue */
+@define-color blue #{{index .ColorMap "04" "hex"}};
+@define-color blue_alt #{{index .ColorMap "12" "hex"}};
+
+/* magenta/orange */
+@define-color magenta #{{index .ColorMap "05" "hex"}};
+@define-color magenta_alt #{{index .ColorMap "13" "hex"}};
+
+/* cyan */
+@define-color cyan #{{index .ColorMap "06" "hex"}};
+@define-color cyan_alt #{{index .ColorMap "14" "hex"}};
+
+/* white */
+@define-color white #{{index .ColorMap "07" "hex"}};
+@define-color white_alt #{{index .ColorMap "15" "hex"}};

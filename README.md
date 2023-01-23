@@ -93,6 +93,8 @@
 ![base2tone-space-dark.svg](./previews/base2tone-space-dark.svg)  
 ## base2tone-space-light
 ![base2tone-space-light.svg](./previews/base2tone-space-light.svg)  
+## basilioss
+![basilioss.svg](./previews/basilioss.svg)  
 ## beard
 ![beard.svg](./previews/beard.svg)  
 ## bera-dark
@@ -105,6 +107,8 @@
 ![bhien.svg](./previews/bhien.svg)  
 ## blackgum
 ![blackgum.svg](./previews/blackgum.svg)  
+## black-iris
+![black-iris.svg](./previews/black-iris.svg)  
 ## blackpearl
 ![blackpearl.svg](./previews/blackpearl.svg)  
 ## blend
@@ -135,8 +139,14 @@
 ![carl.svg](./previews/carl.svg)  
 ## cathulu
 ![cathulu.svg](./previews/cathulu.svg)  
-## catppuccin
-![catppuccin.svg](./previews/catppuccin.svg)  
+## catppuccin-frappe
+![catppuccin-frappe.svg](./previews/catppuccin-frappe.svg)  
+## catppuccin-latte
+![catppuccin-latte.svg](./previews/catppuccin-latte.svg)  
+## catppuccin-macchiato
+![catppuccin-macchiato.svg](./previews/catppuccin-macchiato.svg)  
+## catppuccin-mocha
+![catppuccin-mocha.svg](./previews/catppuccin-mocha.svg)  
 ## celestial
 ![celestial.svg](./previews/celestial.svg)  
 ## chaires
@@ -145,6 +155,8 @@
 ![charlie_brown.svg](./previews/charlie_brown.svg)  
 ## cherryblossom
 ![cherryblossom.svg](./previews/cherryblossom.svg)  
+## cherry
+![cherry.svg](./previews/cherry.svg)  
 ## chicago
 ![chicago.svg](./previews/chicago.svg)  
 ## china
@@ -175,8 +187,14 @@
 ![darkerthanshrek.svg](./previews/darkerthanshrek.svg)  
 ## dawn
 ![dawn.svg](./previews/dawn.svg)  
+## dc-dark-orange
+![dc-dark-orange.svg](./previews/dc-dark-orange.svg)  
 ## deadbytomorrow
 ![deadbytomorrow.svg](./previews/deadbytomorrow.svg)  
+## decayingparadisedark
+![decayingparadisedark.svg](./previews/decayingparadisedark.svg)  
+## decayingparadise
+![decayingparadise.svg](./previews/decayingparadise.svg)  
 ## denisidoro
 ![denisidoro.svg](./previews/denisidoro.svg)  
 ## depth
@@ -213,6 +231,10 @@
 ![eti0.svg](./previews/eti0.svg)  
 ## evabream
 ![evabream.svg](./previews/evabream.svg)  
+## everblush
+![everblush.svg](./previews/everblush.svg)  
+## everfrostmod
+![everfrostmod.svg](./previews/everfrostmod.svg)  
 ## eyes
 ![eyes.svg](./previews/eyes.svg)  
 ## fallac
@@ -229,6 +251,8 @@
 ![floral.svg](./previews/floral.svg)  
 ## flower
 ![flower.svg](./previews/flower.svg)  
+## fluent
+![fluent.svg](./previews/fluent.svg)  
 ## foggy
 ![foggy.svg](./previews/foggy.svg)  
 ## frocerer
@@ -329,6 +353,10 @@
 ![marla.svg](./previews/marla.svg)  
 ## material-color
 ![material-color.svg](./previews/material-color.svg)  
+## materialyouhc
+![materialyouhc.svg](./previews/materialyouhc.svg)  
+## materialyoulc
+![materialyoulc.svg](./previews/materialyoulc.svg)  
 ## mattd
 ![mattd.svg](./previews/mattd.svg)  
 ## mayukai
@@ -381,6 +409,8 @@
 ![novmbr.svg](./previews/novmbr.svg)  
 ## ocean-dark
 ![ocean-dark.svg](./previews/ocean-dark.svg)  
+## ok
+![ok.svg](./previews/ok.svg)  
 ## onedark
 ![onedark.svg](./previews/onedark.svg)  
 ## onelight
@@ -415,12 +445,24 @@
 ![pencil-dark.svg](./previews/pencil-dark.svg)  
 ## pencil-light
 ![pencil-light.svg](./previews/pencil-light.svg)  
+## penumbra-dark++
+![penumbra-dark++.svg](./previews/penumbra-dark++.svg)  
+## penumbra-dark+
+![penumbra-dark+.svg](./previews/penumbra-dark+.svg)  
+## penumbra-dark
+![penumbra-dark.svg](./previews/penumbra-dark.svg)  
+## penumbra-light
+![penumbra-light.svg](./previews/penumbra-light.svg)  
 ## peropero
 ![peropero.svg](./previews/peropero.svg)  
 ## petal
 ![petal.svg](./previews/petal.svg)  
+## pinkmare
+![pinkmare.svg](./previews/pinkmare.svg)  
 ## please
 ![please.svg](./previews/please.svg)  
+## policromia
+![policromia.svg](./previews/policromia.svg)  
 ## poly
 ![poly.svg](./previews/poly.svg)  
 ## popsicles
@@ -433,6 +475,8 @@
 ![punpun.svg](./previews/punpun.svg)  
 ## qualitative
 ![qualitative.svg](./previews/qualitative.svg)  
+## quixotic
+![quixotic.svg](./previews/quixotic.svg)  
 ## raiin
 ![raiin.svg](./previews/raiin.svg)  
 ## relax
@@ -441,6 +485,8 @@
 ![relicdark.svg](./previews/relicdark.svg)  
 ## reloaded
 ![reloaded.svg](./previews/reloaded.svg)  
+## rklyz
+![rklyz.svg](./previews/rklyz.svg)  
 ## rok
 ![rok.svg](./previews/rok.svg)  
 ## rose-pine-dawn
@@ -475,6 +521,14 @@
 ![seal.svg](./previews/seal.svg)  
 ## sea
 ![sea.svg](./previews/sea.svg)  
+## selenized-black
+![selenized-black.svg](./previews/selenized-black.svg)  
+## selenized-dark
+![selenized-dark.svg](./previews/selenized-dark.svg)  
+## selenized-light
+![selenized-light.svg](./previews/selenized-light.svg)  
+## selenized-white
+![selenized-white.svg](./previews/selenized-white.svg)  
 ## serenade
 ![serenade.svg](./previews/serenade.svg)  
 ## shark
@@ -495,6 +549,8 @@
 ![solarized-light-fix.svg](./previews/solarized-light-fix.svg)  
 ## solarized-light
 ![solarized-light.svg](./previews/solarized-light.svg)  
+## solitudeTree
+![solitudeTree.svg](./previews/solitudeTree.svg)  
 ## sol
 ![sol.svg](./previews/sol.svg)  
 ## sourcerer
@@ -509,6 +565,8 @@
 ![stairs.svg](./previews/stairs.svg)  
 ## stars
 ![stars.svg](./previews/stars.svg)  
+## steamdeck
+![steamdeck.svg](./previews/steamdeck.svg)  
 ## stormy
 ![stormy.svg](./previews/stormy.svg)  
 ## strawberry
@@ -547,6 +605,8 @@
 ![urban.svg](./previews/urban.svg)  
 ## vans
 ![vans.svg](./previews/vans.svg)  
+## vernooy
+![vernooy.svg](./previews/vernooy.svg)  
 ## victory
 ![victory.svg](./previews/victory.svg)  
 ## warmforest
@@ -563,6 +623,8 @@
 ![yamlk.svg](./previews/yamlk.svg)  
 ## yaru
 ![yaru.svg](./previews/yaru.svg)  
+## yoru
+![yoru.svg](./previews/yoru.svg)  
 ## yuno
 ![yuno.svg](./previews/yuno.svg)  
 ## zent

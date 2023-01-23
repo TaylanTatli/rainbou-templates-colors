@@ -1,0 +1,31 @@
+metadata:
+  name: DecayingParadiseLight
+  author:  frapdotbmp
+colors:
+  bg: "fefefe"
+  fg: "080808"
+  cr: "080808"
+
+  00: "fefefe"
+  08: "fdfdfd"
+
+  01: "b68385"
+  09: "b66a6c"
+
+  02: "8c8577"
+  10: "8c8577"
+
+  03: "d9c6a6"
+  11: "dec69e"
+
+  04: "afb4b9"
+  12: "a4aeb9"
+
+  05: "aea6b0"
+  13: "afacb0"
+
+  06: "9fa6a5"
+  14: "9aa6a4"
+
+  07: "080808"
+  15: "080808"

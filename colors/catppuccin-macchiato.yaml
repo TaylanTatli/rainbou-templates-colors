@@ -1,0 +1,31 @@
+metadata:
+  name: Catppuccin-Macchiato
+  author: Catppuccin
+colors:
+  bg: "24273A"
+  fg: "CAD3F5"
+  cr: "CAD3F5"
+
+  00: "494D64"
+  08: "5B6078"
+
+  01: "ED8796"
+  09: "ED8796"
+
+  02: "A6DA95"
+  10: "A6DA95"
+
+  03: "EED49F"
+  11: "EED49F"
+
+  04: "8AADF4"
+  12: "8AADF4"
+
+  05: "F5BDE6"
+  13: "F5BDE6"
+
+  06: "8BD5CA"
+  14: "8BD5CA"
+
+  07: "B8C0E0"
+  15: "A5ADCB"

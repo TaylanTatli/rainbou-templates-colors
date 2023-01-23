@@ -1,0 +1,31 @@
+metadata:
+  name: DecayingParadiseDark
+  author: frapdotbmp
+colors:
+  bg: "000000"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "181818"
+  08: "2f2f2f"
+
+  01: "e05f65"
+  09: "fc7b81"
+
+  02: "78dba9"
+  10: "94f7c5"
+
+  03: "f1cf8a"
+  11: "ffeba6"
+
+  04: "70a5eb"
+  12: "8cc1ff"
+
+  05: "c68aee"
+  13: "e2a6ff"
+
+  06: "74bee9"
+  14: "90daff"
+
+  07: "dddddd"
+  15: "ffffff"

@@ -1,0 +1,31 @@
+metadata:
+  name: Fluent
+  author: Modified
+colors:
+  bg: "2b2b2b"
+  fg: "cccccc"
+  cr: "cccccc"
+
+  00: "444444"
+  08: "505050"
+
+  01: "cd3131"
+  09: "f14c4c"
+
+  02: "0dbc79"
+  10: "23d18b"
+
+  03: "e5e510"
+  11: "f5f543"
+
+  04: "2472c8"
+  12: "3b8eea"
+
+  05: "bc3fbc"
+  13: "d670d6"
+
+  06: "11a8cd"
+  14: "29b8db"
+
+  07: "e5e5e5"
+  15: "f0f0f0"

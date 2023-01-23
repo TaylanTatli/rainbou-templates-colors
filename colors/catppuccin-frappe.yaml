@@ -1,0 +1,31 @@
+metadata:
+  name: Catppuccin-Frappe
+  author: Catppuccin
+colors:
+  bg: "303446"
+  fg: "C6D0F5"
+  cr: "C6D0F5"
+
+  00: "51576D"
+  08: "626880"
+
+  01: "E78284"
+  09: "E78284"
+
+  02: "A6D189"
+  10: "A6D189"
+
+  03: "E5C890"
+  11: "E5C890"
+
+  04: "8CAAEE"
+  12: "8CAAEE"
+
+  05: "F4B8E4"
+  13: "F4B8E4"
+
+  06: "81C8BE"
+  14: "81C8BE"
+
+  07: "B5BFE2"
+  15: "A5ADCE"

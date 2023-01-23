@@ -1,0 +1,28 @@
+{
+  "dark": {
+    "accent": "#{{index .ColorMap "04" "hex"}}",
+    "background": "#{{index .ColorMap "bg" "hex"}}",
+    "block": "#{{index .ColorMap "06" "hex"}}",
+    "cursor": "#{{index .ColorMap "fg" "hex"}}",
+    "emphasis": "#{{index .ColorMap "03" "hex"}}",
+    "error": "#{{index .ColorMap "01" "hex"}}",
+    "foreground": "#{{index .ColorMap "fg" "hex"}}",
+    "heading": "#{{index .ColorMap "03" "hex"}}",
+    "link": "#{{index .ColorMap "05" "hex"}}",
+    "markup": "#{{index .ColorMap "07" "hex"}}",
+    "selection": "#{{index .ColorMap "02" "hex"}}"
+  },
+  "light": {
+    "accent": "#{{index .ColorMap "04" "hex"}}",
+    "background": "#{{index .ColorMap "fg" "hex"}}",
+    "block": "#{{index .ColorMap "06" "hex"}}",
+    "cursor": "#{{index .ColorMap "bg" "hex"}}",
+    "emphasis": "#{{index .ColorMap "03" "hex"}}",
+    "error": "#{{index .ColorMap "01" "hex"}}",
+    "foreground": "#{{index .ColorMap "bg" "hex"}}",
+    "heading": "#{{index .ColorMap "03" "hex"}}",
+    "link": "#{{index .ColorMap "05" "hex"}}",
+    "markup": "#{{index .ColorMap "07" "hex"}}",
+    "selection": "#{{index .ColorMap "02" "hex"}}"
+  }
+}
