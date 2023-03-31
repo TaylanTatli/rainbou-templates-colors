@@ -1,0 +1,109 @@
+[ColorEffects:Disabled]
+Color=#d2cdda
+ColorAmount=1
+ColorEffect=0
+ContrastAmount=0.75
+ContrastEffect=1
+IntensityAmount=0.45
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=#000000
+ColorAmount=1
+ColorEffect=0
+ContrastAmount=0.25
+ContrastEffect=1
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+BackgroundNormal={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+DecorationFocus={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationHover={{index .ColorMap "12" "rgb" 0}},{{index .ColorMap "12" "rgb" 1}},{{index .ColorMap "12" "rgb" 2}}
+ForegroundActive={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundInactive=#7b88a1
+ForegroundLink={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundNegative={{index .ColorMap "01" "rgb" 0}},{{index .ColorMap "01" "rgb" 1}},{{index .ColorMap "01" "rgb" 2}}
+ForegroundNeutral={{index .ColorMap "03" "rgb" 0}},{{index .ColorMap "03" "rgb" 1}},{{index .ColorMap "03" "rgb" 2}}
+ForegroundNormal={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+ForegroundPositive={{index .ColorMap "02" "rgb" 0}},{{index .ColorMap "02" "rgb" 1}},{{index .ColorMap "02" "rgb" 2}}
+ForegroundVisited={{index .ColorMap "05" "rgb" 0}},{{index .ColorMap "05" "rgb" 1}},{{index .ColorMap "05" "rgb" 2}}
+
+[Colors:Complementary]
+BackgroundAlternate={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+BackgroundNormal={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+ForegroundInactive=#7b88a1
+
+[Colors:Selection]
+BackgroundAlternate=#81a1c1
+BackgroundNormal={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationFocus={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationHover={{index .ColorMap "12" "rgb" 0}},{{index .ColorMap "12" "rgb" 1}},{{index .ColorMap "12" "rgb" 2}}
+ForegroundActive={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundInactive=#7b88a1
+ForegroundLink={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundNegative={{index .ColorMap "01" "rgb" 0}},{{index .ColorMap "01" "rgb" 1}},{{index .ColorMap "01" "rgb" 2}}
+ForegroundNeutral={{index .ColorMap "03" "rgb" 0}},{{index .ColorMap "03" "rgb" 1}},{{index .ColorMap "03" "rgb" 2}}
+ForegroundNormal={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+ForegroundPositive={{index .ColorMap "02" "rgb" 0}},{{index .ColorMap "02" "rgb" 1}},{{index .ColorMap "02" "rgb" 2}}
+ForegroundVisited={{index .ColorMap "05" "rgb" 0}},{{index .ColorMap "05" "rgb" 1}},{{index .ColorMap "05" "rgb" 2}}
+
+[Colors:Tooltip]
+BackgroundAlternate={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+BackgroundNormal={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+DecorationFocus={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationHover={{index .ColorMap "12" "rgb" 0}},{{index .ColorMap "12" "rgb" 1}},{{index .ColorMap "12" "rgb" 2}}
+ForegroundActive={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundInactive=#7b88a1
+ForegroundLink={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundNegative={{index .ColorMap "01" "rgb" 0}},{{index .ColorMap "01" "rgb" 1}},{{index .ColorMap "01" "rgb" 2}}
+ForegroundNeutral={{index .ColorMap "03" "rgb" 0}},{{index .ColorMap "03" "rgb" 1}},{{index .ColorMap "03" "rgb" 2}}
+ForegroundNormal={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+ForegroundPositive={{index .ColorMap "02" "rgb" 0}},{{index .ColorMap "02" "rgb" 1}},{{index .ColorMap "02" "rgb" 2}}
+ForegroundVisited={{index .ColorMap "05" "rgb" 0}},{{index .ColorMap "05" "rgb" 1}},{{index .ColorMap "05" "rgb" 2}}
+
+[Colors:View]
+BackgroundAlternate={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+BackgroundNormal={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+DecorationFocus={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationHover={{index .ColorMap "12" "rgb" 0}},{{index .ColorMap "12" "rgb" 1}},{{index .ColorMap "12" "rgb" 2}}
+ForegroundActive={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundInactive=#7b88a1
+ForegroundLink={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundNegative={{index .ColorMap "01" "rgb" 0}},{{index .ColorMap "01" "rgb" 1}},{{index .ColorMap "01" "rgb" 2}}
+ForegroundNeutral={{index .ColorMap "03" "rgb" 0}},{{index .ColorMap "03" "rgb" 1}},{{index .ColorMap "03" "rgb" 2}}
+ForegroundNormal={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+ForegroundPositive={{index .ColorMap "02" "rgb" 0}},{{index .ColorMap "02" "rgb" 1}},{{index .ColorMap "02" "rgb" 2}}
+ForegroundVisited={{index .ColorMap "05" "rgb" 0}},{{index .ColorMap "05" "rgb" 1}},{{index .ColorMap "05" "rgb" 2}}
+
+[Colors:Window]
+BackgroundAlternate={{index .ColorMap "00" "rgb" 0}},{{index .ColorMap "00" "rgb" 1}},{{index .ColorMap "00" "rgb" 2}}
+BackgroundNormal={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+DecorationFocus={{index .ColorMap "08" "rgb" 0}},{{index .ColorMap "08" "rgb" 1}},{{index .ColorMap "08" "rgb" 2}}
+DecorationHover={{index .ColorMap "12" "rgb" 0}},{{index .ColorMap "12" "rgb" 1}},{{index .ColorMap "12" "rgb" 2}}
+ForegroundActive={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundInactive=#7b88a1
+ForegroundLink={{index .ColorMap "04" "rgb" 0}},{{index .ColorMap "04" "rgb" 1}},{{index .ColorMap "04" "rgb" 2}}
+ForegroundNegative={{index .ColorMap "01" "rgb" 0}},{{index .ColorMap "01" "rgb" 1}},{{index .ColorMap "01" "rgb" 2}}
+ForegroundNeutral={{index .ColorMap "03" "rgb" 0}},{{index .ColorMap "03" "rgb" 1}},{{index .ColorMap "03" "rgb" 2}}
+ForegroundNormal={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+ForegroundPositive={{index .ColorMap "02" "rgb" 0}},{{index .ColorMap "02" "rgb" 1}},{{index .ColorMap "02" "rgb" 2}}
+ForegroundVisited={{index .ColorMap "05" "rgb" 0}},{{index .ColorMap "05" "rgb" 1}},{{index .ColorMap "05" "rgb" 2}}
+
+[General]
+Name={{.Metadata.Name}}
+shadeSortColumn=true
+
+[KDE]
+contrast=10
+
+[WM]
+activeBackground={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+activeBlend={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+activeForeground={{index .ColorMap "15" "rgb" 0}},{{index .ColorMap "15" "rgb" 1}},{{index .ColorMap "15" "rgb" 2}}
+inactiveBackground={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+inactiveBlend={{index .ColorMap "bg" "rgb" 0}},{{index .ColorMap "bg" "rgb" 1}},{{index .ColorMap "bg" "rgb" 2}}
+inactiveForeground={{index .ColorMap "fg" "rgb" 0}},{{index .ColorMap "fg" "rgb" 1}},{{index .ColorMap "fg" "rgb" 2}}

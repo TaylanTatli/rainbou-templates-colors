@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Name:
+    Gedit {{.Metadata.Name}} Dark
+
+  Credits:
+    Original color schemes by {{.Metadata.Author}}
+-->
+
+<style-scheme id="{{.Metadata.Name}}" _name="{{.Metadata.Name}}" version="1.0">
+  
+  <!-- Meta -->
+  <author>{{.Metadata.Author}}</author>
+  <_description>{{.Metadata.Name}} theme for Gedit</_description>
+
+  <!-- Palette -->
+  <color name="colorbg" value="#{{index .ColorMap "bg" "hex"}}"/>
+  <color name="colorfg" value="#{{index .ColorMap "fg" "hex"}}"/>
+  <color name="colorcr" value="#{{index .ColorMap "cr" "hex"}}"/>
+  <color name="color00" value="#{{index .ColorMap "00" "hex"}}"/>
+  <color name="color01" value="#{{index .ColorMap "01" "hex"}}"/>
+  <color name="color02" value="#{{index .ColorMap "02" "hex"}}"/>
+  <color name="color03" value="#{{index .ColorMap "03" "hex"}}"/>
+  <color name="color04" value="#{{index .ColorMap "04" "hex"}}"/>
+  <color name="color05" value="#{{index .ColorMap "05" "hex"}}"/>
+  <color name="color06" value="#{{index .ColorMap "06" "hex"}}"/>
+  <color name="color07" value="#{{index .ColorMap "07" "hex"}}"/>
+  <color name="color08" value="#{{index .ColorMap "08" "hex"}}"/>
+  <color name="color09" value="#{{index .ColorMap "09" "hex"}}"/>
+  <color name="color10" value="#{{index .ColorMap "10" "hex"}}"/>
+  <color name="color11" value="#{{index .ColorMap "11" "hex"}}"/>
+  <color name="color12" value="#{{index .ColorMap "12" "hex"}}"/>
+  <color name="color13" value="#{{index .ColorMap "13" "hex"}}"/>
+  <color name="color14" value="#{{index .ColorMap "14" "hex"}}"/>
+  <color name="color15" value="#{{index .ColorMap "15" "hex"}}"/>
+
+  <!-- Styles -->
+  <style name="bracket-match" background="color10" bold="true"/>
+  <style name="bracket-mismatch" background="color10" underline="true"/>
+  <style name="css:at-rules" foreground="color05"/>
+  <style name="css:color" foreground="color07"/>
+  <style name="css:keyword" foreground="color03"/>
+  <style name="current-line" background="color00"/>
+  <style name="cursor" foreground="colorcr"/>
+  <style name="def:base-n-integer" foreground="color09"/>
+  <style name="def:boolean" foreground="color09"/>
+  <style name="def:builtin" foreground="color09"/>
+  <style name="def:character" foreground="color09"/>
+  <style name="def:comment" foreground="color12"/>
+  <style name="def:complex" foreground="color09"/>
+  <style name="def:decimal" foreground="color09"/>
+  <style name="def:doc-comment" foreground="color12"/>
+  <style name="def:doc-comment-element" foreground="color12"/>
+  <style name="def:error" foreground="color15" background="color01"/>
+  <style name="def:floating-point" foreground="color09"/>
+  <style name="def:function" foreground="color04"/>
+  <style name="def:identifier" foreground="color01"/>
+  <style name="def:keyword" foreground="color05"/>
+  <style name="def:note" foreground="color12"/>
+  <style name="def:number" foreground="color09"/>
+  <style name="def:operator" foreground="color06"/>
+  <style name="def:preprocessor" foreground="color09"/>
+  <style name="def:reserved" foreground="color05"/>
+  <style name="def:shebang" foreground="color12"/>
+  <style name="def:special-char" foreground="color09"/>
+  <style name="def:special-constant" foreground="color09"/>
+  <style name="def:statement" foreground="color05"/>
+  <style name="def:string" foreground="color02"/>
+  <style name="def:type" foreground="color03"/>
+  <style name="draw-spaces" foreground="color11"/>
+  <style name="html:dtd" foreground="color02"/>
+  <style name="html:tag" foreground="color01"/>
+  <style name="js:function" foreground="color04"/>
+  <style name="line-numbers" foreground="color13" background="color00"/>
+  <style name="perl:builtin" foreground="color04"/>
+  <style name="perl:include-statement" foreground="color05"/>
+  <style name="perl:special-variable" foreground="color09"/>
+  <style name="perl:variable" foreground="color01"/>
+  <style name="php:string" foreground="color02"/>
+  <style name="python:builtin-constant" foreground="color05"/>
+  <style name="python:builtin-function" foreground="color04"/>
+  <style name="python:module-handler" foreground="color05"/>
+  <style name="python:special-variable" foreground="color05"/>
+  <style name="ruby:attribute-definition" foreground="color05"/>
+  <style name="ruby:builtin" foreground="color01"/>
+  <style name="ruby:class-variable" foreground="color01"/>
+  <style name="ruby:constant" foreground="color01"/>
+  <style name="ruby:global-variable" foreground="color04"/>
+  <style name="ruby:instance-variable" foreground="color01"/>
+  <style name="ruby:module-handler" foreground="color05"/>
+  <style name="ruby:predefined-variable" foreground="color09"/>
+  <style name="ruby:regex" foreground="color01"/>
+  <style name="ruby:special-variable" foreground="color05"/>
+  <style name="ruby:symbol" foreground="color02"/>
+  <style name="rubyonrails:attribute-definition" foreground="color05"/>
+  <style name="rubyonrails:block-parameter" foreground="color09"/>
+  <style name="rubyonrails:builtin" foreground="color01"/>
+  <style name="rubyonrails:class-inherit" foreground="color02"/>
+  <style name="rubyonrails:class-name" foreground="color03"/>
+  <style name="rubyonrails:class-variable" foreground="color01"/>
+  <style name="rubyonrails:complex-interpolation" foreground="color09"/>
+  <style name="rubyonrails:constant" foreground="color01"/>
+  <style name="rubyonrails:global-variable" foreground="color04"/>
+  <style name="rubyonrails:instance-variable" foreground="color01"/>
+  <style name="rubyonrails:module-handler" foreground="color05"/>
+  <style name="rubyonrails:module-name" foreground="color03"/>
+  <style name="rubyonrails:predefined-variable" foreground="color09"/>
+  <style name="rubyonrails:rails" foreground="color01"/>
+  <style name="rubyonrails:regex" foreground="color01"/>
+  <style name="rubyonrails:simple-interpolation" foreground="color09"/>
+  <style name="rubyonrails:special-variable" foreground="color05"/>
+  <style name="rubyonrails:symbol" foreground="color02"/>
+  <style name="search-match" background="color10" bold="true" underline="true"/>
+  <style name="selection" foreground="color13" background="colorbg"/>
+  <style name="text" foreground="colorfg" background="colorbg"/>
+  <style name="xml:attribute-name" foreground="color01"/>
+  <style name="xml:doctype" foreground="color01"/>
+  <style name="xml:element-name" foreground="color01"/>
+  <style name="xml:namespace" foreground="color01"/>
+  <style name="xml:tag" foreground="color01"/>
+  
+</style-scheme>

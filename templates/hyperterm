@@ -1,0 +1,34 @@
+// color of the text
+foregroundColor: '#{{index .ColorMap "fg" "hex"}}',
+// terminal background color
+// opacity is only supported on macOS
+backgroundColor: '#{{index .ColorMap "bg" "hex"}}',
+// terminal selection color
+selectionColor: 'rgba({{index .ColorMap "bg" "rgb" 0}}, {{index .ColorMap "bg" "rgb" 1}}, {{index .ColorMap "bg" "rgb" 2}}, 0.3',
+// border color (window, tabs)
+borderColor: '#{{index .ColorMap "08" "hex"}}',
+// terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
+cursorColor: 'rgba({{index .ColorMap "fg" "rgb" 0}}, {{index .ColorMap "fg" "rgb" 1}}, {{index .ColorMap "fg" "rgb" 2}}, 0.75)',
+// terminal text color under BLOCK cursor
+cursorAccentColor: '#{{index .ColorMap "fg" "hex"}}',
+// the full list. if you're going to provide the full color palette,
+// including the 6 x 6 color cubes and the grayscale map, just provide
+// an array here instead of a color map object
+colors: {
+    black: '#{{index .ColorMap "00" "hex"}}',
+    red: '#{{index .ColorMap "01" "hex"}}',
+    green: '#{{index .ColorMap "02" "hex"}}',
+    yellow: '#{{index .ColorMap "03" "hex"}}',
+    blue: '#{{index .ColorMap "04" "hex"}}',
+    magenta: '#{{index .ColorMap "05" "hex"}}',
+    cyan: '#{{index .ColorMap "06" "hex"}}',
+    white: '#{{index .ColorMap "07" "hex"}}',
+    lightBlack: '#{{index .ColorMap "08" "hex"}}',
+    lightRed: '#{{index .ColorMap "09" "hex"}}',
+    lightGreen: '#{{index .ColorMap "10" "hex"}}',
+    lightYellow: '#{{index .ColorMap "11" "hex"}}',
+    lightBlue: '#{{index .ColorMap "12" "hex"}}',
+    lightMagenta: '#{{index .ColorMap "13" "hex"}}',
+    lightCyan: '#{{index .ColorMap "14" "hex"}}',
+    lightWhite: '#{{index .ColorMap "15" "hex"}}',
+},
