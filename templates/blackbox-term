@@ -20,7 +20,7 @@
       "#{{index .ColorMap "12" "hex"}}",
       "#{{index .ColorMap "13" "hex"}}",
       "#{{index .ColorMap "14" "hex"}}",
-      "#{{index .ColorMap "15" "hex"}}",
+      "#{{index .ColorMap "15" "hex"}}"
     ]
 }
 

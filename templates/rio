@@ -1,0 +1,42 @@
+[colors]
+# {{.Metadata.Name}} by {{.Metadata.Author}}
+# Regular colors
+background = '#{{index .ColorMap "bg" "hex"}}'
+black = '#{{index .ColorMap "00" "hex"}}'
+blue = '#{{index .ColorMap "04" "hex"}}'
+cursor = '#{{index .ColorMap "cr" "hex"}}'
+cyan = '#{{index .ColorMap "06" "hex"}}'
+foreground  = '#{{index .ColorMap "fg" "hex"}}'
+green = '#{{index .ColorMap "02" "hex"}}'
+magenta = '#{{index .ColorMap "05" "hex"}}'
+red = '#{{index .ColorMap "01" "hex"}}'
+white = '#{{index .ColorMap "07" "hex"}}'
+yellow = '#{{index .ColorMap "03" "hex"}}'
+
+# UI colors
+tabs = '#{{index .ColorMap "00" "hex"}}'
+tabs-active = '#{{index .ColorMap "01" "hex"}}'
+selection-foreground = '#{{index .ColorMap "bg" "hex"}}'
+selection-background = '#{{index .ColorMap "fg" "hex"}}'
+
+# Dim colors
+dim-black = '#{{index .ColorMap "00" "hex"}}'
+dim-blue = '#{{index .ColorMap "04" "hex"}}'
+dim-cyan = '#{{index .ColorMap "06" "hex"}}'
+dim-foreground = '#{{index .ColorMap "fg" "hex"}}'
+dim-green = '#{{index .ColorMap "02" "hex"}}'
+dim-magenta = '#{{index .ColorMap "05" "hex"}}'
+dim-red = '#{{index .ColorMap "01" "hex"}}'
+dim-white = '#{{index .ColorMap "07" "hex"}}'
+dim-yellow = '#{{index .ColorMap "03" "hex"}}'
+
+# Light colors
+light-black = '#{{index .ColorMap "08" "hex"}}'
+light-blue = '#{{index .ColorMap "12" "hex"}}'
+light-cyan = '#{{index .ColorMap "14" "hex"}}'
+light-foreground = '#{{index .ColorMap "fg" "hex"}}'
+light-green = '#{{index .ColorMap "10" "hex"}}'
+light-magenta = '#{{index .ColorMap "13" "hex"}}'
+light-red = '#{{index .ColorMap "09" "hex"}}'
+light-white = '#{{index .ColorMap "15" "hex"}}'
+light-yellow = '#{{index .ColorMap "11" "hex"}}'
