@@ -1,0 +1,31 @@
+metadata:
+  name: Aura
+  author: daltonmenezes
+colors:
+  bg: "110f18"
+  fg: "edecee"
+  cr: "a277ff"
+
+  00: "110f18"
+  08: "4d4d4d"
+
+  01: "ff6767"
+  09: "ffca85"
+
+  02: "61ffca"
+  10: "61ffca"
+
+  03: "ffca85"
+  11: "ffca85"
+
+  04: "a277ff"
+  12: "a277ff"
+
+  05: "a277ff"
+  13: "a277ff"
+
+  06: "61ffca"
+  14: "61ffca"
+
+  07: "edecee"
+  15: "edecee"

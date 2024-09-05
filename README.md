@@ -27,6 +27,8 @@
 ![ao.svg](./previews/ao.svg)  
 ## arc
 ![arc.svg](./previews/arc.svg)  
+## aura
+![aura.svg](./previews/aura.svg)  
 ## aurorax
 ![aurorax.svg](./previews/aurorax.svg)  
 ## autobahn
