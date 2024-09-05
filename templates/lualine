@@ -1,0 +1,44 @@
+local colors = {
+  black        = '#{{index .ColorMap "bg" "hex"}}',
+  white        = '#{{index .ColorMap "fg" "hex"}}',
+  red          = '#{{index .ColorMap "01" "hex"}}',
+  green        = '#{{index .ColorMap "02" "hex"}}',
+  blue         = '#{{index .ColorMap "04" "hex"}}',
+  yellow       = '#{{index .ColorMap "03" "hex"}}',
+  gray         = '#{{index .ColorMap "07" "hex"}}',
+  darkgray     = '#{{index .ColorMap "00" "hex"}}',
+  lightgray    = '#{{index .ColorMap "08" "hex"}}',
+  inactivegray = '#{{index .ColorMap "15" "hex"}}',
+}
+return {
+  normal = {
+    a = { bg = colors.gray, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.lightgray, fg = colors.white },
+    c = { bg = colors.darkgray, fg = colors.gray },
+  },
+  insert = {
+    a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.lightgray, fg = colors.white },
+    c = { bg = colors.lightgray, fg = colors.white },
+  },
+  visual = {
+    a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.lightgray, fg = colors.white },
+    c = { bg = colors.inactivegray, fg = colors.black },
+  },
+  replace = {
+    a = { bg = colors.red, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.lightgray, fg = colors.white },
+    c = { bg = colors.black, fg = colors.white },
+  },
+  command = {
+    a = { bg = colors.green, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.lightgray, fg = colors.white },
+    c = { bg = colors.inactivegray, fg = colors.black },
+  },
+  inactive = {
+    a = { bg = colors.darkgray, fg = colors.gray, gui = 'bold' },
+    b = { bg = colors.darkgray, fg = colors.gray },
+    c = { bg = colors.darkgray, fg = colors.gray },
+  },
+}
