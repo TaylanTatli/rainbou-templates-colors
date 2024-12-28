@@ -1,0 +1,31 @@
+metadata:
+  name: Aphelion
+  author: elenapan
+colors:
+  bg: "101319"
+  fg: "f4f3ee"
+  cr: "f4f3ee"
+
+  00: "171b24"
+  08: "3A435A"
+
+  01: "E34F4F"
+  09: "DE2B2B"
+
+  02: "69bfce"
+  10: "56B7C8"
+
+  03: "e37e4f"
+  11: "DE642B"
+
+  04: "5679E3"
+  12: "3E66E0"
+
+  05: "956dca"
+  13: "885AC4"
+
+  06: "5599E2"
+  14: "3F8CDE"
+
+  07: "f4f3ee"
+  15: "DDDBCF"
