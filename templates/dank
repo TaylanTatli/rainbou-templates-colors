@@ -1,0 +1,42 @@
+{
+  "dark": {
+    "name": "{{.Metadata.Name}} Dark",
+    "primary": "#{{index .ColorMap "04" "hex"}}",
+    "primaryText": "#{{index .ColorMap "fg" "hex"}}",
+    "primaryContainer": "#{{index .ColorMap "00" "hex"}}",
+    "secondary": "#{{index .ColorMap "02" "hex"}}",
+    "surface": "#{{index .ColorMap "bg" "hex"}}",
+    "surfaceText": "#{{index .ColorMap "fg" "hex"}}",
+    "surfaceVariant": "#{{index .ColorMap "00" "hex"}}",
+    "surfaceVariantText": "#{{index .ColorMap "07" "hex"}}",
+    "surfaceTint": "#{{index .ColorMap "04" "hex"}}",
+    "background": "#{{index .ColorMap "bg" "hex"}}",
+    "backgroundText": "#{{index .ColorMap "fg" "hex"}}",
+    "outline": "#{{index .ColorMap "08" "hex"}}",
+    "surfaceContainer": "#{{index .ColorMap "00" "hex"}}",
+    "surfaceContainerHigh": "#{{index .ColorMap "08" "hex"}}",
+    "error": "#{{index .ColorMap "01" "hex"}}",
+    "warning": "#{{index .ColorMap "03" "hex"}}",
+    "info": "#{{index .ColorMap "12" "hex"}}"
+  },
+  "light": {
+    "name": "{{.Metadata.Name}} Light",
+    "primary": "#{{index .ColorMap "04" "hex"}}",
+    "primaryText": "#{{index .ColorMap "bg" "hex"}}",
+    "primaryContainer": "#{{index .ColorMap "fg" "hex"}}",
+    "secondary": "#{{index .ColorMap "02" "hex"}}",
+    "surface": "#{{index .ColorMap "fg" "hex"}}",
+    "surfaceText": "#{{index .ColorMap "bg" "hex"}}",
+    "surfaceVariant": "#{{index .ColorMap "07" "hex"}}",
+    "surfaceVariantText": "#{{index .ColorMap "00" "hex"}}",
+    "surfaceTint": "#{{index .ColorMap "04" "hex"}}",
+    "background": "#{{index .ColorMap "fg" "hex"}}",
+    "backgroundText": "#{{index .ColorMap "bg" "hex"}}",
+    "outline": "#{{index .ColorMap "07" "hex"}}",
+    "surfaceContainer": "#{{index .ColorMap "07" "hex"}}",
+    "surfaceContainerHigh": "#{{index .ColorMap "00" "hex"}}",
+    "error": "#{{index .ColorMap "01" "hex"}}",
+    "warning": "#{{index .ColorMap "03" "hex"}}",
+    "info": "#{{index .ColorMap "12" "hex"}}"
+  }
+}

@@ -3,15 +3,17 @@
 [options]
 background = {{index .ColorMap "bg" "hex"}}
 fullscreen = false
-width = 500
-height = 400
+width = 840
+height = 680
 loop_input = true
 overlay = false
-overlay_font = Roboto Medium:10
+overlay_text=$(echo $imv_current_file | awk -F'/' '{print $(NF-1)"/"$NF}')
+overlay_font = SF Pro Rounded:11
 overlay_background_color = {{index .ColorMap "00" "hex"}}
-overlay_background_alpha = ff
+overlay_background_alpha = 80
 overlay_text_color = {{index .ColorMap "fg" "hex"}}
 overlay_text_alpha = ff
+overlay_position_bottom = true
 recursively = true
 scaling_mode = full
 suppress_default_binds = true
@@ -20,13 +22,13 @@ suppress_default_binds = true
 
 [binds]
 q = quit
-#y = exec echo working!
+<Delete> = exec trash-put "$imv_current_file"; echo "File moved to trash: $imv_current_file"; close
+<Shift+Delete> = exec rm -f "$imv_current_file"; echo "File remove permanently: $imv_current_file"; close
+
 
 # Image navigation
 <Left> = prev
-<bracketleft> = prev
 <Right> = next
-<bracketright> = next
 gg = goto 0
 <Shift+G> = goto -1
 
@@ -38,16 +40,14 @@ l = pan -50 0
 
 # Zooming
 <Up> = zoom 1
-<Shift+plus> = zoom 1
-i = zoom 1
 <Down> = zoom -1
+<Shift+plus> = zoom 1
 <minus> = zoom -1
-o = zoom -1
 
 # Other commands
 x = close
 f = fullscreen
-d = overlay
+i = overlay
 p = exec echo $imv_current_file
 c = center
 s = scaling next
@@ -60,5 +60,5 @@ r = reset
 <space> = toggle_playing
 
 # Slideshow control
-t = slideshow +1
-<Shift+T> = slideshow -1
+t = slideshow +5
+<Shift+T> = slideshow -5
