@@ -77,7 +77,7 @@ def get_c(key, default, theme):
     try: return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
     except: return (0,0,0)
 
-# --- GHOSTTY RIGHT PANEL BUILDER ---
+# --- RIGHT PANEL ---
 def build_right_panel(theme, cols, list_width):
     right_width = cols - list_width
     lines = []
@@ -102,24 +102,35 @@ def build_right_panel(theme, cols, list_width):
     lines.append((" " * pad) + path) # 2
     
     lines.append("") # 3
-    
-    p1 = "  "
-    for i in range(8): p1 += f"{i:<2} {b(i)}    {bg_s}  "
-    lines.append(p1) # 4
-    lines.append("") # 5
-    p2 = "  "
-    for i in range(8, 16): p2 += f"{i:<2} {b(i)}    {bg_s}  "
-    lines.append(p2) # 6
-    
-    lines.append("") # 7
 
-    lines.append(f"  {c(2)}→{nm} {c(4)}bat{nm} \033[4m{c(6)}ziggzagg.zig\033[24m{nm}") # 8
+    p1_top = "  "
+    p1_bottom = "  "
+    for i in range(8): 
+        p1_top += f"{i:<2} {b(i)}     {bg_s}  "
+        p1_bottom += f"   {b(i)}     {bg_s}  "
+    
+    lines.append(p1_top) # 4
+    lines.append(p1_bottom) # 5
+    lines.append("") # 6
+
+    p2_top = "  "
+    p2_bottom = "  "
+    for i in range(8, 16): 
+        p2_top += f"{i:<2} {b(i)}     {bg_s}  "
+        p2_bottom += f"   {b(i)}     {bg_s}  "
+        
+    lines.append(p2_top) # 7
+    lines.append(p2_bottom) # 8
+    
+    lines.append("") # 9
+
+    lines.append(f"  {c(2)}→{nm} {c(4)}bat{nm} \033[4m{c(6)}ziggzagg.zig\033[24m{nm}") # 10
 
     gy = c(8)
     border_len = right_width - 12
-    lines.append(f"  {gy}───────┬{'─' * max(0, border_len)}{nm}") # 9
-    lines.append(f"  {gy}       │ {nm}File: \033[1mziggzagg.zig\033[22m") # 10
-    lines.append(f"  {gy}───────┼{'─' * max(0, border_len)}{nm}") # 11
+    lines.append(f"  {gy}───────┬{'─' * max(0, border_len)}{nm}") # 11
+    lines.append(f"  {gy}       │ {nm}File: \033[1mziggzagg.zig\033[22m") # 12
+    lines.append(f"  {gy}───────┼{'─' * max(0, border_len)}{nm}") # 13
 
     c5, c10, c12, c2, c4 = c(5), c(10), c(12), c(2), c(4)
     code = [
@@ -172,10 +183,12 @@ def build_right_panel(theme, cols, list_width):
 def draw_screen(themes, selected_idx, window_start, hover_idx):
     cols, rows = shutil.get_terminal_size()
     
-    # Senin ayarladığın sol menü renkleri!
-    ui_bg = (30, 30, 30) 
-    ui_hover_bg = (50, 50, 50) # Koyu temana uygun hafif hover parlaması
-    ui_fg = (250, 250, 250)
+    # LEFT PANEL COLORS
+    ui_bg = (255, 255, 255) 
+    ui_fg = (50, 50, 50)
+    ui_hover_bg = (220, 220, 220)
+    ui_selected_bg = (153, 193, 241)
+    ui_selected_fg = (50, 50, 50)
     
     if not themes:
         sys.stdout.write(CLEAR + HOME + "Tema bulunamadı.\r\n")
@@ -201,7 +214,7 @@ def draw_screen(themes, selected_idx, window_start, hover_idx):
                 name = name[:list_width-4] + ".."
             
             if list_item_idx == selected_idx:
-                line += rgb_bg(80, 80, 95) + rgb_fg(130, 255, 130) + f"❯  {name:<{list_width-5}} ❮"
+                line += rgb_bg(*ui_selected_bg) + rgb_fg(*ui_selected_fg) + f"❯  {name:<{list_width-5}} ❮"
             elif list_item_idx == hover_idx:
                 line += rgb_bg(*ui_hover_bg) + rgb_fg(*ui_fg) + f"   {name:<{list_width-3}}"
             else:
@@ -248,7 +261,7 @@ def read_key():
                 parts = mouse_seq[:-1].split(';')
                 cb, cx, cy = int(parts[0]), int(parts[1]), int(parts[2])
                 
-                if cb == 35: # Fare hareketi (Hover)
+                if cb == 35: # Mouse movement (Hover)
                     return ('hover', cx, cy)
                 
                 if mouse_seq.endswith('M'):
@@ -283,7 +296,7 @@ def main():
 
     signal.signal(signal.SIGWINCH, handle_resize)
 
-    # Hover için 1003 Modu
+    # 1003 mod for hover
     ENABLE_MOUSE = "\033[?1003h\033[?1006h"
     DISABLE_MOUSE = "\033[?1003l\033[?1006l"
 
