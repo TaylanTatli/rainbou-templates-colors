@@ -10,6 +10,12 @@ import signal
 
 THEME_DIR = os.path.expanduser("~/.config/rainbou/colors")
 
+def set_terminal_title(title):
+    sys.stdout.write(f'\x1b]2;{title}\x07')
+    sys.stdout.flush()
+
+set_terminal_title("👻 Rainbou Theme Preview 👻")
+
 class ResizeEvent(Exception):
     pass
 
@@ -71,12 +77,105 @@ def get_c(key, default, theme):
     try: return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
     except: return (0,0,0)
 
-def draw_screen(themes, selected_idx, window_start):
+# --- GHOSTTY RIGHT PANEL BUILDER ---
+def build_right_panel(theme, cols, list_width):
+    right_width = cols - list_width
+    lines = []
+    
+    th_bg = get_c('bg', '000000', theme)
+    th_fg = get_c('fg', 'ffffff', theme)
+    bg_s = rgb_bg(*th_bg)
+    fg_s = rgb_fg(*th_fg)
+    nm = bg_s + fg_s
+
+    def c(idx): return rgb_fg(*get_c(f"{idx:02d}", "000000", theme))
+    def b(idx): return rgb_bg(*get_c(f"{idx:02d}", "000000", theme))
+
+    lines.append("") # 0
+    
+    name = theme['metadata'].get('name', theme['filename'])
+    pad = max(0, (right_width - len(name)) // 2)
+    lines.append((" " * pad) + f"\033[1;3m{name}\033[22;23m") # 1
+    
+    path = f"{THEME_DIR}/{theme['filename']}"
+    pad = max(0, (right_width - len(path)) // 2)
+    lines.append((" " * pad) + path) # 2
+    
+    lines.append("") # 3
+    
+    p1 = "  "
+    for i in range(8): p1 += f"{i:<2} {b(i)}    {bg_s}  "
+    lines.append(p1) # 4
+    lines.append("") # 5
+    p2 = "  "
+    for i in range(8, 16): p2 += f"{i:<2} {b(i)}    {bg_s}  "
+    lines.append(p2) # 6
+    
+    lines.append("") # 7
+
+    lines.append(f"  {c(2)}→{nm} {c(4)}bat{nm} \033[4m{c(6)}ziggzagg.zig\033[24m{nm}") # 8
+
+    gy = c(8)
+    border_len = right_width - 12
+    lines.append(f"  {gy}───────┬{'─' * max(0, border_len)}{nm}") # 9
+    lines.append(f"  {gy}       │ {nm}File: \033[1mziggzagg.zig\033[22m") # 10
+    lines.append(f"  {gy}───────┼{'─' * max(0, border_len)}{nm}") # 11
+
+    c5, c10, c12, c2, c4 = c(5), c(10), c(12), c(2), c(4)
+    code = [
+        f"{c5}const{nm} std {c5}={nm} {c5}@import{nm}({c10}\"std\"{nm});",
+        f"",
+        f"{c5}pub fn{nm} {c2}main{nm}() {c5}!{nm}{c12}void{nm} {{",
+        f"    {c5}const{nm} stdout {c5}={nm} std.Io.getStdOut().writer();",
+        f"    {c5}var{nm} i: {c12}usize{nm} {c5}={nm} {c4}1{nm};",
+        f"    {c5}while{nm} (i {c5}<={nm} {c4}16{nm}) : (i {c5}+={nm} {c4}1{nm}) {{",
+        f"        {c5}if{nm} (i {c5}%{nm} {c4}15{nm} {c5}=={nm} {c4}0{nm}) {{",
+        f"            {c5}try{nm} stdout.writeAll({c10}\"ZiggZagg\\n\"{nm});",
+        f"        }} {c5}else if{nm} (i {c5}%{nm} {c4}3{nm} {c5}=={nm} {c4}0{nm}) {{",
+        f"            {c5}try{nm} stdout.writeAll({c10}\"Zigg\\n\"{nm});",
+        f"        }} {c5}else if{nm} (i {c5}%{nm} {c4}5{nm} {c5}=={nm} {c4}0{nm}) {{",
+        f"            {c5}try{nm} stdout.writeAll({c10}\"Zagg\\n\"{nm});",
+        f"        }} {c5}else{nm} {{",
+        f"            {c5}try{nm} stdout.print({c10}\"{{d}}\\n\"{nm}, .{{i}});",
+        f"        }}",
+        f"    }}",
+        f"}}"
+    ]
+    for idx, c_line in enumerate(code):
+        lines.append(f"  {gy}{idx+1:>4}   │ {nm}{c_line}")
+
+    lines.append(f"  {gy}───────┴{'─' * max(0, border_len)}{nm}")
+
+    lines.append(f"  {c(6)}ghostty {nm}on {c(4)} main {c(1)}[+] {nm}via {c(3)} v0.13.0 {nm}via {c(4)}  impure (ghostty-env){nm}")
+    lines.append(f"  {c(4)}✦ {nm}at {c(3)}10:36:15 {c(2)}→{nm}")
+    lines.append("")
+
+    lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit aliquet turpis non dictum. Mauris pulvinar nisl sit amet dui cursus tempus. Pellentesque ut dui justo. Etiam quis magna sagittis nisi pretium consequat vitae ut nisl. Sed at metus id odio pulvinar sodales. Vestibulum sollicitudin, sem id tristique vestibulum, neque ante dictum tortor, in convallis mi enim ac lorem."
+    lorem_words = lorem.split()
+    l_line = "  "
+    for word in lorem_words:
+        w_format = word
+        if "ipsum" in word: w_format = f"{c(2)}{word}{nm}"
+        elif "consectetur" in word: w_format = f"\033[1m{word}\033[22m"
+        
+        if len(l_line.replace("\033[1m","").replace("\033[22m","").replace(c(2),"").replace(nm,"")) + len(word) + 1 > right_width:
+            lines.append(l_line)
+            l_line = "  " + w_format + " "
+        else:
+            l_line += w_format + " "
+            
+    if l_line.strip():
+        lines.append(l_line)
+
+    return lines
+
+def draw_screen(themes, selected_idx, window_start, hover_idx):
     cols, rows = shutil.get_terminal_size()
     
-    # Left panel colors
-    ui_bg = (30, 30, 40) 
-    ui_fg = (200, 200, 200)
+    # Senin ayarladığın sol menü renkleri!
+    ui_bg = (30, 30, 30) 
+    ui_hover_bg = (50, 50, 50) # Koyu temana uygun hafif hover parlaması
+    ui_fg = (250, 250, 250)
     
     if not themes:
         sys.stdout.write(CLEAR + HOME + "Tema bulunamadı.\r\n")
@@ -87,17 +186,13 @@ def draw_screen(themes, selected_idx, window_start):
     th_fg = get_c('fg', 'ffffff', theme)
 
     frame = []
-    
-    # Top Header
-    header_text = " 👻 Rainbou Theme Preview 👻 "
-    pad_left = max(0, (cols - len(header_text)) // 2)
-    frame.append(HOME + rgb_bg(45, 45, 60) + rgb_fg(255, 255, 255) + (" " * pad_left) + header_text + ERASE_EOL)
-
     list_width = 32
     
-    for r in range(1, rows):
+    right_lines = build_right_panel(theme, cols, list_width)
+    
+    for r in range(rows):
         line = ""
-        list_item_idx = window_start + (r - 1)
+        list_item_idx = window_start + r
         
         # --- LEFT PANEL (List) ---
         if list_item_idx < len(themes):
@@ -106,69 +201,24 @@ def draw_screen(themes, selected_idx, window_start):
                 name = name[:list_width-4] + ".."
             
             if list_item_idx == selected_idx:
-                line += rgb_bg(80, 80, 95) + rgb_fg(130, 255, 130) + f" ❯ {name:<{list_width-3}}"
+                line += rgb_bg(80, 80, 95) + rgb_fg(130, 255, 130) + f"❯  {name:<{list_width-5}} ❮"
+            elif list_item_idx == hover_idx:
+                line += rgb_bg(*ui_hover_bg) + rgb_fg(*ui_fg) + f"   {name:<{list_width-3}}"
             else:
                 line += rgb_bg(*ui_bg) + rgb_fg(*ui_fg) + f"   {name:<{list_width-3}}"
         else:
             line += rgb_bg(*ui_bg) + (" " * list_width)
             
         # --- RIGHT PANEL (Preview) ---
-        p_line = "  "
-        rel_r = r - 2
-        
-        if rel_r == 1: p_line += f"  {theme['metadata'].get('name', theme['filename'])}"
-        elif rel_r == 2: p_line += f"  {THEME_DIR}/{theme['filename']}"
-        elif rel_r == 5:
-            p_line += "  "
-            for i in range(8):
-                c = get_c(f"0{i}", "000000", theme)
-                p_line += f"{i:<2} {rgb_bg(*c)}    {rgb_bg(*th_bg)}  "
-        elif rel_r == 7:
-            p_line += "  "
-            for i in range(8, 16):
-                k = f"{i:02d}" if i < 10 else str(i)
-                c = get_c(k, "000000", theme)
-                p_line += f"{i:<2} {rgb_bg(*c)}    {rgb_bg(*th_bg)}  "
-                
-        # Code Block Simulation
-        elif rel_r >= 10 and rel_r <= 23:
-            idx = rel_r - 10
-            
-            kw = rgb_fg(*get_c('05', 'ffffff', theme)) # Purple (Keyword)
-            fn = rgb_fg(*get_c('02', 'ffffff', theme)) # Green (Function)
-            st = rgb_fg(*get_c('03', 'ffffff', theme)) # Yellow (String)
-            ty = rgb_fg(*get_c('04', 'ffffff', theme)) # Blue (Type/Paket)
-            cn = rgb_fg(*get_c('06', 'ffffff', theme)) # Cyan (Sayı/Bool/Nil)
-            gy = rgb_fg(*get_c('08', 'ffffff', theme)) # Gray (Border/Comment)
-            nm = rgb_fg(*th_fg)                        # Normal Text
-
-            it = "\033[3m"     # Start italic
-            no_it = "\033[23m" # End italic
-            
-            code_lines = [
-                f"{gy} ───────┬────────────────────────────────────────────────{nm}",
-                f"{gy}        │{nm} File: {nm}rainbou.go",
-                f"{gy} ───────┼────────────────────────────────────────────────{nm}",
-                f"{gy}   1    │ {gy}{it}// ParseHex validates and parses the color code{no_it}{nm}",
-                f"{gy}   2    │{nm} {kw}func{nm} {fn}ParseHex{nm}(hex {ty}string{nm}) ({ty}Color{nm}, {ty}error{nm}) {{",
-                f"{gy}   3    │{nm}     {kw}if{nm} {fn}len{nm}(hex) != {cn}6{nm} {{",
-                f"{gy}   4    │{nm}         {kw}return{nm} {cn}nil{nm}, {ty}fmt{nm}.{fn}Errorf{nm}({st}\"invalid: %s\"{nm}, hex)",
-                f"{gy}   5    │{nm}     }}",
-                f"{gy}   6    │{nm}",
-                f"{gy}   7    │{nm}     isDark := {cn}true{nm}",
-                f"{gy}   8    │{nm}     {kw}return{nm} &{ty}Color{nm}{{",
-                f"{gy}   9    │{nm}         Hex:    hex[{cn}0{nm}:{cn}2{nm}],",
-                f"{gy}  10    │{nm}         Active: isDark,",
-                f"{gy}  11    │{nm}     }}, {cn}nil{nm}"
-            ]
-            
-            if idx < len(code_lines):
-                p_line += code_lines[idx]
+        if r < len(right_lines):
+            p_line = right_lines[r]
+        else:
+            p_line = "  "
 
         line += rgb_bg(*th_bg) + rgb_fg(*th_fg) + p_line + ERASE_EOL
         frame.append(line)
         
-    sys.stdout.write("\r\n".join(frame) + RESET)
+    sys.stdout.write(HOME + "\r\n".join(frame) + RESET)
     sys.stdout.flush()
 
 def read_key():
@@ -179,7 +229,6 @@ def read_key():
         fcntl.fcntl(fd, fcntl.F_SETFL, old_flags | os.O_NONBLOCK)
         try:
             seq = sys.stdin.read(2)
-            # IF nothing follows \x1b, then it is a REAL ESC key press.
             if not seq: 
                 return 'esc'
                 
@@ -188,7 +237,6 @@ def read_key():
             if seq == '[5': sys.stdin.read(1); return 'pgup'
             if seq == '[6': sys.stdin.read(1); return 'pgdown'
             
-            # Mouse movement
             if seq == '[<':
                 fcntl.fcntl(fd, fcntl.F_SETFL, old_flags)
                 mouse_seq = ''
@@ -199,6 +247,9 @@ def read_key():
                 
                 parts = mouse_seq[:-1].split(';')
                 cb, cx, cy = int(parts[0]), int(parts[1]), int(parts[2])
+                
+                if cb == 35: # Fare hareketi (Hover)
+                    return ('hover', cx, cy)
                 
                 if mouse_seq.endswith('M'):
                     if cb == 64: return 'scroll_up'
@@ -227,12 +278,14 @@ def main():
     
     selected_idx = 0
     window_start = 0
+    hover_idx = -1
+    last_state = None
 
-    import signal
     signal.signal(signal.SIGWINCH, handle_resize)
 
-    ENABLE_MOUSE = "\033[?1000h\033[?1006h"
-    DISABLE_MOUSE = "\033[?1000l\033[?1006l"
+    # Hover için 1003 Modu
+    ENABLE_MOUSE = "\033[?1003h\033[?1006h"
+    DISABLE_MOUSE = "\033[?1003l\033[?1006l"
 
     try:
         tty.setraw(fd)
@@ -241,26 +294,34 @@ def main():
         last_scroll_time = 0
         
         while True:
-            _, rows = shutil.get_terminal_size()
-            max_visible = rows - 1 
+            cols, rows = shutil.get_terminal_size()
+            max_visible = rows 
             
             if selected_idx < window_start:
                 window_start = selected_idx
             elif selected_idx >= window_start + max_visible:
                 window_start = selected_idx - max_visible + 1
 
-            draw_screen(themes, selected_idx, window_start)
+            current_state = (selected_idx, window_start, hover_idx, cols, rows)
+            if current_state != last_state:
+                draw_screen(themes, selected_idx, window_start, hover_idx)
+                last_state = current_state
             
             try:
                 key = read_key()
             except ResizeEvent:
+                last_state = None 
                 continue 
             
             if key in ('esc', 'q'):
                 break
             elif key == 'ignore': 
                 continue
-            elif key in ('up', 'k'):
+                
+            if not isinstance(key, tuple):
+                hover_idx = -1
+                
+            if key in ('up', 'k'):
                 selected_idx = max(0, selected_idx - 1)
             elif key in ('down', 'j'):
                 selected_idx = min(len(themes) - 1, selected_idx + 1)
@@ -280,10 +341,21 @@ def main():
             
             elif isinstance(key, tuple) and key[0] == 'click':
                 _, cx, cy = key
-                if cx <= 32 and cy >= 2:
-                    clicked_idx = window_start + (cy - 2)
+                if cx <= 32 and cy >= 1:
+                    clicked_idx = window_start + (cy - 1)
                     if 0 <= clicked_idx < len(themes):
                         selected_idx = clicked_idx
+                        
+            elif isinstance(key, tuple) and key[0] == 'hover':
+                _, cx, cy = key
+                if cx <= 32 and cy >= 1:
+                    h_idx = window_start + (cy - 1)
+                    if 0 <= h_idx < len(themes):
+                        hover_idx = h_idx
+                    else:
+                        hover_idx = -1
+                else:
+                    hover_idx = -1
                 
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
@@ -291,4 +363,4 @@ def main():
         sys.stdout.flush()
 
 if __name__ == '__main__':
-    main()
+    main() 
