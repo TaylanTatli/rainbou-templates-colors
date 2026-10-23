@@ -1,0 +1,31 @@
+metadata:
+  name: Ember 3400K Dark
+  author: CarpDiem
+colors:
+  bg: "17100B"
+  fg: "E2D0AD"
+  cr: "E2D0AD"
+
+  00: "211811"
+  08: "5A4636"
+
+  01: "F5AD9A"
+  09: "F9C7BA"
+
+  02: "7EB798"
+  10: "94C4AA"
+
+  03: "CA9246"
+  11: "D3A361"
+
+  04: "B4C6F7"
+  12: "D4DEFB"
+
+  05: "D895C2"
+  13: "E2AFD1"
+
+  06: "70DBD8"
+  14: "8CE3E1"
+
+  07: "DDD0B2"
+  15: "FFF0CF"
